@@ -1,0 +1,10 @@
+﻿Connected to WeChat
+Window title: 寰俊
+Pressed Ctrl+F to open search
+Typed: 璋㈤噾鍗?
+Pressed Enter to search
+Pressed Enter to open chat
+Sent smile emoji
+Pressed Enter to send message
+
+Done!

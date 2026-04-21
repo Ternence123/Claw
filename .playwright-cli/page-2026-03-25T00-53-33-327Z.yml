@@ -1,0 +1,170 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "lark" [ref=e11] [cursor=pointer]:
+        - /url: https://open.feishu.cn/?lang=zh-CN
+        - img "lark" [ref=e12]
+      - menu [ref=e13]:
+        - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+          - link "客户案例" [ref=e16]:
+            - /url: https://open.feishu.cn/solutions?lang=zh-CN
+        - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+          - link "应用中心" [ref=e19]:
+            - /url: https://app.feishu.cn/?lang=zh-CN
+        - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+          - link "开发文档" [ref=e22]:
+            - /url: https://open.feishu.cn/document?lang=zh-CN
+        - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+          - link "智能助手 AI 开发" [ref=e25]:
+            - /url: /app/ai/playground?from=nav
+            - generic [ref=e26]:
+              - generic [ref=e27]: 智能助手
+              - generic [ref=e29]:
+                - img [ref=e31]
+                - generic [ref=e33]: AI 开发
+    - generic [ref=e34]:
+      - generic [ref=e39]:
+        - img [ref=e42]
+        - textbox [ref=e45]:
+          - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+        - img [ref=e48]
+      - menu [ref=e50]:
+        - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+          - link "开发者后台" [ref=e53]:
+            - /url: /app
+            - button "开发者后台" [ref=e54]
+      - img [ref=e60] [cursor=pointer]
+  - generic [ref=e69]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - button [ref=e74] [cursor=pointer]:
+          - img [ref=e76]
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - img [ref=e82]
+            - img
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: WorkBuddy Bot
+              - generic [ref=e88]: 已启用
+            - generic [ref=e89]: 正式应用@用户735136的飞书
+      - alert [ref=e90]:
+        - img [ref=e93]
+        - generic [ref=e98]: 当前修改均已发布
+    - generic [ref=e99]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: 版本管理与发布
+          - button "创建版本" [ref=e108] [cursor=pointer]
+          - generic [ref=e109]: 若企业自建应用需要供企业内其他用户使用，或商店应用需要上架飞书应用中心，均需先发布版本
+        - table [ref=e116]:
+          - rowgroup [ref=e118]:
+            - row "版本号 版本状态 发布人 发布通过时间 操作" [ref=e119]:
+              - columnheader "版本号" [ref=e120]:
+                - generic [ref=e122]: 版本号
+              - columnheader "版本状态" [ref=e123]:
+                - generic [ref=e125]: 版本状态
+              - columnheader "发布人" [ref=e126]:
+                - generic [ref=e128]: 发布人
+              - columnheader "发布通过时间" [ref=e129]:
+                - generic [ref=e131]: 发布通过时间
+              - columnheader "操作" [ref=e132]:
+                - generic [ref=e134]: 操作
+          - rowgroup [ref=e135]:
+            - row "1.0.0 已发布 用户735136 2026-3-25 8:35 -" [ref=e136] [cursor=pointer]:
+              - cell "1.0.0" [ref=e137]
+              - cell "已发布" [ref=e138]:
+                - generic [ref=e141]: 已发布
+              - cell "用户735136" [ref=e142]:
+                - generic [ref=e146]: 用户735136
+              - cell "2026-3-25 8:35" [ref=e147]
+              - cell "-" [ref=e148]
+      - menu [ref=e152]:
+        - listitem [ref=e153]:
+          - list [ref=e154]:
+            - menuitem "凭证与基础信息" [ref=e155] [cursor=pointer]:
+              - img [ref=e158]
+              - generic:
+                - link "凭证与基础信息":
+                  - /url: /app/cli_a931ea2f4ab85bb4/baseinfo
+                  - generic [ref=e164]: 凭证与基础信息
+            - menuitem "协作者管理" [ref=e165] [cursor=pointer]:
+              - img [ref=e168]
+              - generic:
+                - link "协作者管理":
+                  - /url: /app/cli_a931ea2f4ab85bb4/developers
+                  - generic [ref=e175]: 协作者管理
+            - listitem [ref=e176]
+        - listitem [ref=e177]:
+          - list [ref=e178]:
+            - menuitem "添加应用能力" [ref=e179] [cursor=pointer]:
+              - img [ref=e182]
+              - generic:
+                - link "添加应用能力":
+                  - /url: /app/cli_a931ea2f4ab85bb4/capability
+                  - generic [ref=e190]: 添加应用能力
+            - menuitem "机器人" [ref=e191] [cursor=pointer]:
+              - img [ref=e194]
+              - generic:
+                - link "机器人":
+                  - /url: /app/cli_a931ea2f4ab85bb4/bot
+                  - generic [ref=e204]: 机器人
+            - listitem [ref=e205]
+        - listitem [ref=e206]:
+          - list [ref=e207]:
+            - menuitem "权限管理" [ref=e208] [cursor=pointer]:
+              - img [ref=e211]
+              - generic:
+                - link "权限管理":
+                  - /url: /app/cli_a931ea2f4ab85bb4/auth
+                  - generic [ref=e217]: 权限管理
+            - menuitem "事件与回调" [ref=e218] [cursor=pointer]:
+              - img [ref=e221]
+              - generic:
+                - link "事件与回调":
+                  - /url: /app/cli_a931ea2f4ab85bb4/event
+                  - generic [ref=e227]: 事件与回调
+            - menuitem "安全设置" [ref=e228] [cursor=pointer]:
+              - img [ref=e231]
+              - generic:
+                - link "安全设置":
+                  - /url: /app/cli_a931ea2f4ab85bb4/safe
+                  - generic [ref=e237]: 安全设置
+            - menuitem "测试企业和人员" [ref=e238] [cursor=pointer]:
+              - img [ref=e241]
+              - generic:
+                - link "测试企业和人员":
+                  - /url: /app/cli_a931ea2f4ab85bb4/test
+                  - generic [ref=e250]: 测试企业和人员
+            - listitem [ref=e251]
+        - listitem [ref=e252]:
+          - list [ref=e253]:
+            - menuitem "版本管理与发布" [ref=e254] [cursor=pointer]:
+              - img [ref=e257]
+              - generic:
+                - link "版本管理与发布":
+                  - /url: /app/cli_a931ea2f4ab85bb4/version
+                  - generic [ref=e264]: 版本管理与发布
+            - listitem [ref=e265]
+        - listitem [ref=e266]:
+          - list [ref=e267]:
+            - menuitem "日志检索" [ref=e268] [cursor=pointer]:
+              - img [ref=e271]
+              - generic:
+                - link "日志检索":
+                  - /url: /app/cli_a931ea2f4ab85bb4/logs
+                  - generic [ref=e278]: 日志检索
+            - menuitem [ref=e279] [cursor=pointer]:
+              - img [ref=e282]
+  - generic:
+    - generic:
+      - generic:
+        - img
+      - text: 技术支持
+    - generic:
+      - generic:
+        - img
+      - text: 收起
+  - generic [ref=e288] [cursor=pointer]:
+    - img [ref=e290]
+    - text: 展开

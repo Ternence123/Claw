@@ -1,0 +1,416 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "lark" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img "lark" [ref=e12]
+      - menu [ref=e13]:
+        - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+          - link "客户案例" [ref=e16]:
+            - /url: /solutions
+        - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+          - link "应用中心" [ref=e19]:
+            - /url: https://app.feishu.cn/?lang=zh-CN
+        - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+          - link "开发文档" [ref=e22]:
+            - /url: https://open.feishu.cn/document?lang=zh-CN
+        - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+          - link "智能助手 AI 开发" [ref=e25]:
+            - /url: https://open.feishu.cn/app/ai/playground?from=nav&lang=zh-CN
+            - generic [ref=e26]:
+              - generic [ref=e27]: 智能助手
+              - generic [ref=e29]:
+                - img [ref=e31]
+                - generic [ref=e33]: AI 开发
+    - generic [ref=e34]:
+      - generic [ref=e39]:
+        - img [ref=e42]
+        - textbox [ref=e45]:
+          - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+        - img [ref=e48]
+      - menu [ref=e50]:
+        - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+          - link "开发者后台" [ref=e53]:
+            - /url: https://open.feishu.cn/app?lang=zh-CN
+            - button "开发者后台" [ref=e54]
+      - img [ref=e59] [cursor=pointer]
+  - generic [ref=e67]:
+    - generic [ref=e69]:
+      - list [ref=e70]:
+        - button "slide item1" [ref=e71] [cursor=pointer]
+        - button "slide item2" [ref=e72] [cursor=pointer]
+        - button "slide item3" [ref=e73] [cursor=pointer]
+        - button "slide item4" [ref=e74] [cursor=pointer]
+        - button "slide item5" [ref=e75] [cursor=pointer]
+      - list [ref=e77]:
+        - listitem:
+          - generic:
+            - generic:
+              - heading "助力企业打造一站式工作平台" [level=2]
+              - paragraph: 提供强大丰富的应用开发和系统集成能力，帮助企业定制专属飞书
+              - generic:
+                - link "创建应用":
+                  - /url: /app
+                - link "开发教程":
+                  - /url: /document/home/course
+        - listitem [ref=e78]:
+          - generic [ref=e80]:
+            - heading "OpenClaw 飞书官方插件" [level=2] [ref=e81]
+            - paragraph [ref=e82]: 更懂你的工作，帮你直接干活！
+            - link "安装插件" [ref=e84] [cursor=pointer]:
+              - /url: //bytedance.larkoffice.com/docx/MFK7dDFLFoVlOGxWCv5cTXKmnMh
+        - listitem:
+          - generic:
+            - generic:
+              - heading "飞书 MCP 让 AI 和飞书无缝协作" [level=2]
+              - paragraph: 连接飞书核心能力与主流 AI 工具，实现消息、多维表格、文档等多场景智能协作
+              - generic:
+                - link "立即使用":
+                  - /url: /document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_introduction
+        - listitem:
+          - generic:
+            - generic:
+              - heading "3 分钟轻松开发机器人" [level=2]
+              - paragraph: 跟随教程点击按钮，四步轻松掌握 API 调用、事件接收与卡片交互能力
+              - generic:
+                - link "立即体验":
+                  - /url: /document/uAjLw4CM/uMzNwEjLzcDMx4yM3ATM/develop-an-echo-bot/introduction?from=banner
+        - listitem:
+          - generic:
+            - generic:
+              - heading "开放平台智能助手" [level=2]
+              - paragraph: 一站式完成代码生成、开发答疑、报错排查，飞书应用开发轻松搞定
+              - generic:
+                - link "立即体验":
+                  - /url: /app/ai/playground?from=banner
+        - listitem:
+          - generic:
+            - generic:
+              - heading "助力企业打造一站式工作平台" [level=2]
+              - paragraph: 提供强大丰富的应用开发和系统集成能力，帮助企业定制专属飞书
+              - generic:
+                - link "创建应用":
+                  - /url: /app
+                - link "开发教程":
+                  - /url: /document/home/course
+        - listitem [ref=e85]:
+          - generic [ref=e87]:
+            - heading "OpenClaw 飞书官方插件" [level=2] [ref=e88]
+            - paragraph [ref=e89]: 更懂你的工作，帮你直接干活！
+            - link "安装插件" [ref=e91] [cursor=pointer]:
+              - /url: //bytedance.larkoffice.com/docx/MFK7dDFLFoVlOGxWCv5cTXKmnMh
+    - generic [ref=e93]:
+      - generic [ref=e94]: What's New
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - text: 飞书开放平台服务器证书升级通知 飞书开放平台开发者及服务商： 因信任库 Mozilla 更新根证书信任策略，飞书开放平台将对服务器证书进行升级。为避免您的应用服务中断，请务必关注以下信息并完成自查： **关键时间点：** * 灰度开始：2026年3月17日 19:00 (GMT+8) * 全量结束：2026年3月24日 19:00 (GMT+8) **受影响域名：**
+          - link "**open.feishu.cn**" [ref=e97] [cursor=pointer]:
+            - /url: https://open.feishu.cn/
+          - link "**www.feishu.cn**" [ref=e98] [cursor=pointer]:
+            - /url: https://www.feishu.cn/
+          - text: "**所需行动**： 请在2026年3月17日 19:00 (GMT+8) 前完成 若您的服务使用 Java 环境，请务必确认 JDK 版本为 1.8 8u131 及以上。 **注：旧版本 JDK 可能无法验证新证书，导致 API 调用报错。** **验证方式：** 升级完成后，可尝试请求"
+          - link "https://www.digicert.com/" [ref=e99] [cursor=pointer]:
+            - /url: https://www.digicert.com/
+          - text: （该站点使用相同 G2 根证书）。若请求无报错，即代表环境支持正常。 详细排查思路，请参考
+          - link "「全球根证书升级」DigiCertG2根影响分析&解决思路。" [ref=e100] [cursor=pointer]:
+            - /url: https://bytedance.larkoffice.com/docx/JSl0dSrp2oZ6XkxJZrgcp4EQnLw
+        - link "查看更多更新" [ref=e101] [cursor=pointer]:
+          - /url: /changelog
+    - generic [ref=e103]:
+      - generic [ref=e104]: 全面的开放能力，实现灵活定制
+      - generic [ref=e105]:
+        - generic [ref=e108]:
+          - generic [ref=e112] [cursor=pointer]:
+            - img [ref=e113]
+            - text: 开放接口
+          - generic [ref=e117] [cursor=pointer]:
+            - img [ref=e118]
+            - text: 应用形态
+          - generic [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - text: 网页组件
+          - generic [ref=e127] [cursor=pointer]:
+            - img [ref=e128]
+            - text: 定制飞书
+        - generic [ref=e134]:
+          - generic [ref=e135]: 2500+ 开放接口，飞书全面开放
+          - generic [ref=e136]:
+            - link "通讯录" [ref=e137] [cursor=pointer]:
+              - /url: /document/uAjLw4CM/ukTMukTMukTM/reference/contact-v3
+              - img [ref=e138]
+              - text: 通讯录
+            - link "消息与群组" [ref=e139] [cursor=pointer]:
+              - /url: /document/uAjLw4CM/ukTMukTMukTM/reference/im-v1
+              - img [ref=e140]
+              - text: 消息与群组
+            - link "文档" [ref=e141] [cursor=pointer]:
+              - /url: /document/server-docs/docs/docs/docx-v1/docx-overview
+              - img [ref=e142]
+              - text: 文档
+            - link "多维表格" [ref=e143] [cursor=pointer]:
+              - /url: /document/server-docs/docs/bitable-v1/bitable-overview
+              - img [ref=e144]
+              - text: 多维表格
+            - link "电子表格" [ref=e145] [cursor=pointer]:
+              - /url: /document/ukTMukTMukTM/uATMzUjLwEzM14CMxMTN/overview
+              - img [ref=e146]
+              - text: 电子表格
+            - link "知识库" [ref=e147] [cursor=pointer]:
+              - /url: /document/ukTMukTMukTM/uUDN04SN0QjL1QDN/wiki-overview
+              - img [ref=e148]
+              - text: 知识库
+            - link "审批" [ref=e149] [cursor=pointer]:
+              - /url: /document/uAjLw4CM/ukTMukTMukTM/reference/approval-v4
+              - img [ref=e150]
+              - text: 审批
+            - link "日历" [ref=e151] [cursor=pointer]:
+              - /url: /document/uAjLw4CM/ukTMukTMukTM/reference/calendar-v4
+              - img [ref=e152]
+              - text: 日历
+            - link "视频会议" [ref=e153] [cursor=pointer]:
+              - /url: /document/uAjLw4CM/ukTMukTMukTM/reference/vc-v1
+              - img [ref=e154]
+              - text: 视频会议
+          - link "更多接口" [ref=e156] [cursor=pointer]:
+            - /url: /document/server-docs/api-call-guide/server-api-list?from=home
+            - text: 更多接口
+            - img [ref=e159]
+    - generic [ref=e163]:
+      - generic [ref=e164]: 让业务在飞书中高效流转
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - img [ref=e169] [cursor=pointer]
+            - img [ref=e172]
+          - link "按需开发应用 企业内部开发应用，将业务系统与飞书消息、会议、多维表格等核心办公场景打通 更多客户案例" [ref=e174] [cursor=pointer]:
+            - /url: /solutions?from=home
+            - generic [ref=e175]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: 按需开发应用
+                - generic [ref=e178]: 企业内部开发应用，将业务系统与飞书消息、会议、多维表格等核心办公场景打通
+              - link "更多客户案例" [ref=e180]:
+                - /url: /solutions?from=home
+                - text: 更多客户案例
+                - img [ref=e183]
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - img [ref=e188] [cursor=pointer]
+            - img [ref=e191]
+          - link "挑选商店应用 优质的飞书合作伙伴，提供丰富的行业解决方案，企业可灵活挑选、一键安装 进入应用中心 成为飞书伙伴" [ref=e193] [cursor=pointer]:
+            - /url: https://app.feishu.cn/?from=home&lang=zh-CN
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]: 挑选商店应用
+                - generic [ref=e197]: 优质的飞书合作伙伴，提供丰富的行业解决方案，企业可灵活挑选、一键安装
+              - generic [ref=e198]:
+                - link "进入应用中心" [ref=e199]:
+                  - /url: https://app.feishu.cn/?from=home&lang=zh-CN
+                  - text: 进入应用中心
+                  - img [ref=e202]
+                - link "成为飞书伙伴" [ref=e204]:
+                  - /url: /document/isv-guides/publish-your-app/publishing-guidelines
+                  - text: 成为飞书伙伴
+                  - img [ref=e207]
+    - generic [ref=e210]:
+      - generic [ref=e211]: 每个开发场景，都有合适的平台
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]: 全代码开发
+            - generic [ref=e217]: 适用于开发人员
+          - link "开放平台 支持所有开放能力，包含多种应用形态、开放接口、网页组件等 打开开发文档" [ref=e220] [cursor=pointer]:
+            - /url: /document/home/index?from=home
+            - generic [ref=e221]:
+              - img [ref=e222]
+              - img
+            - generic [ref=e223]: 开放平台
+            - generic [ref=e224]: 支持所有开放能力，包含多种应用形态、开放接口、网页组件等
+            - link "打开开发文档" [ref=e226]:
+              - /url: /document/home/index?from=home
+              - text: 打开开发文档
+              - img [ref=e229]
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - generic [ref=e234]: 低代码开发
+            - generic [ref=e235]: 适用于开发人员
+          - generic [ref=e237] [cursor=pointer]:
+            - link "aPaaS 快速构建满足复杂业务需求的网页应用 打开 aPaaS" [ref=e238]:
+              - /url: https://ae.feishu.cn/home
+              - generic [ref=e239]:
+                - img [ref=e240]
+                - img
+              - generic [ref=e241]: aPaaS
+              - generic [ref=e242]: 快速构建满足复杂业务需求的网页应用
+              - link "打开 aPaaS" [ref=e244]:
+                - /url: https://ae.feishu.cn/home
+                - text: 打开 aPaaS
+                - img [ref=e247]
+            - link "集成平台 标准、高效的系统集成能力，为企业构建强大的集成解决方案 打开集成平台" [ref=e249]:
+              - /url: https://anycross.feishu.cn
+              - generic [ref=e250]:
+                - img [ref=e251]
+                - img
+              - generic [ref=e252]: 集成平台
+              - generic [ref=e253]: 标准、高效的系统集成能力，为企业构建强大的集成解决方案
+              - link "打开集成平台" [ref=e255]:
+                - /url: https://anycross.feishu.cn
+                - text: 打开集成平台
+                - img [ref=e258]
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]: 零代码搭建
+            - generic [ref=e264]: 业务人员直接上手
+          - link "多维表格 提供视图、仪表盘、表单、自动化和插件等能力，定制专属业务系统 打开多维表格" [ref=e267] [cursor=pointer]:
+            - /url: https://feishu.cn/base
+            - generic [ref=e268]:
+              - img [ref=e269]
+              - img
+            - generic [ref=e270]: 多维表格
+            - generic [ref=e271]: 提供视图、仪表盘、表单、自动化和插件等能力，定制专属业务系统
+            - link "打开多维表格" [ref=e273]:
+              - /url: https://feishu.cn/base
+              - text: 打开多维表格
+              - img [ref=e276]
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - generic [ref=e281]: 开发 AI 智能体
+            - generic [ref=e282]: 业务人员直接上手
+          - link "aily 快速搭建知识问答智能体，一键发布到飞书机器人和服务台 打开 aily" [ref=e285] [cursor=pointer]:
+            - /url: https://aily.feishu.cn
+            - generic [ref=e286]:
+              - img [ref=e287]
+              - img
+            - generic [ref=e288]: aily
+            - generic [ref=e289]: 快速搭建知识问答智能体，一键发布到飞书机器人和服务台
+            - link "打开 aily" [ref=e291]:
+              - /url: https://aily.feishu.cn
+              - text: 打开 aily
+              - img [ref=e294]
+    - generic [ref=e297]:
+      - generic [ref=e298]: 工具与支持
+      - generic [ref=e299]:
+        - link "开放平台智能助手 开发疑问、报错排查，都可以问问智能助手 立即咨询" [ref=e300] [cursor=pointer]:
+          - /url: /search?from=home&page=1&pageSize=10&q=%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BD%E8%AF%9D%E9%A2%98%E7%BE%A4%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E6%B6%88%E6%81%AF%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87&topicFilter=
+          - generic [ref=e301]:
+            - img [ref=e302]
+            - generic [ref=e303]: 开放平台智能助手
+            - generic [ref=e304]: 开发疑问、报错排查，都可以问问智能助手
+            - link "立即咨询" [ref=e306]:
+              - /url: /search?from=home&page=1&pageSize=10&q=%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BD%BD%E8%AF%9D%E9%A2%98%E7%BE%A4%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E6%B6%88%E6%81%AF%E4%B8%AD%E7%9A%84%E5%9B%BE%E7%89%87&topicFilter=
+              - text: 立即咨询
+              - img [ref=e309]
+        - link "开发教程 详细步骤拆解，5 分钟带你快速入门 立即查看" [ref=e311] [cursor=pointer]:
+          - /url: /document/home/course?from=home
+          - generic [ref=e312]:
+            - img [ref=e313]
+            - generic [ref=e314]: 开发教程
+            - generic [ref=e315]: 详细步骤拆解，5 分钟带你快速入门
+            - link "立即查看" [ref=e317]:
+              - /url: /document/home/course?from=home
+              - text: 立即查看
+              - img [ref=e320]
+        - link "开发工具 覆盖开发、调试、运营、维护全流程 了解更多" [ref=e322] [cursor=pointer]:
+          - /url: /document/developer-tools-portal?from=home
+          - generic [ref=e323]:
+            - img [ref=e324]
+            - generic [ref=e325]: 开发工具
+            - generic [ref=e326]: 覆盖开发、调试、运营、维护全流程
+            - link "了解更多" [ref=e328]:
+              - /url: /document/developer-tools-portal?from=home
+              - text: 了解更多
+              - img [ref=e331]
+        - link "技术支持 遇到故障时，提交技术支持反馈，快速获取人工支持 立即咨询" [ref=e333] [cursor=pointer]:
+          - /url: https://applink.feishu.cn/TLJpeNdW
+          - generic [ref=e334]:
+            - img [ref=e335]
+            - generic [ref=e336]: 技术支持
+            - generic [ref=e337]: 遇到故障时，提交技术支持反馈，快速获取人工支持
+            - link "立即咨询" [ref=e339]:
+              - /url: https://applink.feishu.cn/TLJpeNdW
+              - text: 立即咨询
+              - img [ref=e342]
+    - generic [ref=e344]:
+      - generic [ref=e346]:
+        - img "logo" [ref=e349]
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e353]: 集成方案
+            - generic [ref=e354]:
+              - link "SSO与飞书集成" [ref=e355] [cursor=pointer]:
+                - /url: https://open.feishu.cn/solutions/detail/sso
+              - link "门户接入飞书" [ref=e356] [cursor=pointer]:
+                - /url: https://open.feishu.cn/solutions/detail/oa
+              - link "智能管理业务" [ref=e357] [cursor=pointer]:
+                - /url: https://open.feishu.cn/solutions/detail/automation
+          - generic [ref=e358]:
+            - generic [ref=e359]: 资源
+            - generic [ref=e360]:
+              - link "飞书官网" [ref=e361] [cursor=pointer]:
+                - /url: https://www.feishu.cn
+                - text: 飞书官网
+                - img [ref=e363]
+              - link "应用中心" [ref=e366] [cursor=pointer]:
+                - /url: https://app.feishu.cn
+                - text: 应用中心
+                - img [ref=e368]
+              - link "下载" [ref=e371] [cursor=pointer]:
+                - /url: https://www.feishu.cn/download
+                - text: 下载
+                - img [ref=e373]
+          - generic [ref=e376]:
+            - generic [ref=e377]: 常用链接
+            - generic [ref=e378]:
+              - link "应用开发流程" [ref=e379] [cursor=pointer]:
+                - /url: https://open.feishu.cn/document/home/introduction-to-custom-app-development/self-built-application-development-process
+              - link "小程序开发流程" [ref=e380] [cursor=pointer]:
+                - /url: https://open.feishu.cn/document/home/develop-a-gadget-in-5-minutes/create-a-custom-app
+              - link "网页应用接入流程" [ref=e381] [cursor=pointer]:
+                - /url: https://open.feishu.cn/document/home/integrating-web-apps-in-5-minutes/create-app-and-configuration
+              - link "机器人开发流程" [ref=e382] [cursor=pointer]:
+                - /url: https://open.feishu.cn/document/home/develop-a-bot-in-5-minutes/create-an-app
+          - generic [ref=e383]:
+            - generic [ref=e384]: 法律声明
+            - generic [ref=e385]:
+              - link "服务协议" [ref=e386] [cursor=pointer]:
+                - /url: https://www.feishu.cn/terms
+                - text: 服务协议
+                - img [ref=e388]
+              - link "隐私政策" [ref=e391] [cursor=pointer]:
+                - /url: https://www.feishu.cn/privacy
+                - text: 隐私政策
+                - img [ref=e393]
+              - link "安全与合规" [ref=e396] [cursor=pointer]:
+                - /url: https://www.feishu.cn/security
+                - text: 安全与合规
+                - img [ref=e398]
+      - generic [ref=e401]:
+        - generic [ref=e402]:
+          - generic [ref=e403]: 简体中文
+          - generic [ref=e405]: English
+        - generic [ref=e406]:
+          - generic [ref=e407]: Copyright © 2026 北京飞书科技有限公司
+          - link "京ICP备16045432号-4" [ref=e408] [cursor=pointer]:
+            - /url: https://beian.miit.gov.cn/#/Integrated/index
+            - text: 京ICP备16045432号-4
+            - img [ref=e410]
+          - link "京公网安备 11010802029085号" [ref=e413] [cursor=pointer]:
+            - /url: https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029085
+            - img [ref=e414]
+            - text: 京公网安备 11010802029085号
+            - img [ref=e416]
+          - link "增值电信业务经营许可证：京B2-20190249" [ref=e419] [cursor=pointer]:
+            - /url: https://tsm.miit.gov.cn/dxxzsp/
+            - text: 增值电信业务经营许可证：京B2-20190249
+            - img [ref=e421]
+  - generic:
+    - generic:
+      - generic:
+        - img
+      - text: 技术支持
+    - generic:
+      - generic:
+        - img
+      - text: 收起
+  - generic [ref=e425] [cursor=pointer]:
+    - img [ref=e427]
+    - text: 展开

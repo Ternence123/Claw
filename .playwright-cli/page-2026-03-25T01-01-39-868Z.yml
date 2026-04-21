@@ -1,0 +1,207 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "lark" [ref=e11] [cursor=pointer]:
+          - /url: https://open.feishu.cn/?lang=zh-CN
+          - img "lark" [ref=e12]
+        - menu [ref=e13]:
+          - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+            - link "客户案例" [ref=e16]:
+              - /url: https://open.feishu.cn/solutions?lang=zh-CN
+          - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+            - link "应用中心" [ref=e19]:
+              - /url: https://app.feishu.cn/?lang=zh-CN
+          - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+            - link "开发文档" [ref=e22]:
+              - /url: https://open.feishu.cn/document?lang=zh-CN
+          - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+            - link "智能助手 AI 开发" [ref=e25]:
+              - /url: /app/ai/playground?from=nav
+              - generic [ref=e26]:
+                - generic [ref=e27]: 智能助手
+                - generic [ref=e29]:
+                  - img [ref=e31]
+                  - generic [ref=e33]: AI 开发
+      - generic [ref=e34]:
+        - generic [ref=e39]:
+          - img [ref=e42]
+          - textbox [ref=e45]:
+            - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+          - img [ref=e48]
+        - menu [ref=e50]:
+          - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+            - link "开发者后台" [ref=e53]:
+              - /url: /app
+              - button "开发者后台" [ref=e54]
+        - img [ref=e60] [cursor=pointer]
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - img [ref=e72]
+        - list [ref=e86]:
+          - listitem [ref=e87] [cursor=pointer]: 【功能升级】消息卡片 markdown 语法扩展
+          - listitem [ref=e88] [cursor=pointer]: 【免费试用】向你介绍飞书集成平台，轻松实现系统集成
+          - listitem [ref=e89] [cursor=pointer]: 【功能升级】全新消息卡片搭建工具，邀你来体验
+          - listitem [ref=e90] [cursor=pointer]: 【重要提醒】飞书开发者工具（命令行形态）升级提醒
+          - listitem [ref=e91] [cursor=pointer]: 【功能上线】用户反馈功能
+          - listitem [ref=e92] [cursor=pointer]: 【功能上线】日志检索工具
+          - listitem [ref=e93] [cursor=pointer]: 【功能上线】服务端接口列表、事件列表和应用权限列表
+          - listitem [ref=e94] [cursor=pointer]: 【重要通知】登录能力相关凭证的数据长度变更
+          - listitem [ref=e95] [cursor=pointer]: 【功能上线】知识库相关接口
+          - listitem [ref=e96] [cursor=pointer]: 【功能上线】运营分析工具
+          - listitem [ref=e97] [cursor=pointer]: 【功能上线】新增服务端 API 的Postman模板库
+          - listitem [ref=e98] [cursor=pointer]: 【重要通知】飞书 JSSDK 更新
+          - listitem [ref=e99] [cursor=pointer]: 【功能上线】消息卡片模板全新上线
+          - listitem [ref=e100] [cursor=pointer]: 【教程上新】飞书开发教程，让应用开发更轻松
+          - listitem [ref=e101] [cursor=pointer]: 【重要变更】PC端openSchema接口变更通知
+          - listitem [ref=e102] [cursor=pointer]: 【重要变更】用户管理、部门管理相关接口变更通知
+          - listitem [ref=e103] [cursor=pointer]: 【重要变更】云文档复制文档接口参数调整公告
+          - listitem [ref=e104] [cursor=pointer]: 【功能上线】PC端运行移动端小程序
+          - listitem [ref=e105] [cursor=pointer]: 【重要更新】消息卡片缺省样式将升级为宽版
+          - listitem [ref=e106] [cursor=pointer]: 【火热内测】用App Builder，3分钟搭建bot
+          - listitem [ref=e107] [cursor=pointer]: 【功能升级】消息卡片 markdown 语法扩展
+        - button "26 条未读" [ref=e108] [cursor=pointer]:
+          - text: 26 条未读
+          - img [ref=e110]
+      - generic [ref=e112]:
+        - img "onBoard" [ref=e113]
+        - generic [ref=e114]: 创建你的第一个测试应用
+        - generic [ref=e115]:
+          - link "开放能力介绍" [ref=e116] [cursor=pointer]:
+            - /url: /document/home/intro
+          - link "优秀开发案例" [ref=e117] [cursor=pointer]:
+            - /url: /solutions
+        - generic [ref=e118]:
+          - button "创建企业自建应用" [ref=e119] [cursor=pointer]
+          - generic [ref=e120]:
+            - button "创建商店应用" [disabled]
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - generic [ref=e125]:
+              - text: 机器人
+              - img [ref=e127]
+            - generic [ref=e131]:
+              - text: 网页应用
+              - img [ref=e133]
+            - generic [ref=e137]:
+              - text: 工作台小组件
+              - img [ref=e139]
+            - generic [ref=e143]:
+              - text: 云文档小组件
+              - img [ref=e145]
+            - generic [ref=e149]:
+              - text: 多维表格插件
+              - img [ref=e151]
+            - generic [ref=e155]:
+              - text: 链接预览
+              - img [ref=e157]
+            - generic [ref=e161]:
+              - text: 移动应用登录
+              - img [ref=e163]
+            - generic [ref=e167]:
+              - text: 原生集成应用
+              - img [ref=e169]
+          - generic [ref=e172]:
+            - button [disabled] [ref=e173]:
+              - generic:
+                - img
+                - img
+            - button [ref=e174] [cursor=pointer]:
+              - generic [ref=e175]:
+                - img [ref=e176]
+                - img [ref=e178]
+    - generic:
+      - generic:
+        - generic:
+          - img
+        - text: 技术支持
+      - generic:
+        - generic:
+          - img
+        - text: 收起
+    - generic [ref=e181] [cursor=pointer]:
+      - img [ref=e183]
+      - text: 展开
+  - generic [active] [ref=e187]:
+    - dialog:
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - generic [ref=e191]: 创建企业自建应用
+          - generic [ref=e192]:
+            - text: 该应用仅可在“用户735136的飞书”内部使用，应用发布需经过企业管理员审核，请仔细阅读
+            - link "应用审核规则" [ref=e193] [cursor=pointer]:
+              - /url: /document/home/intro-to-custom-app-review
+            - text: 。
+        - button [ref=e194] [cursor=pointer]:
+          - img [ref=e196]
+        - generic [ref=e199]:
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - generic [ref=e202]: 应用名称
+              - generic [ref=e203]: "*"
+            - generic [ref=e208]:
+              - textbox "0/32" [ref=e210]
+              - generic [ref=e213]:
+                - text: "0"
+                - generic [ref=e214]: /32
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - generic [ref=e217]: 应用描述
+              - generic [ref=e218]: "*"
+            - generic [ref=e222]:
+              - textbox [ref=e223]
+              - generic [ref=e226]:
+                - text: "0"
+                - generic [ref=e227]: /120
+          - generic [ref=e228]:
+            - generic [ref=e229]:
+              - generic [ref=e230]: 应用图标
+              - generic [ref=e231]: "*"
+            - generic [ref=e235]:
+              - generic [ref=e236]: JPEG/PNG/SVG/BMP 格式，2 MB 以内，大于 240*240 px，无圆角
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - generic "avatar" [ref=e239]:
+                    - img [ref=e240]
+                    - img
+                  - button "自定义上传" [ref=e246] [cursor=pointer]
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 选择背景色
+                  - img [ref=e259] [cursor=pointer]
+                  - generic [ref=e269]: 选择图标
+                  - generic [ref=e270]:
+                    - generic "AppDefaultFilled" [ref=e272] [cursor=pointer]:
+                      - img [ref=e273]
+                    - generic "RobotFilled" [ref=e275] [cursor=pointer]:
+                      - img [ref=e276]
+                    - generic "EfficiencyFilled" [ref=e278] [cursor=pointer]:
+                      - img [ref=e279]
+                    - generic "RoomFilled" [ref=e281] [cursor=pointer]:
+                      - img [ref=e282]
+                    - generic "StatusTripFilled" [ref=e284] [cursor=pointer]:
+                      - img [ref=e285]
+                    - generic "BellFilled" [ref=e287] [cursor=pointer]:
+                      - img [ref=e288]
+                    - generic "ResolveFilled" [ref=e290] [cursor=pointer]:
+                      - img [ref=e291]
+                    - generic "ProportionFilled" [ref=e293] [cursor=pointer]:
+                      - img [ref=e294]
+                    - generic "ScoreFilled" [ref=e296] [cursor=pointer]:
+                      - img [ref=e297]
+                    - generic "TagFilled" [ref=e299] [cursor=pointer]:
+                      - img [ref=e300]
+                    - generic "SettingInterFilled" [ref=e302] [cursor=pointer]:
+                      - img [ref=e303]
+                    - generic "NoteFilled" [ref=e305] [cursor=pointer]:
+                      - img [ref=e306]
+                    - generic "SafeFilled" [ref=e308] [cursor=pointer]:
+                      - img [ref=e309]
+                    - generic "HubFilled" [ref=e311] [cursor=pointer]:
+                      - img [ref=e312]
+                    - generic "GroupFilled" [ref=e314] [cursor=pointer]:
+                      - img [ref=e315]
+                    - generic "CodingTestFilled" [ref=e317] [cursor=pointer]:
+                      - img [ref=e318]
+        - generic [ref=e320]:
+          - button "创建" [ref=e321] [cursor=pointer]
+          - button "取消" [ref=e322] [cursor=pointer]

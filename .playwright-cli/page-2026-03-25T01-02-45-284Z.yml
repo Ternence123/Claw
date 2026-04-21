@@ -1,0 +1,211 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "lark" [ref=e11] [cursor=pointer]:
+        - /url: https://open.feishu.cn/?lang=zh-CN
+        - img "lark" [ref=e12]
+      - menu [ref=e13]:
+        - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+          - link "客户案例" [ref=e16]:
+            - /url: https://open.feishu.cn/solutions?lang=zh-CN
+        - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+          - link "应用中心" [ref=e19]:
+            - /url: https://app.feishu.cn/?lang=zh-CN
+        - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+          - link "开发文档" [ref=e22]:
+            - /url: https://open.feishu.cn/document?lang=zh-CN
+        - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+          - link "智能助手 AI 开发" [ref=e25]:
+            - /url: /app/ai/playground?from=nav
+            - generic [ref=e26]:
+              - generic [ref=e27]: 智能助手
+              - generic [ref=e29]:
+                - img [ref=e31]
+                - generic [ref=e33]: AI 开发
+    - generic [ref=e34]:
+      - generic [ref=e39]:
+        - img [ref=e42]
+        - textbox [ref=e45]:
+          - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+        - img [ref=e48]
+      - menu [ref=e50]:
+        - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+          - link "开发者后台" [ref=e53]:
+            - /url: /app
+            - button "开发者后台" [ref=e54]
+      - img [ref=e60] [cursor=pointer]
+  - generic [ref=e69]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - button [ref=e74] [cursor=pointer]:
+          - img [ref=e76]
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - img [ref=e82]
+            - img
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: WorkBuddy 助手
+              - generic [ref=e88]: 待上线
+            - generic [ref=e89]: 正式应用@用户735136的飞书
+      - alert [ref=e90]:
+        - img [ref=e93]
+        - generic [ref=e97]:
+          - generic [ref=e98]: 应用发布后，当前配置方可生效
+          - button "创建版本" [ref=e100] [cursor=pointer]
+    - generic [ref=e101]:
+      - generic [ref=e104]:
+        - generic [ref=e108]:
+          - generic [ref=e111]: 应用凭证
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e117]: App ID
+                - img [ref=e120]
+              - generic [ref=e126]:
+                - generic [ref=e127]: cli_a94988053b789cc6
+                - img [ref=e130] [cursor=pointer]
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - generic [ref=e136]: App Secret
+                - img [ref=e139]
+              - generic [ref=e145]:
+                - generic [ref=e146]: ZZGBdtWFSG4U5uRTyBBRQc02U4jzzwcE
+                - generic [ref=e147]:
+                  - img [ref=e149] [cursor=pointer]
+                  - img [ref=e153] [cursor=pointer]
+                  - button [ref=e155] [cursor=pointer]:
+                    - img [ref=e157]
+        - generic [ref=e162]:
+          - generic [ref=e164]:
+            - generic [ref=e165]: 综合信息
+            - button [ref=e168] [cursor=pointer]:
+              - img [ref=e170]
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - generic [ref=e176]: 应用图标
+              - generic [ref=e180]:
+                - generic [ref=e181]: JPEG/PNG/SVG/BMP 格式，2 MB 以内，大于 240*240 px，无圆角
+                - generic [ref=e188] [cursor=pointer]:
+                  - img [ref=e189]
+                  - img
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - generic [ref=e193]: 管理后台主页
+                - img [ref=e196]
+              - generic [ref=e201]: 暂无
+        - generic [ref=e205]:
+          - generic [ref=e207]:
+            - generic [ref=e208]: 国际化配置
+            - button [ref=e211] [cursor=pointer]:
+              - img [ref=e213]
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - generic [ref=e220]: 应用名称
+              - generic [ref=e224]: WorkBuddy 助手
+            - generic [ref=e225]:
+              - generic [ref=e228]: 应用描述
+              - generic [ref=e232]: WorkBuddy 飞书集成助手，用于远程控制和任务执行
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - generic [ref=e236]: 帮助文档
+                - img [ref=e239]
+              - generic [ref=e244]: 暂无
+        - generic [ref=e248]:
+          - generic [ref=e251]: 更多操作
+          - generic [ref=e253]:
+            - button "转移应用所有权" [ref=e255] [cursor=pointer]:
+              - img [ref=e258]
+              - text: 转移应用所有权
+            - button "删除应用" [ref=e261] [cursor=pointer]:
+              - img [ref=e264]
+              - text: 删除应用
+      - menu [ref=e269]:
+        - listitem [ref=e270]:
+          - list [ref=e271]:
+            - menuitem "凭证与基础信息" [ref=e272] [cursor=pointer]:
+              - img [ref=e275]
+              - generic:
+                - link "凭证与基础信息":
+                  - /url: /app/cli_a94988053b789cc6/baseinfo
+                  - generic [ref=e281]: 凭证与基础信息
+            - menuitem "协作者管理" [ref=e282] [cursor=pointer]:
+              - img [ref=e285]
+              - generic:
+                - link "协作者管理":
+                  - /url: /app/cli_a94988053b789cc6/developers
+                  - generic [ref=e292]: 协作者管理
+            - listitem [ref=e293]
+        - listitem [ref=e294]:
+          - list [ref=e295]:
+            - menuitem "添加应用能力" [ref=e296] [cursor=pointer]:
+              - img [ref=e299]
+              - generic:
+                - link "添加应用能力":
+                  - /url: /app/cli_a94988053b789cc6/capability
+                  - generic [ref=e307]: 添加应用能力
+            - menuitem "机器人" [ref=e308] [cursor=pointer]:
+              - img [ref=e311]
+              - generic:
+                - link "机器人":
+                  - /url: /app/cli_a94988053b789cc6/bot
+                  - generic [ref=e321]: 机器人
+            - listitem [ref=e322]
+        - listitem [ref=e323]:
+          - list [ref=e324]:
+            - menuitem "权限管理" [ref=e325] [cursor=pointer]:
+              - img [ref=e328]
+              - generic:
+                - link "权限管理":
+                  - /url: /app/cli_a94988053b789cc6/auth
+                  - generic [ref=e334]: 权限管理
+            - menuitem "事件与回调" [ref=e335] [cursor=pointer]:
+              - img [ref=e338]
+              - generic:
+                - link "事件与回调":
+                  - /url: /app/cli_a94988053b789cc6/event
+                  - generic [ref=e344]: 事件与回调
+            - menuitem "安全设置" [ref=e345] [cursor=pointer]:
+              - img [ref=e348]
+              - generic:
+                - link "安全设置":
+                  - /url: /app/cli_a94988053b789cc6/safe
+                  - generic [ref=e354]: 安全设置
+            - menuitem "测试企业和人员" [ref=e355] [cursor=pointer]:
+              - img [ref=e358]
+              - generic:
+                - link "测试企业和人员":
+                  - /url: /app/cli_a94988053b789cc6/test
+                  - generic [ref=e367]: 测试企业和人员
+            - listitem [ref=e368]
+        - listitem [ref=e369]:
+          - list [ref=e370]:
+            - menuitem "版本管理与发布" [ref=e371] [cursor=pointer]:
+              - img [ref=e374]
+              - generic:
+                - link "版本管理与发布":
+                  - /url: /app/cli_a94988053b789cc6/version
+                  - generic [ref=e381]: 版本管理与发布
+            - listitem [ref=e382]
+        - listitem [ref=e383]:
+          - list [ref=e384]:
+            - menuitem "日志检索" [ref=e385] [cursor=pointer]:
+              - img [ref=e388]
+              - generic:
+                - link "日志检索":
+                  - /url: /app/cli_a94988053b789cc6/logs
+                  - generic [ref=e395]: 日志检索
+            - menuitem [ref=e396] [cursor=pointer]:
+              - img [ref=e399]
+  - generic:
+    - generic:
+      - generic:
+        - img
+      - text: 技术支持
+    - generic:
+      - generic:
+        - img
+      - text: 收起
+  - generic [ref=e405] [cursor=pointer]:
+    - img [ref=e407]
+    - text: 展开

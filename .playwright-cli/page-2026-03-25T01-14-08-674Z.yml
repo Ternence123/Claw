@@ -1,0 +1,285 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "lark" [ref=e11] [cursor=pointer]:
+          - /url: https://open.feishu.cn/?lang=zh-CN
+          - img "lark" [ref=e12]
+        - menu [ref=e13]:
+          - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+            - link "客户案例" [ref=e16]:
+              - /url: https://open.feishu.cn/solutions?lang=zh-CN
+          - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+            - link "应用中心" [ref=e19]:
+              - /url: https://app.feishu.cn/?lang=zh-CN
+          - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+            - link "开发文档" [ref=e22]:
+              - /url: https://open.feishu.cn/document?lang=zh-CN
+          - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+            - link "智能助手 AI 开发" [ref=e25]:
+              - /url: /app/ai/playground?from=nav
+              - generic [ref=e26]:
+                - generic [ref=e27]: 智能助手
+                - generic [ref=e29]:
+                  - img [ref=e31]
+                  - generic [ref=e33]: AI 开发
+      - generic [ref=e34]:
+        - generic [ref=e39]:
+          - img [ref=e42]
+          - textbox [ref=e45]:
+            - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+          - img [ref=e48]
+        - menu [ref=e50]:
+          - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+            - link "开发者后台" [ref=e53]:
+              - /url: /app
+              - button "开发者后台" [ref=e54]
+        - img [ref=e60] [cursor=pointer]
+    - generic [ref=e69]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - button [ref=e152] [cursor=pointer]:
+            - img [ref=e154]
+          - generic [ref=e157]:
+            - generic [ref=e159]:
+              - img [ref=e160]
+              - img
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: WorkBuddy 助手
+                - generic [ref=e166]: 待上线
+              - generic [ref=e167]: 正式应用@用户735136的飞书
+        - alert [ref=e168]:
+          - img [ref=e171]
+          - generic [ref=e176]: 版本发布后，当前修改方可生效
+      - generic [ref=e77]:
+        - generic [ref=e359]:
+          - img [ref=e658]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - button "返回":
+                    - generic:
+                      - generic:
+                        - img
+                    - text: 返回
+                  - generic:
+                    - generic:
+                      - button "确认发布":
+                        - generic:
+                          - generic:
+                            - img
+                        - text: 确认发布
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: 版本详情
+                      - generic:
+                        - generic:
+                          - generic: 待申请
+                      - generic:
+                        - generic:
+                          - button:
+                            - generic:
+                              - img
+                  - generic:
+                    - alert [ref=e375]:
+                      - img [ref=e377]
+                      - generic [ref=e382]: 本次发布免审核，提交发布后即可上线使用
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 应用版本号
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 1.0.0
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 移动端的默认能力
+                          - generic:
+                            - generic:
+                              - img
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 机器人
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 桌面端的默认能力
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 机器人
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: 更新说明
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: 初始版本，集成 WorkBuddy 远程控制功能
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: 事件订阅变更
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic: 订阅方式
+                                    - text: 将事件发送至开发者服务器
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: 权限变更
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 暂无
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: 可用范围
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 部分成员
+                                - generic:
+                                  - generic: 成员：
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: 用户735136
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: 创建人/时间
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph:
+                                  - generic:
+                                    - generic: 用户735136
+                                  - text: 创建于 2026-3-25 9:13
+        - menu [ref=e222]:
+          - listitem [ref=e223]:
+            - list [ref=e224]:
+              - menuitem "凭证与基础信息" [ref=e225] [cursor=pointer]:
+                - img [ref=e570]
+                - generic:
+                  - link "凭证与基础信息":
+                    - /url: /app/cli_a94988053b789cc6/baseinfo
+                    - generic [ref=e234]: 凭证与基础信息
+              - menuitem "协作者管理" [ref=e235] [cursor=pointer]:
+                - img [ref=e574]
+                - generic:
+                  - link "协作者管理":
+                    - /url: /app/cli_a94988053b789cc6/developers
+                    - generic [ref=e245]: 协作者管理
+              - listitem [ref=e246]
+          - listitem [ref=e247]:
+            - list [ref=e248]:
+              - menuitem "添加应用能力" [ref=e249] [cursor=pointer]:
+                - img [ref=e579]
+                - generic:
+                  - link "添加应用能力":
+                    - /url: /app/cli_a94988053b789cc6/capability
+                    - generic [ref=e260]: 添加应用能力
+              - menuitem "机器人" [ref=e261] [cursor=pointer]:
+                - img [ref=e585]
+                - generic:
+                  - link "机器人":
+                    - /url: /app/cli_a94988053b789cc6/bot
+                    - generic [ref=e274]: 机器人
+              - listitem [ref=e275]
+          - listitem [ref=e276]:
+            - list [ref=e277]:
+              - menuitem "权限管理" [ref=e278] [cursor=pointer]:
+                - img [ref=e593]
+                - generic:
+                  - link "权限管理":
+                    - /url: /app/cli_a94988053b789cc6/auth
+                    - generic [ref=e287]: 权限管理
+              - menuitem "事件与回调" [ref=e288] [cursor=pointer]:
+                - img [ref=e597]
+                - generic:
+                  - link "事件与回调":
+                    - /url: /app/cli_a94988053b789cc6/event
+                    - generic [ref=e297]: 事件与回调
+              - menuitem "安全设置" [ref=e298] [cursor=pointer]:
+                - img [ref=e601]
+                - generic:
+                  - link "安全设置":
+                    - /url: /app/cli_a94988053b789cc6/safe
+                    - generic [ref=e307]: 安全设置
+              - menuitem "测试企业和人员" [ref=e308] [cursor=pointer]:
+                - img [ref=e605]
+                - generic:
+                  - link "测试企业和人员":
+                    - /url: /app/cli_a94988053b789cc6/test
+                    - generic [ref=e320]: 测试企业和人员
+              - listitem [ref=e321]
+          - listitem [ref=e322]:
+            - list [ref=e323]:
+              - menuitem "版本管理与发布" [ref=e324] [cursor=pointer]:
+                - img [ref=e612]
+                - generic:
+                  - link "版本管理与发布":
+                    - /url: /app/cli_a94988053b789cc6/version
+                    - generic [ref=e334]: 版本管理与发布
+              - listitem [ref=e335]
+          - listitem [ref=e336]:
+            - list [ref=e337]:
+              - menuitem "日志检索" [ref=e338] [cursor=pointer]:
+                - img [ref=e617]
+                - generic:
+                  - link "日志检索":
+                    - /url: /app/cli_a94988053b789cc6/logs
+                    - generic [ref=e348]: 日志检索
+              - menuitem [ref=e349] [cursor=pointer]:
+                - img [ref=e622]
+    - generic:
+      - generic:
+        - generic:
+          - img
+        - text: 技术支持
+      - generic:
+        - generic:
+          - img
+        - text: 收起
+    - generic [ref=e144] [cursor=pointer]:
+      - img [ref=e146]
+      - text: 展开
+  - generic [ref=e637]:
+    - dialog:
+      - generic [ref=e638]:
+        - generic [ref=e639]:
+          - generic [ref=e640]:
+            - img [ref=e644]
+            - generic [ref=e647]: 确认提交发布申请？
+          - generic [ref=e649]: 本次发布免审，提交后自动通过并在线上生效
+        - generic [ref=e651]:
+          - button "取消" [disabled] [ref=e652]
+          - button "确认发布" [active]:
+            - generic:
+              - generic:
+                - img
+            - text: 确认发布

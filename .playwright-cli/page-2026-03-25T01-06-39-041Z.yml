@@ -1,0 +1,223 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "lark" [ref=e11] [cursor=pointer]:
+        - /url: https://open.feishu.cn/?lang=zh-CN
+        - img "lark" [ref=e12]
+      - menu [ref=e13]:
+        - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+          - link "客户案例" [ref=e16]:
+            - /url: https://open.feishu.cn/solutions?lang=zh-CN
+        - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+          - link "应用中心" [ref=e19]:
+            - /url: https://app.feishu.cn/?lang=zh-CN
+        - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+          - link "开发文档" [ref=e22]:
+            - /url: https://open.feishu.cn/document?lang=zh-CN
+        - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+          - link "智能助手 AI 开发" [ref=e25]:
+            - /url: /app/ai/playground?from=nav
+            - generic [ref=e26]:
+              - generic [ref=e27]: 智能助手
+              - generic [ref=e29]:
+                - img [ref=e31]
+                - generic [ref=e33]: AI 开发
+    - generic [ref=e34]:
+      - generic [ref=e39]:
+        - img [ref=e42]
+        - textbox [ref=e45]:
+          - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+        - img [ref=e48]
+      - menu [ref=e50]:
+        - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+          - link "开发者后台" [ref=e53]:
+            - /url: /app
+            - button "开发者后台" [ref=e54]
+      - img [ref=e60] [cursor=pointer]
+  - generic [ref=e69]:
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - button [ref=e74] [cursor=pointer]:
+          - img [ref=e76]
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - img [ref=e82]
+            - img
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: WorkBuddy 助手
+              - generic [ref=e88]: 待上线
+            - generic [ref=e89]: 正式应用@用户735136的飞书
+      - alert [ref=e90]:
+        - img [ref=e93]
+        - generic [ref=e97]:
+          - generic [ref=e98]: 应用发布后，当前配置方可生效
+          - button "创建版本" [ref=e100] [cursor=pointer]
+    - generic [ref=e101]:
+      - generic [ref=e104]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: 事件与回调
+          - generic [ref=e111]:
+            - text: 订阅事件或回调后，飞书开放平台将会在事件（如机器人入群）发生时向请求地址推送消息。 注意：事件与回调的处理方式不同。订阅回调后，你需要立即返回响应内容，以反馈用户操作，而事件则不要求返回。
+            - link "了解更多" [ref=e112] [cursor=pointer]:
+              - /url: /document/uAjLw4CM/ukTMukTMukTM/event-subscription-guide/callback-subscription/callback-overview#726251d8
+            - generic [ref=e114]:
+              - button "收起介绍" [ref=e115] [cursor=pointer]:
+                - text: 收起介绍
+                - img [ref=e118]
+              - img "desc" [ref=e120] [cursor=pointer]
+        - generic [ref=e124]:
+          - generic [ref=e127] [cursor=pointer]: 事件配置
+          - generic [ref=e130] [cursor=pointer]: 回调配置
+          - generic [ref=e133] [cursor=pointer]: 加密策略
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: 更多
+                  - generic:
+                    - img
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e140]: 事件配置
+            - generic [ref=e141]:
+              - text: 订阅事件后，飞书开放平台将会在事件（如机器人入群）发生时向请求地址推送消息
+              - link "了解更多" [ref=e142] [cursor=pointer]:
+                - /url: /document/ukTMukTMukTM/uUTNz4SN1MjL1UzM
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e146]:
+                - generic [ref=e150]: 订阅方式
+                - generic [ref=e360]:
+                  - generic [ref=e361] [cursor=pointer]:
+                    - radio "使用 长连接 接收事件 推荐" [checked] [ref=e363]
+                    - generic [ref=e367]:
+                      - generic [ref=e368]: 使用
+                      - generic [ref=e369]: 长连接
+                      - generic [ref=e370]: 接收事件
+                      - generic [ref=e372]: 推荐
+                  - generic [ref=e373] [cursor=pointer]:
+                    - radio "将事件发送至 开发者服务器" [ref=e375]
+                    - generic [ref=e378]: 将事件发送至 开发者服务器
+              - generic [ref=e379]:
+                - generic [ref=e380]: 配置方式
+                - generic [ref=e381]:
+                  - text: 无需注册公网域名或配置加密策略，仅需使用
+                  - link "官方 SDK" [ref=e382] [cursor=pointer]:
+                    - /url: /document/ukTMukTMukTM/uETO1YjLxkTN24SM5UjN
+                  - text: 启动长连接飞书客户端，并确保连接成功后，即可开启该模式
+            - generic [ref=e383]:
+              - button "保存" [ref=e385] [cursor=pointer]
+              - button "取消" [ref=e387] [cursor=pointer]
+          - generic [ref=e159]:
+            - generic [ref=e161]: 已添加事件
+            - generic [ref=e163]:
+              - button "添加事件" [disabled]
+          - table [ref=e170]:
+            - rowgroup [ref=e176]:
+              - row "事件名称 订阅类型 所需权限（开通以下任一权限即可） 操作" [ref=e177]:
+                - columnheader "事件名称" [ref=e178]:
+                  - generic [ref=e180]: 事件名称
+                - columnheader "订阅类型" [ref=e181]:
+                  - generic [ref=e184]:
+                    - text: 订阅类型
+                    - img [ref=e186]
+                - columnheader "所需权限（开通以下任一权限即可）" [ref=e188]:
+                  - generic [ref=e190]: 所需权限（开通以下任一权限即可）
+                - columnheader "操作" [ref=e191]:
+                  - generic [ref=e193]: 操作
+            - rowgroup [ref=e194]:
+              - row [ref=e195]:
+                - cell [ref=e196]
+          - generic [ref=e197]:
+            - img [ref=e199]
+            - generic [ref=e200]: 暂无数据
+      - menu [ref=e204]:
+        - listitem [ref=e205]:
+          - list [ref=e206]:
+            - menuitem "凭证与基础信息" [ref=e207] [cursor=pointer]:
+              - img [ref=e210]
+              - generic:
+                - link "凭证与基础信息":
+                  - /url: /app/cli_a94988053b789cc6/baseinfo
+                  - generic [ref=e216]: 凭证与基础信息
+            - menuitem "协作者管理" [ref=e217] [cursor=pointer]:
+              - img [ref=e220]
+              - generic:
+                - link "协作者管理":
+                  - /url: /app/cli_a94988053b789cc6/developers
+                  - generic [ref=e227]: 协作者管理
+            - listitem [ref=e228]
+        - listitem [ref=e229]:
+          - list [ref=e230]:
+            - menuitem "添加应用能力" [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+              - generic:
+                - link "添加应用能力":
+                  - /url: /app/cli_a94988053b789cc6/capability
+                  - generic [ref=e242]: 添加应用能力
+            - menuitem "机器人" [ref=e243] [cursor=pointer]:
+              - img [ref=e246]
+              - generic:
+                - link "机器人":
+                  - /url: /app/cli_a94988053b789cc6/bot
+                  - generic [ref=e256]: 机器人
+            - listitem [ref=e257]
+        - listitem [ref=e258]:
+          - list [ref=e259]:
+            - menuitem "权限管理" [ref=e260] [cursor=pointer]:
+              - img [ref=e263]
+              - generic:
+                - link "权限管理":
+                  - /url: /app/cli_a94988053b789cc6/auth
+                  - generic [ref=e269]: 权限管理
+            - menuitem "事件与回调" [ref=e270] [cursor=pointer]:
+              - img [ref=e273]
+              - generic:
+                - link "事件与回调":
+                  - /url: /app/cli_a94988053b789cc6/event
+                  - generic [ref=e279]: 事件与回调
+            - menuitem "安全设置" [ref=e280] [cursor=pointer]:
+              - img [ref=e283]
+              - generic:
+                - link "安全设置":
+                  - /url: /app/cli_a94988053b789cc6/safe
+                  - generic [ref=e289]: 安全设置
+            - menuitem "测试企业和人员" [ref=e290] [cursor=pointer]:
+              - img [ref=e293]
+              - generic:
+                - link "测试企业和人员":
+                  - /url: /app/cli_a94988053b789cc6/test
+                  - generic [ref=e302]: 测试企业和人员
+            - listitem [ref=e303]
+        - listitem [ref=e304]:
+          - list [ref=e305]:
+            - menuitem "版本管理与发布" [ref=e306] [cursor=pointer]:
+              - img [ref=e309]
+              - generic:
+                - link "版本管理与发布":
+                  - /url: /app/cli_a94988053b789cc6/version
+                  - generic [ref=e316]: 版本管理与发布
+            - listitem [ref=e317]
+        - listitem [ref=e318]:
+          - list [ref=e319]:
+            - menuitem "日志检索" [ref=e320] [cursor=pointer]:
+              - img [ref=e323]
+              - generic:
+                - link "日志检索":
+                  - /url: /app/cli_a94988053b789cc6/logs
+                  - generic [ref=e330]: 日志检索
+            - menuitem [ref=e331] [cursor=pointer]:
+              - img [ref=e334]
+  - generic:
+    - generic:
+      - generic:
+        - img
+      - text: 技术支持
+    - generic:
+      - generic:
+        - img
+      - text: 收起
+  - generic [ref=e340] [cursor=pointer]:
+    - img [ref=e342]
+    - text: 展开

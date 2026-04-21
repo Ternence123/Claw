@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI性格测试 - 100题完整版</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .progress-bar {
+            background: rgba(255,255,255,0.3);
+            border-radius: 20px;
+            height: 30px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+            height: 100%;
+            border-radius: 20px;
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+        
+        .question-counter {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .question-text {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .option {
+            padding: 18px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            font-size: 1.05em;
+            color: #555;
+        }
+        
+        .option:hover {
+            border-color: #667eea;
+            background: #f8f4ff;
+            transform: translateX(5px);
+        }
+        
+        .option.selected {
+            border-color: #667eea;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .option-letter {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .option.selected .option-letter {
+            background: rgba(255,255,255,0.3);
+            color: white;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+        
+        .btn {
+            flex: 1;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #666;
+        }
+        
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+        
+        /* 结果页面样式 */
+        .result-card {
+            text-align: center;
+        }
+        
+        .result-type {
+            font-size: 4em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 20px 0;
+        }
+        
+        .result-name {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .result-desc {
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.8;
+            margin: 20px 0;
+            text-align: left;
+            padding: 20px;
+            background: #f8f9ff;
+            border-radius: 12px;
+        }
+        
+        .dimension-results {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .dimension-item {
+            padding: 15px;
+            background: linear-gradient(135deg, #f8f9ff 0%, #e8f0ff 100%);
+            border-radius: 12px;
+        }
+        
+        .dimension-label {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .dimension-name {
+            font-size: 0.95em;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .dimension-bar {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        
+        .dimension-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        
+        .share-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .share-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(245, 87, 108, 0.4);
+        }
+        
+        /* 16种人格描述 */
+        .type-detail {
+            text-align: left;
+            margin-top: 30px;
+            padding: 25px;
+            background: #f8f9ff;
+            border-radius: 15px;
+        }
+        
+        .type-detail h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .type-detail ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .type-detail li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #555;
+        }
+        
+        .type-detail li::before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .question-text {
+                font-size: 1.1em;
+            }
+            
+            .dimension-results {
+                grid-template-columns: 1fr;
+            }
+            
+            .result-type {
+                font-size: 3em;
+            }
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔮 MBTI性格测试</h1>
+            <p>100题完整版 · 发现你的性格密码</p>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill">1/100</div>
+        </div>
+        
+        <!-- 测试页面 -->
+        <div id="testPage">
+            <div class="card">
+                <div class="question-counter" id="questionCounter">第 1 题</div>
+                <div class="question-text" id="questionText"></div>
+                <div class="options" id="optionsContainer"></div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary" id="prevBtn" onclick="prevQuestion()">上一题</button>
+                    <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">下一题</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 结果页面 -->
+        <div id="resultPage" class="hidden">
+            <div class="card result-card">
+                <h2>🎉 你的MBTI人格类型</h2>
+                <div class="result-type" id="resultType">INTJ</div>
+                <div class="result-name" id="resultName">建筑师</div>
+                
+                <div class="dimension-results" id="dimensionResults"></div>
+                
+                <div class="result-desc" id="resultDesc"></div>
+                
+                <div class="type-detail" id="typeDetail"></div>
+                
+                <button class="share-btn" onclick="shareResult()">📤 分享结果</button>
+                <button class="btn btn-secondary" onclick="restartTest()" style="margin-top:15px;width:100%">🔄 重新测试</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // MBTI题目数据 - 每维度25题
+        const questions = [
+            // ==================== E/I 维度 (1-25) ====================
+            { q: "在社交聚会上，你通常会？", opts: ["主动与陌生人攀谈", "等待别人来接近你", "看情况，有时主动有时等待", "不确定"], scores: [4,0,2,1] },
+            { q: "独处时，你会感到？", opts: ["有点无聊，希望有人陪伴", "非常放松和充电", "看心情", "不确定"], scores: [0,4,2,1] },
+            { q: "你更喜欢哪种工作方式？", opts: ["和团队一起头脑风暴", "独自安静地工作", "视任务而定", "不确定"], scores: [4,0,2,1] },
+            { q: "面对新朋友，你会？", opts: ["很快就熟络起来", "需要较长时间了解", "取决于对方性格", "不确定"], scores: [4,0,2,1] },
+            { q: "你的周末更喜欢？", opts: ["约朋友出去玩", "在家休息或独自活动", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "在会议上，你通常？", opts: ["积极发言，提出想法", "倾听为主，偶尔发言", "看话题感兴趣程度", "不确定"], scores: [4,0,2,1] },
+            { q: "你获得能量的方式是？", opts: ["和他人互动交流", "独处思考", "视情况而定", "不确定"], scores: [0,4,2,1] },
+            { q: "你喜欢什么样的娱乐方式？", opts: ["参加派对、KTV等热闹活动", "看书、看电影等安静活动", "两者都喜欢", "不确定"], scores: [4,0,2,1] },
+            { q: "当遇到问题时，你会？", opts: ["第一时间找人讨论", "自己思考解决方案", "看问题类型", "不确定"], scores: [4,0,2,1] },
+            { q: "你更擅长？", opts: ["即时口头沟通", "书面沟通", "两者差不多", "不确定"], scores: [4,0,2,1] },
+            { q: "旅行时，你更喜欢？", opts: ["结伴旅行", "独自旅行", "两种都想尝试", "不确定"], scores: [4,0,2,1] },
+            { q: "你在陌生人面前？", opts: ["很快就能打开话题", "显得比较拘谨", "看场合氛围", "不确定"], scores: [4,0,2,1] },
+            { q: "下班后，你更想？", opts: ["和同事朋友去聚餐", "回家安静地休息", "看当天状态", "不确定"], scores: [4,0,2,1] },
+            { q: "你喜欢哪种学习方式？", opts: ["小组讨论学习", "独自阅读研究", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你觉得自己是？", opts: ["外向开朗的", "内向沉稳的", "都可以切换", "不确定"], scores: [4,0,2,1] },
+            { q: "接到电话时，你会？", opts: ["愿意接听并畅谈", "能不发就不发", "看是谁打的", "不确定"], scores: [4,0,2,1] },
+            { q: "你更享受哪种谈话？", opts: ["多人热烈讨论", "一对一深度交流", "都很享受", "不确定"], scores: [4,2,3,1] },
+            { q: "在人群中，你往往？", opts: ["吸引他人注意", "保持低调", "看情况", "不确定"], scores: [4,0,2,1] },
+            { q: "你认识新朋友的方式是？", opts: ["主动出击", "通过共同朋友介绍", "顺其自然", "不确定"], scores: [4,0,2,1] },
+            { q: "休闲时，你更倾向于？", opts: ["安排丰富的社交活动", "做自己喜欢的事", "看心情", "不确定"], scores: [4,0,2,1] },
+            { q: "你在课堂上？", opts: ["喜欢举手发言", "认真听讲不发言", "看内容是否有共鸣", "不确定"], scores: [4,0,2,1] },
+            { q: "你觉得自己像什么？", opts: ["人群中的中心人物", "安静观察者", "都可以", "不确定"], scores: [4,0,2,1] },
+            { q: "你表达情感的方式？", opts: ["直接表达", "含蓄内敛", "看场合", "不确定"], scores: [4,0,2,1] },
+            { q: "你喜欢的工作环境？", opts: ["开放热闹的办公室", "安静独立的办公空间", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "朋友对你的评价是？", opts: ["社交达人", "可靠的朋友", "两者兼具", "不确定"], scores: [4,0,2,1] },
+            
+            // ==================== S/N 维度 (26-50) ====================
+            { q: "你更关注？", opts: ["具体的事实和数据", "抽象的概念和可能性", "两者都重要", "不确定"], scores: [4,0,2,1] },
+            { q: "你看小说的方式是？", opts: ["喜欢看细节描写", "关注故事背后的意义", "两者都喜欢", "不确定"], scores: [4,0,2,1] },
+            { q: "面对问题时，你更注重？", opts: ["眼前的实际情况", "未来可能的发展", "两者都要考虑", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢哪种类型的电影？", opts: ["写实剧情片", "科幻奇幻片", "都喜欢", "不确定"], scores: [4,0,2,1] },
+            { q: "学习新事物时，你更看重？", opts: ["具体的操作方法", "背后的原理和联系", "两者都要学", "不确定"], scores: [4,0,2,1] },
+            { q: "你思考问题时？", opts: ["关注已知的事实", "思考各种可能性", "视情况而定", "不确定"], scores: [4,0,2,1] },
+            { q: "你更相信？", opts: ["亲眼所见的事实", "直觉和第六感", "两者结合判断", "不确定"], scores: [4,0,2,1] },
+            { q: "你描述事物时？", opts: ["详细具体", "简洁概括", "看对象", "不确定"], scores: [4,0,2,1] },
+            { q: "你被什么所吸引？", opts: ["实际的、有用的东西", "有趣的、有创意的东西", "两者都有", "不确定"], scores: [4,0,2,1] },
+            { q: "你更享受哪种对话？", opts: ["谈论具体的事情", "探讨未来的可能性", "都可以", "不确定"], scores: [4,0,2,1] },
+            { q: "你做事的方式？", opts: ["按部就班，循序渐进", "跳跃式思维，灵活应变", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你看重产品的？", opts: ["功能实用性", "设计创意性", "两者兼顾", "不确定"], scores: [4,0,2,1] },
+            { q: "你更擅长？", opts: ["记忆事实和细节", "理解抽象概念", "两者都不错", "不确定"], scores: [4,0,2,1] },
+            { q: "你做决定时更依赖？", opts: ["过去的经验", "未来的想象", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢哪种老师？", opts: ["讲授具体知识", "启发思考", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你关注的是？", opts: ["现在是什么", "可以成为什么", "两者都关注", "不确定"], scores: [4,0,2,1] },
+            { q: "你处理信息的方式？", opts: ["按部就班，逐一处理", "跳跃式联想", "看情况", "不确定"], scores: [4,0,2,1] },
+            { q: "你更感兴趣的是？", opts: ["具体如何运作", "为什么是这样", "两者都有", "不确定"], scores: [4,0,2,1] },
+            { q: "你看待世界的方式？", opts: ["务实、脚踏实地的", "充满想象力的", "两者兼具", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢阅读？", opts: ["事实报道、操作指南", "文学作品、哲学思考", "都喜欢", "不确定"], scores: [4,0,2,1] },
+            { q: "你解决问题时？", opts: ["使用已验证的方法", "尝试创新的方法", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你对经验的看法？", opts: ["宝贵的实践指导", "可能限制思维", "辩证看待", "不确定"], scores: [2,4,3,1] },
+            { q: "你更欣赏？", opts: ["务实的人", "有想象力的人", "两者兼具", "不确定"], scores: [4,0,2,1] },
+            { q: "你学习新概念时？", opts: ["需要具体例子", "喜欢抽象理解", "例子和理论都要", "不确定"], scores: [4,0,2,1] },
+            { q: "你思考人生的方式？", opts: ["活在当下", "憧憬未来", "把握现在，展望未来", "不确定"], scores: [4,0,3,1] },
+            
+            // ==================== T/F 维度 (51-75) ====================
+            { q: "做决定时，你更看重？", opts: ["逻辑和客观分析", "情感和人际关系", "两者兼顾", "不确定"], scores: [4,0,2,1] },
+            { q: "当朋友向你倾诉时，你更倾向于？", opts: ["给出建议和解决方案", "给予情感支持和安慰", "两者都有", "不确定"], scores: [4,0,2,1] },
+            { q: "你觉得自己是？", opts: ["理性的人", "感性的人", "两者兼具", "不确定"], scores: [4,0,2,1] },
+            { q: "面对冲突时，你会？", opts: ["坚持自己的原则", "考虑对方的感受", "视情况处理", "不确定"], scores: [4,0,2,1] },
+            { q: "你更认同哪种观点？", opts: ["对就是对，错就是错", "立场不同，对错也不同", "要看具体情况", "不确定"], scores: [4,0,2,1] },
+            { q: "你评价他人时，更看重？", opts: ["能力和成就", "品格和为人", "两者都重要", "不确定"], scores: [4,0,2,1] },
+            { q: "在辩论中，你更在意？", opts: ["论证的逻辑性", "对方的感受", "两者平衡", "不确定"], scores: [4,0,2,1] },
+            { q: "你更希望被称为？", opts: ["聪明的人", "善良的人", "两者兼具", "不确定"], scores: [4,0,2,1] },
+            { q: "处理问题时，你优先考虑？", opts: ["效率和结果", "大家的感受", "两者平衡", "不确定"], scores: [4,0,2,1] },
+            { q: "你做选择的依据是？", opts: ["分析利弊得失", "内心的感受", "综合考虑", "不确定"], scores: [4,0,2,1] },
+            { q: "你觉得规则？", opts: ["应该严格执行", "也要考虑人情", "具体情况具体分析", "不确定"], scores: [4,0,2,1] },
+            { q: "当你伤害了别人，你更在意？", opts: ["对方能否理解你的用意", "对方受到了什么伤害", "两者都会考虑", "不确定"], scores: [4,0,2,1] },
+            { q: "你更容易被什么打动？", opts: ["有力的论证", "真诚的表达", "两者都能打动", "不确定"], scores: [4,0,2,1] },
+            { q: "你更看重？", opts: ["公平公正", "和谐融洽", "公平基础上的和谐", "不确定"], scores: [4,0,2,1] },
+            { q: "面对批评，你更关注？", opts: ["批评是否合理有据", "批评者的态度", "两者都要看", "不确定"], scores: [4,0,2,1] },
+            { q: "你给建议的方式？", opts: ["直接指出问题", "委婉含蓄表达", "视对方性格调整", "不确定"], scores: [4,0,2,1] },
+            { q: "你认为什么是成功？", opts: ["达成目标和成就", "被人认可和喜爱", "两者兼具", "不确定"], scores: [4,0,2,1] },
+            { q: "你处理人际关系？", opts: ["讲原则，不徇私情", "重感情，愿意让步", "原则性和灵活性结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你更容易欣赏？", opts: ["逻辑清晰、理性的人", "善解人意、温暖的人", "两者兼具", "不确定"], scores: [4,0,2,1] },
+            { q: "面对不公正，你会？", opts: ["指出并纠正", "顾及各方感受后处理", "视情况决定", "不确定"], scores: [4,0,2,1] },
+            { q: "你更害怕？", opts: ["做出错误的决定", "伤害别人的感情", "两者都怕", "不确定"], scores: [4,0,2,1] },
+            { q: "你的沟通风格？", opts: ["直接、明确", "温和、体贴", "看场合", "不确定"], scores: [4,0,2,1] },
+            { q: "你做事的动力来自？", opts: ["完成任务本身", "帮助他人", "两者都有", "不确定"], scores: [4,0,2,1] },
+            { q: "你更看重？", opts: ["真相", "和谐", "两者都追求", "不确定"], scores: [4,0,2,1] },
+            { q: "你认为最重要的是？", opts: ["做正确的事", "做善良的事", "做正确且善良的事", "不确定"], scores: [4,0,2,1] },
+            
+            // ==================== J/P 维度 (76-100) ====================
+            { q: "你更喜欢？", opts: ["有计划、有安排", "灵活随性", "有基本计划但不僵化", "不确定"], scores: [4,0,2,1] },
+            { q: "你做事的风格？", opts: ["先计划再行动", "边做边调整", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你的房间/办公桌通常？", opts: ["整洁有序", "随意自然", "表面随意实则有规律", "不确定"], scores: [4,0,2,1] },
+            { q: "你更享受？", opts: ["按计划完成任务", "意外惊喜和变化", "两者都可以", "不确定"], scores: [4,0,2,1] },
+            { q: "面对截止日期，你会？", opts: ["提前规划，按时完成", "最后时刻冲刺完成", "视情况", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢的生活？", opts: ["有规律、有节奏", "充满新鲜感", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你做决定的速度？", opts: ["快速果断", "深思熟虑", "视情况", "不确定"], scores: [2,4,3,1] },
+            { q: "你对日程安排的态度？", opts: ["严格遵守", "随时可以改变", "作为参考", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢？", opts: ["按清单做事", "随心情选择", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你如何处理多任务？", opts: ["逐一完成再下一个", "同时处理多个", "视任务性质决定", "不确定"], scores: [4,0,2,1] },
+            { q: "你出门前会？", opts: ["提前规划好一切", "大概准备就走", "临时决定", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢的工作节奏？", opts: ["有序稳定", "多变灵活", "有序中的灵活", "不确定"], scores: [4,0,2,1] },
+            { q: "你对待规则的态度？", opts: ["遵守并希望他人也遵守", "灵活理解", "具体情况具体分析", "不确定"], scores: [4,0,2,1] },
+            { q: "你的周末安排？", opts: ["早就计划好了", "看当天心情", "有大致计划但可调整", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢哪种约会方式？", opts: ["提前安排好行程", "随心所欲走到哪算哪", "有大致计划", "不确定"], scores: [4,0,2,1] },
+            { q: "你整理东西的方式？", opts: ["分类明确，随取随放", "用完再整理", "视物品而定", "不确定"], scores: [4,0,2,1] },
+            { q: "你对待计划被打乱？", opts: ["很不舒服", "无所谓，灵活应对", "有点小遗憾但能接受", "不确定"], scores: [4,0,2,1] },
+            { q: "你更擅长？", opts: ["制定计划", "随机应变", "两者都不错", "不确定"], scores: [4,0,2,1] },
+            { q: "你对时间的态度？", opts: ["非常准时", "大概准时就行", "准时很重要但理解迟到", "不确定"], scores: [4,0,2,1] },
+            { q: "你更喜欢哪种旅行？", opts: ["行程满满的充实旅行", "悠闲随性的自由行", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你做项目的风格？", opts: ["详细规划分阶段完成", "边做边想迭代优化", "两者结合", "不确定"], scores: [4,0,2,1] },
+            { q: "你的生活态度？", opts: ["有目标、有方向", "活在当下", "有方向但不执着", "不确定"], scores: [4,0,2,1] },
+            { q: "你应对变化的能力？", opts: ["喜欢稳定，害怕变化", "拥抱变化", "适应变化但有偏好", "不确定"], scores: [4,0,2,1] },
+            { q: "你更看重？", opts: ["计划性", "适应性", "两者平衡", "不确定"], scores: [4,0,2,1] },
+            { q: "你认为自己是一个？", opts: ["有条理的人", "随性的人", "有原则但灵活", "不确定"], scores: [4,0,2,1] }
+        ];
+        
+        // 16种人格类型描述
+        const typeDescriptions = {
+            "INTJ": { name: "建筑师", desc: "富有想象力和战略性的思想家，一切都在他们的计划之中。" },
+            "INTP": { name: "逻辑学家", desc: "具有纯粹逻辑的创新发明家，对知识充满渴望。" },
+            "ENTJ": { name: "指挥官", desc: "大胆、富有想象力且意志坚强的领导者。" },
+            "ENTP": { name: "辩论家", desc: "聪明好奇的思考者，不会放过任何一个机会。" },
+            "INFJ": { name: "提倡者", desc: "安静而神秘，鼓舞人心且不知疲倦地追求理想。" },
+            "INFP": { name: "调停者", desc: "诗意、善良的利他主义者，总是热情地为正义而战。" },
+            "ENFJ": { name: "主人公", desc: "富有魅力鼓舞人心的领导者，有感染力的正能量。" },
+            "ENFP": { name: "竞选者", desc: "热情洋溢、富有创意的社交达人，总能找到理由微笑。" },
+            "ISTJ": { name: "物流师", desc: "实际且注重事实可信的决策者，不屈不挠。" },
+            "ISFJ": { name: "守护者", desc: "非常专注而温暖的保护者，随时准备保护所爱的人。" },
+            "ESTJ": { name: "总经理", desc: "出色的管理者，在商业或教育方面表现出色。" },
+            "ESFJ": { name: "执政官", desc: "非常体贴的热心者，总是热心帮助需要帮助的人。" },
+            "ISTP": { name: "鉴赏家", desc: "大胆而实用的实验家，擅长任何感兴趣的事物。" },
+            "ISFP": { name: "探险家", desc: "灵活迷人的艺术家，时刻准备探索和体验新事物。" },
+            "ESTP": { name: "企业家", desc: "聪明、精力充沛的冒险者，擅长实时解决问题。" },
+            "ESFP": { name: "表演者", desc: "自发的、精力充沛的表演者，最耀眼的存在。" }
+        };
+        
+        // 详细特征描述
+        const typeDetails = {
+            "INTJ": {
+                strengths: ["战略思维能力强", "独立自主", "高标准追求完美", "理性客观"],
+                careers: ["科学家", "工程师", "律师", "战略顾问", "教授"],
+                relationships: "喜欢深度对话，对表面寒暄不感兴趣。寻找能跟上思维节奏的伴侣。"
+            },
+            "INTP": {
+                strengths: ["逻辑分析能力强", "创新能力突出", "思想深邃", "客观公正"],
+                careers: ["哲学家", "研究员", "软件工程师", "经济学家", "数学家"],
+                relationships: "需要理解和支持他们探索未知世界的伴侣，重视智识交流。"
+            },
+            "ENTJ": {
+                strengths: ["天生的领导者", "决策果断", "效率至上", "目标导向"],
+                careers: ["CEO", "企业家", "律师", "管理顾问", "政治家"],
+                relationships: "欣赏能干的伴侣，不喜欢被动或犹豫不决的人。"
+            },
+            "ENTP": {
+                strengths: ["思维敏捷", "善于辩论", "富有创造力", "适应力强"],
+                careers: ["企业家", "律师", "记者", "营销顾问", "创意总监"],
+                relationships: "喜欢思想碰撞，寻找能跟上辩论节奏的聪明伴侣。"
+            },
+            "INFJ": {
+                strengths: ["洞察力强", "有理想主义", "忠诚可靠", "富有同理心"],
+                careers: ["心理咨询师", "作家", "教师", "社会工作者", "艺术家"],
+                relationships: "渴望深度连接，寻找能理解他们内心世界的灵魂伴侣。"
+            },
+            "INFP": {
+                strengths: ["理想主义", "创造力强", "同理心强", "适应力好"],
+                careers: ["作家", "艺术家", "心理咨询师", "社会工作者", "教师"],
+                relationships: "寻找志同道合的伴侣，重视价值观的一致性。"
+            },
+            "ENFJ": {
+                strengths: ["领导力强", "有感染力", "善于沟通", "富有魅力"],
+                careers: ["教师", "销售经理", "人力资源经理", "政治家", "培训师"],
+                relationships: "是天生的红娘，喜欢帮助他人成长和建立关系。"
+            },
+            "ENFP": {
+                strengths: ["热情洋溢", "富有想象力", "善于社交", "适应力强"],
+                careers: ["营销人员", "公关专家", "作家", "演员", "记者"],
+                relationships: "需要空间和自由，寻找能接受他们多变的伴侣。"
+            },
+            "ISTJ": {
+                strengths: ["责任心强", "诚实可靠", "注重细节", "执行力强"],
+                careers: ["会计", "律师", "医生", "军人", "公务员"],
+                relationships: "是可靠的伴侣，通过行动而非言语表达爱意。"
+            },
+            "ISFJ": {
+                strengths: ["温暖体贴", "勤劳可靠", "注重细节", "有责任感"],
+                careers: ["护士", "教师", "行政助理", "社会工作者", "图书管理员"],
+                relationships: "是默默付出的守护者，通过细心的照顾表达爱。"
+            },
+            "ESTJ": {
+                strengths: ["组织能力强", "执行力强", "诚实正直", "善于管理"],
+                careers: ["企业管理者", "军官", "法官", "房地产经纪人", "银行家"],
+                relationships: "传统且忠诚，是可靠的伴侣和家庭支柱。"
+            },
+            "ESFJ": {
+                strengths: ["善于社交", "有责任心", "热情友好", "有同理心"],
+                careers: ["销售代表", "公关人员", "护士", "教师", "人力资源"],
+                relationships: "喜欢照顾他人，是温暖体贴的伴侣和家人。"
+            },
+            "ISTP": {
+                strengths: ["理性冷静", "动手能力强", "善于分析", "适应力强"],
+                careers: ["工程师", "机械师", "飞行员", "运动员", "设计师"],
+                relationships: "需要空间和个人时间，通过行动而非言语表达关心。"
+            },
+            "ISFP": {
+                strengths: ["艺术气质", "敏感温柔", "观察力强", "适应力强"],
+                careers: ["艺术家", "设计师", "摄影师", "音乐家", "护士"],
+                relationships: "是浪漫的理想主义者，在亲密关系中需要空间。"
+            },
+            "ESTP": {
+                strengths: ["行动力强", "善于社交", "务实", "有冒险精神"],
+                careers: ["企业家", "销售", "经纪人", "运动员", "应急响应者"],
+                relationships: "活在当下，喜欢刺激和新鲜感，需要能跟上节奏的伴侣。"
+            },
+            "ESFP": {
+                strengths: ["活泼开朗", "富有表现力", "社交能力强", "热爱生活"],
+                careers: ["演员", "销售", "摄影师", "活动策划", "设计师"],
+                relationships: "是派对的生命力，寻找能欣赏他们热情的伴侣。"
+            }
+        };
+        
+        let currentQuestion = 0;
+        let answers = new Array(100).fill(-1);
+        let scores = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+        
+        function loadQuestion() {
+            const q = questions[currentQuestion];
+            document.getElementById('questionCounter').textContent = `第 ${currentQuestion + 1} 题`;
+            document.getElementById('questionText').textContent = q.q;
+            
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+            
+            const letters = ['A', 'B', 'C', 'D'];
+            q.opts.forEach((opt, idx) => {
+                const div = document.createElement('div');
+                div.className = 'option' + (answers[currentQuestion] === idx ? ' selected' : '');
+                div.innerHTML = `<span class="option-letter">${letters[idx]}</span>${opt}`;
+                div.onclick = () => selectOption(idx);
+                container.appendChild(div);
+            });
+            
+            // 更新进度条
+            const progress = ((currentQuestion + 1) / 100) * 100;
+            document.getElementById('progressFill').style.width = `${progress}%`;
+            document.getElementById('progressFill').textContent = `${currentQuestion + 1}/100`;
+            
+            // 更新按钮
+            document.getElementById('prevBtn').style.visibility = currentQuestion === 0 ? 'hidden' : 'visible';
+            document.getElementById('nextBtn').textContent = currentQuestion === 99 ? '查看结果' : '下一题';
+        }
+        
+        function selectOption(idx) {
+            answers[currentQuestion] = idx;
+            loadQuestion();
+        }
+        
+        function nextQuestion() {
+            if (answers[currentQuestion] === -1) {
+                alert('请选择一个选项');
+                return;
+            }
+            
+            if (currentQuestion < 99) {
+                currentQuestion++;
+                loadQuestion();
+            } else {
+                showResult();
+            }
+        }
+        
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                loadQuestion();
+            }
+        }
+        
+        function calculateResult() {
+            // 重置分数
+            scores = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+            
+            // 计算E/I分数 (0-24题)
+            for (let i = 0; i < 25; i++) {
+                if (answers[i] !== -1) {
+                    scores.E += questions[i].scores[answers[i]];
+                }
+            }
+            scores.I = 100 - scores.E;
+            
+            // 计算S/N分数 (25-49题)
+            for (let i = 25; i < 50; i++) {
+                if (answers[i] !== -1) {
+                    scores.N += questions[i].scores[answers[i]];
+                }
+            }
+            scores.S = 100 - scores.N;
+            
+            // 计算T/F分数 (50-74题)
+            for (let i = 50; i < 75; i++) {
+                if (answers[i] !== -1) {
+                    scores.F += questions[i].scores[answers[i]];
+                }
+            }
+            scores.T = 100 - scores.F;
+            
+            // 计算J/P分数 (75-99题)
+            for (let i = 75; i < 100; i++) {
+                if (answers[i] !== -1) {
+                    scores.P += questions[i].scores[answers[i]];
+                }
+            }
+            scores.J = 100 - scores.P;
+        }
+        
+        function showResult() {
+            calculateResult();
+            
+            // 确定类型
+            let type = '';
+            type += scores.E > scores.I ? 'E' : 'I';
+            type += scores.S > scores.N ? 'S' : 'N';
+            type += scores.T > scores.F ? 'T' : 'F';
+            type += scores.J > scores.P ? 'J' : 'P';
+            
+            // 更新UI
+            document.getElementById('testPage').classList.add('hidden');
+            document.getElementById('resultPage').classList.remove('hidden');
+            document.getElementById('resultType').textContent = type;
+            
+            const typeInfo = typeDescriptions[type];
+            document.getElementById('resultName').textContent = typeInfo.name;
+            document.getElementById('resultDesc').textContent = typeInfo.desc;
+            
+            // 维度结果
+            const dimResults = document.getElementById('dimensionResults');
+            dimResults.innerHTML = `
+                <div class="dimension-item">
+                    <div class="dimension-label">${scores.E > 50 ? 'E' : 'I'}</div>
+                    <div class="dimension-name">外向 vs 内向</div>
+                    <div class="dimension-bar"><div class="dimension-fill" style="width: ${Math.max(scores.E, scores.I)}%"></div></div>
+                </div>
+                <div class="dimension-item">
+                    <div class="dimension-label">${scores.S > 50 ? 'S' : 'N'}</div>
+                    <div class="dimension-name">感觉 vs 直觉</div>
+                    <div class="dimension-bar"><div class="dimension-fill" style="width: ${Math.max(scores.S, scores.N)}%"></div></div>
+                </div>
+                <div class="dimension-item">
+                    <div class="dimension-label">${scores.T > 50 ? 'T' : 'F'}</div>
+                    <div class="dimension-name">思考 vs 情感</div>
+                    <div class="dimension-bar"><div class="dimension-fill" style="width: ${Math.max(scores.T, scores.F)}%"></div></div>
+                </div>
+                <div class="dimension-item">
+                    <div class="dimension-label">${scores.J > 50 ? 'J' : 'P'}</div>
+                    <div class="dimension-name">判断 vs 知觉</div>
+                    <div class="dimension-bar"><div class="dimension-fill" style="width: ${Math.max(scores.J, scores.P)}%"></div></div>
+                </div>
+            `;
+            
+            // 详细特征
+            const detail = typeDetails[type];
+            document.getElementById('typeDetail').innerHTML = `
+                <h3>💪 核心优势</h3>
+                <ul>${detail.strengths.map(s => `<li>${s}</li>`).join('')}</ul>
+                <h3>💼 适合职业</h3>
+                <ul>${detail.careers.map(c => `<li>${c}</li>`).join('')}</ul>
+                <h3>💕 人际关系</h3>
+                <p>${detail.relationships}</p>
+            `;
+        }
+        
+        function shareResult() {
+            const type = document.getElementById('resultType').textContent;
+            const name = document.getElementById('resultName').textContent;
+            const text = `我的MBTI测试结果是：${type}（${name}）！你也来测测看吧~ 🔮`;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: 'MBTI性格测试',
+                    text: text
+                });
+            } else {
+                navigator.clipboard.writeText(text).then(() => {
+                    alert('结果已复制到剪贴板！');
+                });
+            }
+        }
+        
+        function restartTest() {
+            currentQuestion = 0;
+            answers = new Array(100).fill(-1);
+            scores = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+            document.getElementById('resultPage').classList.add('hidden');
+            document.getElementById('testPage').classList.remove('hidden');
+            loadQuestion();
+        }
+        
+        // 初始化
+        loadQuestion();
+    </script>
+</body>
+</html>

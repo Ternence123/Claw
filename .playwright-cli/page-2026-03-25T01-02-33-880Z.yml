@@ -1,0 +1,187 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "lark" [ref=e11] [cursor=pointer]:
+        - /url: https://open.feishu.cn/?lang=zh-CN
+        - img "lark" [ref=e12]
+      - menu [ref=e13]:
+        - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+          - link "客户案例" [ref=e16]:
+            - /url: https://open.feishu.cn/solutions?lang=zh-CN
+        - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+          - link "应用中心" [ref=e19]:
+            - /url: https://app.feishu.cn/?lang=zh-CN
+        - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+          - link "开发文档" [ref=e22]:
+            - /url: https://open.feishu.cn/document?lang=zh-CN
+        - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+          - link "智能助手 AI 开发" [ref=e25]:
+            - /url: /app/ai/playground?from=nav
+            - generic [ref=e26]:
+              - generic [ref=e27]: 智能助手
+              - generic [ref=e29]:
+                - img [ref=e31]
+                - generic [ref=e33]: AI 开发
+    - generic [ref=e34]:
+      - generic [ref=e39]:
+        - img [ref=e42]
+        - textbox [ref=e45]:
+          - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+        - img [ref=e48]
+      - menu [ref=e50]:
+        - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+          - link "开发者后台" [ref=e53]:
+            - /url: /app
+            - button "开发者后台" [ref=e54]
+      - img [ref=e60] [cursor=pointer]
+  - generic [ref=e324]:
+    - generic [ref=e326]:
+      - generic [ref=e327]:
+        - button [ref=e329] [cursor=pointer]:
+          - img [ref=e331]
+        - generic [ref=e334]:
+          - generic [ref=e336]:
+            - img [ref=e337]
+            - img
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - generic [ref=e340]: WorkBuddy 助手
+              - generic [ref=e343]: 待上线
+            - generic [ref=e344]: 正式应用@用户735136的飞书
+      - alert [ref=e345]:
+        - img [ref=e348]
+        - generic [ref=e352]:
+          - generic [ref=e353]: 应用发布后，当前配置方可生效
+          - button "创建版本" [ref=e355] [cursor=pointer]
+    - generic [ref=e356]:
+      - generic [ref=e654]:
+        - generic [ref=e655]:
+          - generic [ref=e656]: 机器人
+          - button "删除能力" [ref=e658] [cursor=pointer]
+          - generic [ref=e659]:
+            - text: 与用户在聊天中交互的应用，可以向用户或群组自动发送消息、响应用户的消息、管理群组
+            - link "如何开发" [ref=e660] [cursor=pointer]:
+              - /url: /document/uAjLw4CM/ukTMukTMukTM/bot-v3/bot-overview
+          - button "查看能力介绍" [ref=e662] [cursor=pointer]:
+            - img [ref=e665]
+            - text: 查看能力介绍
+        - alert [ref=e667]:
+          - img [ref=e669]
+          - generic [ref=e672]:
+            - generic [ref=e674]: 注意：为了使机器人具有收发消息的基础功能，请在“权限管理”面板中开通以下权限：
+            - generic [ref=e677]:
+              - text: 获取与发送单聊、群组消息：开通该权限后，机器人可以向用户发送单聊消息，或向机器人所在的群聊发送群消息；添加“接收消息”事件（前往“事件与回调”...
+              - button "展开详情" [ref=e678] [cursor=pointer]
+        - generic [ref=e679]: 机器人配置
+        - generic [ref=e680]:
+          - generic [ref=e682]:
+            - generic [ref=e683]: 如何开始使用
+            - button [ref=e686] [cursor=pointer]:
+              - img [ref=e688]
+          - generic [ref=e697]: 暂无
+        - generic [ref=e698]: 消息卡片回调请求方式
+        - generic [ref=e699]:
+          - text: 卡片回调能力已全新升级，你可以前往
+          - button "“事件与回调”" [ref=e700] [cursor=pointer]
+          - text: 添加卡片的“卡片回传交互”回调，以接收与事件订阅结构一致、加密策略一致的回调服务。若你的服务端逻辑需继续使用旧版的卡片回调能力，可添加“卡片回传交互（旧版）”回调
+          - button "去配置" [ref=e701] [cursor=pointer]
+        - generic [ref=e703]:
+          - generic [ref=e704]:
+            - generic [ref=e705]:
+              - generic [ref=e706]: 机器人自定义菜单
+              - button [ref=e709] [cursor=pointer]:
+                - img [ref=e711]
+            - generic [ref=e714]:
+              - text: 开启机器人菜单能力后，用户可以在与机器人的单聊中访问菜单，更高效地使用机器人功能
+              - link "了解更多" [ref=e715] [cursor=pointer]:
+                - /url: /document/uAjLw4CM/ukTMukTMukTM/bot-v3/bot-customized-menu
+          - img [ref=e718]
+      - menu [ref=e531]:
+        - listitem [ref=e532]:
+          - list [ref=e533]:
+            - menuitem "凭证与基础信息" [ref=e534] [cursor=pointer]:
+              - img [ref=e719]
+              - generic:
+                - link "凭证与基础信息":
+                  - /url: /app/cli_a94988053b789cc6/baseinfo
+                  - generic [ref=e543]: 凭证与基础信息
+            - menuitem "协作者管理" [ref=e544] [cursor=pointer]:
+              - img [ref=e723]
+              - generic:
+                - link "协作者管理":
+                  - /url: /app/cli_a94988053b789cc6/developers
+                  - generic [ref=e554]: 协作者管理
+            - listitem [ref=e555]
+        - listitem [ref=e556]:
+          - list [ref=e557]:
+            - menuitem "添加应用能力" [ref=e558] [cursor=pointer]:
+              - img [ref=e728]
+              - generic:
+                - link "添加应用能力":
+                  - /url: /app/cli_a94988053b789cc6/capability
+                  - generic [ref=e569]: 添加应用能力
+            - menuitem "机器人" [ref=e734] [cursor=pointer]:
+              - img [ref=e737]
+              - generic:
+                - link "机器人":
+                  - /url: /app/cli_a94988053b789cc6/bot
+                  - generic [ref=e747]: 机器人
+            - listitem [ref=e748]
+        - listitem [ref=e571]:
+          - list [ref=e572]:
+            - menuitem "权限管理" [ref=e573] [cursor=pointer]:
+              - img [ref=e749]
+              - generic:
+                - link "权限管理":
+                  - /url: /app/cli_a94988053b789cc6/auth
+                  - generic [ref=e582]: 权限管理
+            - menuitem "事件与回调" [ref=e583] [cursor=pointer]:
+              - img [ref=e753]
+              - generic:
+                - link "事件与回调":
+                  - /url: /app/cli_a94988053b789cc6/event
+                  - generic [ref=e592]: 事件与回调
+            - menuitem "安全设置" [ref=e593] [cursor=pointer]:
+              - img [ref=e757]
+              - generic:
+                - link "安全设置":
+                  - /url: /app/cli_a94988053b789cc6/safe
+                  - generic [ref=e602]: 安全设置
+            - menuitem "测试企业和人员" [ref=e603] [cursor=pointer]:
+              - img [ref=e761]
+              - generic:
+                - link "测试企业和人员":
+                  - /url: /app/cli_a94988053b789cc6/test
+                  - generic [ref=e615]: 测试企业和人员
+            - listitem [ref=e616]
+        - listitem [ref=e617]:
+          - list [ref=e618]:
+            - menuitem "版本管理与发布" [ref=e619] [cursor=pointer]:
+              - img [ref=e768]
+              - generic:
+                - link "版本管理与发布":
+                  - /url: /app/cli_a94988053b789cc6/version
+                  - generic [ref=e629]: 版本管理与发布
+            - listitem [ref=e630]
+        - listitem [ref=e631]:
+          - list [ref=e632]:
+            - menuitem "日志检索" [ref=e633] [cursor=pointer]:
+              - img [ref=e773]
+              - generic:
+                - link "日志检索":
+                  - /url: /app/cli_a94988053b789cc6/logs
+                  - generic [ref=e643]: 日志检索
+            - menuitem [ref=e644] [cursor=pointer]:
+              - img [ref=e778]
+  - generic:
+    - generic:
+      - generic:
+        - img
+      - text: 技术支持
+    - generic:
+      - generic:
+        - img
+      - text: 收起
+  - generic [ref=e181] [cursor=pointer]:
+    - img [ref=e183]
+    - text: 展开

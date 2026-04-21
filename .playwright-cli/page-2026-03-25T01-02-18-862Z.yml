@@ -1,0 +1,232 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - link "lark" [ref=e11] [cursor=pointer]:
+        - /url: https://open.feishu.cn/?lang=zh-CN
+        - img "lark" [ref=e12]
+      - menu [ref=e13]:
+        - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+          - link "客户案例" [ref=e16]:
+            - /url: https://open.feishu.cn/solutions?lang=zh-CN
+        - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+          - link "应用中心" [ref=e19]:
+            - /url: https://app.feishu.cn/?lang=zh-CN
+        - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+          - link "开发文档" [ref=e22]:
+            - /url: https://open.feishu.cn/document?lang=zh-CN
+        - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+          - link "智能助手 AI 开发" [ref=e25]:
+            - /url: /app/ai/playground?from=nav
+            - generic [ref=e26]:
+              - generic [ref=e27]: 智能助手
+              - generic [ref=e29]:
+                - img [ref=e31]
+                - generic [ref=e33]: AI 开发
+    - generic [ref=e34]:
+      - generic [ref=e39]:
+        - img [ref=e42]
+        - textbox [ref=e45]:
+          - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+        - img [ref=e48]
+      - menu [ref=e50]:
+        - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+          - link "开发者后台" [ref=e53]:
+            - /url: /app
+            - button "开发者后台" [ref=e54]
+      - img [ref=e60] [cursor=pointer]
+  - generic [ref=e324]:
+    - generic [ref=e326]:
+      - generic [ref=e327]:
+        - button [ref=e329] [cursor=pointer]:
+          - img [ref=e331]
+        - generic [ref=e334]:
+          - generic [ref=e336]:
+            - img [ref=e337]
+            - img
+          - generic [ref=e338]:
+            - generic [ref=e339]:
+              - generic [ref=e340]: WorkBuddy 助手
+              - generic [ref=e343]: 待上线
+            - generic [ref=e344]: 正式应用@用户735136的飞书
+      - alert [ref=e345]:
+        - img [ref=e348]
+        - generic [ref=e352]:
+          - generic [ref=e353]: 应用发布后，当前配置方可生效
+          - button "创建版本" [ref=e355] [cursor=pointer]
+    - generic [ref=e356]:
+      - generic [ref=e361]:
+        - generic [ref=e362]:
+          - generic [ref=e363]: 添加应用能力
+          - generic [ref=e364]:
+            - generic [ref=e365]: 1. 你可以根据实际需求，为应用开启能力。单个应用可开启多种能力，一个能力可用于一个或多个飞书场景。
+            - generic [ref=e366]:
+              - text: 2. 如果尚不确定需要添加什么能力，可切换至“按场景添加”，根据所需的业务场景选择能力。
+              - link "了解更多" [ref=e367] [cursor=pointer]:
+                - /url: /document/home/intro
+        - generic [ref=e368]:
+          - generic [ref=e371]:
+            - generic [ref=e374] [cursor=pointer]: 按能力添加
+            - generic [ref=e377] [cursor=pointer]:
+              - text: 按场景添加
+              - superscript [ref=e379]:
+                - generic [ref=e380]: new
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 更多
+                    - generic:
+                      - img
+          - generic [ref=e385]:
+            - generic [ref=e386]:
+              - generic [ref=e388]:
+                - img [ref=e390]
+                - generic [ref=e398]: 机器人
+              - generic [ref=e401]: 与用户在聊天中交互的应用，它可以向用户或群组自动发送消息，响应用户的消息，并能进行群组管理。
+              - button "添加" [ref=e403] [cursor=pointer]:
+                - img [ref=e406]
+                - text: 添加
+            - generic [ref=e408]:
+              - generic [ref=e410]:
+                - img [ref=e412]
+                - generic [ref=e415]: 网页应用
+              - generic [ref=e418]: 快速接入已有的网页应用，用户可以通过飞书客户端免登录快速进入。
+              - button "添加" [ref=e420] [cursor=pointer]:
+                - img [ref=e423]
+                - text: 添加
+            - generic [ref=e425]:
+              - generic [ref=e427]:
+                - img [ref=e429]
+                - generic [ref=e434]: 工作台小组件
+              - generic [ref=e437]: 将数据图表、图文资讯等信息通过小组件添加到工作台。
+              - button "添加" [ref=e439] [cursor=pointer]:
+                - img [ref=e442]
+                - text: 添加
+            - generic [ref=e444]:
+              - generic [ref=e446]:
+                - img [ref=e448]
+                - generic [ref=e453]: 云文档小组件
+                - generic [ref=e455]: 可添加多个
+              - generic [ref=e458]: 在云文档中扩展内容或者添加快捷操作。
+              - button "添加" [ref=e460] [cursor=pointer]:
+                - img [ref=e463]
+                - text: 添加
+            - generic [ref=e465]:
+              - generic [ref=e467]:
+                - img [ref=e469]
+                - generic [ref=e471]: 多维表格插件
+                - generic [ref=e473]: 可添加多个
+              - generic [ref=e475]: 在多维表格上制作视图、逻辑插件，让你的多维表格变得更强大。
+              - button "添加" [ref=e477] [cursor=pointer]:
+                - img [ref=e480]
+                - text: 添加
+            - generic [ref=e482]:
+              - generic [ref=e484]:
+                - img [ref=e486]
+                - generic [ref=e489]: 链接预览
+              - generic [ref=e492]: 应用能为注册的域名自定义链接预览，用户在飞书发送链接后，能在链接下方展示定义的预览内容。
+              - button "添加" [ref=e494] [cursor=pointer]:
+                - img [ref=e497]
+                - text: 添加
+            - generic [ref=e499]:
+              - generic [ref=e501]:
+                - img [ref=e503]
+                - generic [ref=e507]: 移动应用登录
+              - generic [ref=e510]: 移动应用可以通过飞书账号进行登录。
+              - button "添加" [ref=e512] [cursor=pointer]:
+                - img [ref=e515]
+                - text: 添加
+            - generic [ref=e517]:
+              - generic [ref=e519]:
+                - img [ref=e521]
+                - generic [ref=e523]: 原生集成应用
+              - generic [ref=e525]: 原生集成应用可以把原生 SDK 集成到飞书本地，并调用其中的对应方法，为用户提供原生交互体验。
+              - generic [ref=e527]:
+                - button "添加" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+                  - text: 添加
+      - menu [ref=e531]:
+        - listitem [ref=e532]:
+          - list [ref=e533]:
+            - menuitem "凭证与基础信息" [ref=e534] [cursor=pointer]:
+              - img [ref=e537]
+              - generic:
+                - link "凭证与基础信息":
+                  - /url: /app/cli_a94988053b789cc6/baseinfo
+                  - generic [ref=e543]: 凭证与基础信息
+            - menuitem "协作者管理" [ref=e544] [cursor=pointer]:
+              - img [ref=e547]
+              - generic:
+                - link "协作者管理":
+                  - /url: /app/cli_a94988053b789cc6/developers
+                  - generic [ref=e554]: 协作者管理
+            - listitem [ref=e555]
+        - listitem [ref=e556]:
+          - list [ref=e557]:
+            - menuitem "添加应用能力" [ref=e558] [cursor=pointer]:
+              - img [ref=e561]
+              - generic:
+                - link "添加应用能力":
+                  - /url: /app/cli_a94988053b789cc6/capability
+                  - generic [ref=e569]: 添加应用能力
+            - listitem [ref=e570]
+        - listitem [ref=e571]:
+          - list [ref=e572]:
+            - menuitem "权限管理" [ref=e573] [cursor=pointer]:
+              - img [ref=e576]
+              - generic:
+                - link "权限管理":
+                  - /url: /app/cli_a94988053b789cc6/auth
+                  - generic [ref=e582]: 权限管理
+            - menuitem "事件与回调" [ref=e583] [cursor=pointer]:
+              - img [ref=e586]
+              - generic:
+                - link "事件与回调":
+                  - /url: /app/cli_a94988053b789cc6/event
+                  - generic [ref=e592]: 事件与回调
+            - menuitem "安全设置" [ref=e593] [cursor=pointer]:
+              - img [ref=e596]
+              - generic:
+                - link "安全设置":
+                  - /url: /app/cli_a94988053b789cc6/safe
+                  - generic [ref=e602]: 安全设置
+            - menuitem "测试企业和人员" [ref=e603] [cursor=pointer]:
+              - img [ref=e606]
+              - generic:
+                - link "测试企业和人员":
+                  - /url: /app/cli_a94988053b789cc6/test
+                  - generic [ref=e615]: 测试企业和人员
+            - listitem [ref=e616]
+        - listitem [ref=e617]:
+          - list [ref=e618]:
+            - menuitem "版本管理与发布" [ref=e619] [cursor=pointer]:
+              - img [ref=e622]
+              - generic:
+                - link "版本管理与发布":
+                  - /url: /app/cli_a94988053b789cc6/version
+                  - generic [ref=e629]: 版本管理与发布
+            - listitem [ref=e630]
+        - listitem [ref=e631]:
+          - list [ref=e632]:
+            - menuitem "日志检索" [ref=e633] [cursor=pointer]:
+              - img [ref=e636]
+              - generic:
+                - link "日志检索":
+                  - /url: /app/cli_a94988053b789cc6/logs
+                  - generic [ref=e643]: 日志检索
+            - menuitem [ref=e644] [cursor=pointer]:
+              - img [ref=e647]
+  - generic:
+    - generic:
+      - generic:
+        - img
+      - text: 技术支持
+    - generic:
+      - generic:
+        - img
+      - text: 收起
+  - generic [ref=e181] [cursor=pointer]:
+    - img [ref=e183]
+    - text: 展开

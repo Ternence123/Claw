@@ -1,0 +1,296 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "lark" [ref=e11] [cursor=pointer]:
+          - /url: https://open.feishu.cn/?lang=zh-CN
+          - img "lark" [ref=e12]
+        - menu [ref=e13]:
+          - menuitem "客户案例" [ref=e14] [cursor=pointer]:
+            - link "客户案例" [ref=e16]:
+              - /url: https://open.feishu.cn/solutions?lang=zh-CN
+          - menuitem "应用中心" [ref=e17] [cursor=pointer]:
+            - link "应用中心" [ref=e19]:
+              - /url: https://app.feishu.cn/?lang=zh-CN
+          - menuitem "开发文档" [ref=e20] [cursor=pointer]:
+            - link "开发文档" [ref=e22]:
+              - /url: https://open.feishu.cn/document?lang=zh-CN
+          - menuitem "智能助手 AI 开发" [ref=e23] [cursor=pointer]:
+            - link "智能助手 AI 开发" [ref=e25]:
+              - /url: /app/ai/playground?from=nav
+              - generic [ref=e26]:
+                - generic [ref=e27]: 智能助手
+                - generic [ref=e29]:
+                  - img [ref=e31]
+                  - generic [ref=e33]: AI 开发
+      - generic [ref=e34]:
+        - generic [ref=e39]:
+          - img [ref=e42]
+          - textbox [ref=e45]:
+            - /placeholder: 你可以输入文档关键词、开发问题、Log ID、错误码
+          - img [ref=e48]
+        - menu [ref=e50]:
+          - menuitem "开发者后台" [ref=e51] [cursor=pointer]:
+            - link "开发者后台" [ref=e53]:
+              - /url: /app
+              - button "开发者后台" [ref=e54]
+        - img [ref=e60] [cursor=pointer]
+    - generic [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - button [ref=e74] [cursor=pointer]:
+            - img [ref=e76]
+          - generic [ref=e79]:
+            - generic [ref=e81]:
+              - img [ref=e82]
+              - img
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - generic [ref=e85]: WorkBuddy 助手
+                - generic [ref=e88]: 待上线
+              - generic [ref=e89]: 正式应用@用户735136的飞书
+        - alert [ref=e90]:
+          - img [ref=e93]
+          - generic [ref=e97]:
+            - generic [ref=e98]: 应用发布后，当前配置方可生效
+            - button "创建版本" [ref=e100] [cursor=pointer]
+      - generic [ref=e101]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]: 权限管理
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - text: 开通 API 权限后，应用才能以应用身份（tenant_access_token）或用户身份（user_access_token）调用飞书 API；以应用身份调用飞书 API 时，应用可能还需要申请对应的数据权限。
+                - link "了解更多" [ref=e112] [cursor=pointer]:
+                  - /url: /document/ukTMukTMukTM/uQjN3QjL0YzN04CN2cDN
+              - generic [ref=e113]:
+                - button "收起介绍" [ref=e114] [cursor=pointer]:
+                  - text: 收起介绍
+                  - img [ref=e117]
+                - img "desc" [ref=e119] [cursor=pointer]
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - button "开通权限" [ref=e124] [cursor=pointer]
+                - button "批量导入/导出权限" [ref=e126] [cursor=pointer]
+              - generic [ref=e127]:
+                - generic [ref=e129]:
+                  - generic [ref=e131]:
+                    - img [ref=e134]
+                    - textbox [ref=e137]:
+                      - /placeholder: 例如：获取群组信息、im:chat:readonly
+                    - img [ref=e140]
+                  - generic [ref=e143] [cursor=pointer]:
+                    - generic [ref=e144]:
+                      - generic [ref=e145]: 权限名称
+                      - generic:
+                        - combobox
+                    - img [ref=e148]
+                - generic [ref=e152] [cursor=pointer]:
+                  - generic: 业务模块
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - combobox
+                  - img [ref=e155]
+                - generic [ref=e159] [cursor=pointer]:
+                  - generic: 权限类型
+                  - generic:
+                    - generic:
+                      - combobox
+                  - img [ref=e162]
+                - generic [ref=e166] [cursor=pointer]:
+                  - generic: 权限状态
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - combobox
+                  - img [ref=e169]
+            - generic [ref=e176]:
+              - table [ref=e179]:
+                - rowgroup [ref=e185]:
+                  - row "权限名称 权限类型 权限状态 可访问的数据范围 配置 操作" [ref=e186]:
+                    - columnheader "权限名称" [ref=e187]:
+                      - generic [ref=e189]: 权限名称
+                    - columnheader "权限类型" [ref=e190]:
+                      - generic [ref=e192]:
+                        - text: 权限类型
+                        - img [ref=e194]
+                    - columnheader "权限状态" [ref=e196]:
+                      - generic [ref=e198]: 权限状态
+                    - columnheader "可访问的数据范围 配置" [ref=e199]:
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: 可访问的数据范围
+                        - generic [ref=e204]:
+                          - button "配置" [disabled]:
+                            - text: 配置
+                            - generic:
+                              - img
+                    - columnheader "操作" [ref=e205]:
+                      - generic [ref=e207]: 操作
+              - generic [ref=e209]:
+                - img [ref=e211]
+                - generic [ref=e212]:
+                  - text: 暂未开通任何权限
+                  - button "去开通权限" [ref=e213] [cursor=pointer]
+        - menu [ref=e217]:
+          - listitem [ref=e218]:
+            - list [ref=e219]:
+              - menuitem "凭证与基础信息" [ref=e220] [cursor=pointer]:
+                - img [ref=e223]
+                - generic:
+                  - link "凭证与基础信息":
+                    - /url: /app/cli_a94988053b789cc6/baseinfo
+                    - generic [ref=e229]: 凭证与基础信息
+              - menuitem "协作者管理" [ref=e230] [cursor=pointer]:
+                - img [ref=e233]
+                - generic:
+                  - link "协作者管理":
+                    - /url: /app/cli_a94988053b789cc6/developers
+                    - generic [ref=e240]: 协作者管理
+              - listitem [ref=e241]
+          - listitem [ref=e242]:
+            - list [ref=e243]:
+              - menuitem "添加应用能力" [ref=e244] [cursor=pointer]:
+                - img [ref=e247]
+                - generic:
+                  - link "添加应用能力":
+                    - /url: /app/cli_a94988053b789cc6/capability
+                    - generic [ref=e255]: 添加应用能力
+              - menuitem "机器人" [ref=e256] [cursor=pointer]:
+                - img [ref=e259]
+                - generic:
+                  - link "机器人":
+                    - /url: /app/cli_a94988053b789cc6/bot
+                    - generic [ref=e269]: 机器人
+              - listitem [ref=e270]
+          - listitem [ref=e271]:
+            - list [ref=e272]:
+              - menuitem "权限管理" [ref=e273] [cursor=pointer]:
+                - img [ref=e276]
+                - generic:
+                  - link "权限管理":
+                    - /url: /app/cli_a94988053b789cc6/auth
+                    - generic [ref=e282]: 权限管理
+              - menuitem "事件与回调" [ref=e283] [cursor=pointer]:
+                - img [ref=e286]
+                - generic:
+                  - link "事件与回调":
+                    - /url: /app/cli_a94988053b789cc6/event
+                    - generic [ref=e292]: 事件与回调
+              - menuitem "安全设置" [ref=e293] [cursor=pointer]:
+                - img [ref=e296]
+                - generic:
+                  - link "安全设置":
+                    - /url: /app/cli_a94988053b789cc6/safe
+                    - generic [ref=e302]: 安全设置
+              - menuitem "测试企业和人员" [ref=e303] [cursor=pointer]:
+                - img [ref=e306]
+                - generic:
+                  - link "测试企业和人员":
+                    - /url: /app/cli_a94988053b789cc6/test
+                    - generic [ref=e315]: 测试企业和人员
+              - listitem [ref=e316]
+          - listitem [ref=e317]:
+            - list [ref=e318]:
+              - menuitem "版本管理与发布" [ref=e319] [cursor=pointer]:
+                - img [ref=e322]
+                - generic:
+                  - link "版本管理与发布":
+                    - /url: /app/cli_a94988053b789cc6/version
+                    - generic [ref=e329]: 版本管理与发布
+              - listitem [ref=e330]
+          - listitem [ref=e331]:
+            - list [ref=e332]:
+              - menuitem "日志检索" [ref=e333] [cursor=pointer]:
+                - img [ref=e336]
+                - generic:
+                  - link "日志检索":
+                    - /url: /app/cli_a94988053b789cc6/logs
+                    - generic [ref=e343]: 日志检索
+              - menuitem [ref=e344] [cursor=pointer]:
+                - img [ref=e347]
+    - generic:
+      - generic:
+        - generic:
+          - img
+        - text: 技术支持
+      - generic:
+        - generic:
+          - img
+        - text: 收起
+    - generic [ref=e353] [cursor=pointer]:
+      - img [ref=e355]
+      - text: 展开
+  - generic [active] [ref=e359]:
+    - dialog:
+      - generic [ref=e360]:
+        - generic [ref=e363]: 批量导入/导出权限
+        - button [ref=e364] [cursor=pointer]:
+          - img [ref=e366]
+        - generic [ref=e370]:
+          - generic [ref=e373]:
+            - generic [ref=e376] [cursor=pointer]: 导入
+            - generic [ref=e379] [cursor=pointer]: 导出
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: 更多
+                    - generic:
+                      - img
+          - generic [ref=e382]:
+            - generic [ref=e383]:
+              - generic [ref=e384]: 可按照以下格式导入数据，导入的权限将作为此次新增申请的权限，不会影响已申请或开通的权限
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]: JSON
+                  - generic [ref=e388]:
+                    - button "恢复默认值" [ref=e390] [cursor=pointer]
+                    - button "格式化 JSON" [ref=e392] [cursor=pointer]
+                - code [ref=e396]:
+                  - generic [ref=e397]:
+                    - generic [ref=e399]:
+                      - generic [ref=e400]:
+                        - generic [ref=e402] [cursor=pointer]: 
+                        - generic [ref=e403]: "1"
+                      - generic [ref=e404]:
+                        - generic [ref=e405] [cursor=pointer]: 
+                        - generic [ref=e406]: "2"
+                      - generic [ref=e407]:
+                        - generic [ref=e408] [cursor=pointer]: 
+                        - generic [ref=e409]: "3"
+                      - generic [ref=e411]: "4"
+                      - generic [ref=e413]: "5"
+                      - generic [ref=e415]: "6"
+                      - generic [ref=e416]:
+                        - generic [ref=e417] [cursor=pointer]: 
+                        - generic [ref=e418]: "7"
+                      - generic [ref=e420]: "8"
+                      - generic [ref=e422]: "9"
+                      - generic [ref=e424]: "10"
+                      - generic [ref=e426]: "11"
+                    - generic [ref=e459]:
+                      - generic [ref=e461]: "{"
+                      - generic [ref=e463]: "\"scopes\": {"
+                      - generic [ref=e465]: "\"tenant\": ["
+                      - generic [ref=e467]: "\"im:message:send_as_bot\","
+                      - generic [ref=e469]: "\"docx:document:readonly\""
+                      - generic [ref=e471]: "],"
+                      - generic [ref=e473]: "\"user\": ["
+                      - generic [ref=e475]: "\"docx:document:readonly\""
+                      - generic [ref=e477]: "]"
+                      - generic [ref=e479]: "}"
+                      - generic [ref=e481]: "}"
+                    - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=e483]: "{ \"scopes\": { \"tenant\": [ \"im:message:send_as_bot\", \"docx:document:readonly\" ], \"user\": [ \"docx:document:readonly\" ] }"
+            - text: 
+        - generic [ref=e494]:
+          - button "取消" [ref=e496] [cursor=pointer]
+          - button "下一步，确认新增权限" [ref=e498] [cursor=pointer]
+  - generic [ref=e499]:
+    - alert
+    - alert
+    - complementary
+    - complementary

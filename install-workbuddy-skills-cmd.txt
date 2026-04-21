@@ -1,0 +1,55 @@
+# WorkBuddy Skills 一键安装命令（纯文本版）
+# 复制以下全部内容，粘贴到新电脑 PowerShell 管理员窗口执行
+#
+# 使用说明：
+# 1. 先把旧电脑的 skills 文件夹拷贝到新电脑任意位置（如桌面）
+# 2. 修改下面第 2 行的 $SourceDir 为实际路径
+# 3. 完整复制所有内容，粘贴执行
+
+$SourceDir = "C:\Users\<新电脑用户名>\Desktop\skills"   # <-- 修改为实际路径
+$TargetDir = "$env:USERPROFILE\.workbuddy\skills"
+
+Write-Host "Source: $SourceDir"
+Write-Host "Target: $TargetDir"
+
+if (-not (Test-Path $SourceDir)) {
+    Write-Host "[ERROR] Source directory not found!" -ForegroundColor Red
+    exit 1
+}
+
+if (-not (Test-Path $TargetDir)) {
+    New-Item -ItemType Directory -Path $TargetDir -Force | Out-Null
+}
+
+$AllSkills = @(
+    "财报追踪","多引擎搜索","飞书套件","内容总结","市场调研",
+    "agent-browser-clawdbot","agent-browser-core","agent-browser-stagehand",
+    "agent-browser","agent-memory","agentmail","cos-vectors",
+    "Excel 文件处理","FBS-BookWriter","feishu-doc","find-skills",
+    "github","healthcheck","himalaya","humanizer","ima",
+    "lexiang-knowledge-base","nano-banana-pro","obsidian",
+    "openclaw-find-skills","openclaw-reminder","openclaw-tavily-search",
+    "PDF 文档生成","PPT 演示文稿","proactive-agent-lite",
+    "QQ邮箱","self-improving-agent-cn","skill-vetter",
+    "summarize-cli","summarize","tavily-search-darry",
+    "tavily-search-pro","tavily-search","weather",
+    "Word 文档生成","workbuddy-channel-setup","xiucheng-self-improving-agent"
+)
+
+$ok = 0; $skip = 0; $miss = 0
+
+foreach ($s in $AllSkills) {
+    $src = Join-Path $SourceDir $s
+    $dst = Join-Path $TargetDir $s
+    if (-not (Test-Path $src)) {
+        Write-Host "  [MISS] $s" -ForegroundColor Red; $miss++
+    } elseif (Test-Path $dst) {
+        Write-Host "  [SKIP] $s" -ForegroundColor Gray; $skip++
+    } else {
+        Copy-Item $src $dst -Recurse -Force
+        Write-Host "  [OK]   $s" -ForegroundColor Green; $ok++
+    }
+}
+
+Write-Host ""
+Write-Host "Done! Installed: $ok | Skipped: $skip | Missing: $miss" -ForegroundColor Cyan
