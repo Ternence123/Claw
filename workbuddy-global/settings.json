@@ -1,0 +1,17 @@
+{
+  "enabledPlugins": {
+    "agent-browser@codebuddy-plugins-official": true,
+    "playwright-cli@codebuddy-plugins-official": true,
+    "skills-sec-audit@codebuddy-plugins-official": true,
+    "find-skills@codebuddy-plugins-official": true,
+    "ppt-implement@cb_teams_marketplace": true,
+    "data@cb_teams_marketplace": true,
+    "product-management@cb_teams_marketplace": true,
+    "trading-assistant@cb_teams_marketplace": true,
+    "finance-data@cb_teams_marketplace": true,
+    "content-research-writer@codebuddy-plugins-official": true,
+    "business-analytics@codebuddy-plugins-official": true,
+    "atuin@codebuddy-plugins-official": true,
+    "document-skills@cb_teams_marketplace": true
+  }
+}

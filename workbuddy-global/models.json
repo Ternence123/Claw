@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "id": "deepseek-chat",
+      "name": "DeepSeek-V3.2 (Chat)",
+      "vendor": "DeepSeek",
+      "url": "https://api.deepseek.com/chat/completions",
+      "apiKey": "sk-06d0ee8dc85a47e3af327cc9c08cb44a",
+      "supportsToolCall": true,
+      "supportsImages": false,
+      "supportsReasoning": false
+    },
+    {
+      "id": "MiniMax-M2.5",
+      "name": "MiniMax-M2.5",
+      "vendor": "MiniMax",
+      "url": "https://api.minimaxi.com/v1/chat/completions",
+      "apiKey": "sk-cp-JyKoVLlOO5beSEbZ9OemMthXj25Vh1JPZmwuFZaSqBW6TQSe4toCltP5mFE_lu6gZ0gEUu8aaHE0gX96AA38wlozbNpEFR14MZrYWbwKfQN2Pn00xaUoolk",
+      "supportsToolCall": true,
+      "supportsImages": true,
+      "supportsReasoning": false
+    }
+  ]
+}

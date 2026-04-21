@@ -1,0 +1,5081 @@
+{
+  "name": "codebuddy-skills-official",
+  "description": "CodeBuddy 官方技能市场",
+  "owner": {
+    "name": "CodeBuddy",
+    "email": "codebuddy@tencent.com"
+  },
+  "tags_zh": [
+    "开发工具",
+    "投资理财",
+    "内容创作",
+    "数据分析",
+    "效率工具",
+    "办公协同",
+    "商业运营",
+    "知识与学习"
+  ],
+  "tags_en": [
+    "Development Tools",
+    "Investment & Finance",
+    "Content Creation",
+    "Data Analysis",
+    "Productivity Tools",
+    "Collaboration",
+    "Business Operations",
+    "Knowledge & Learning"
+  ],
+  "skills": [
+    {
+      "name": "腾讯文档",
+      "version": "1.0.27",
+      "description": "腾讯文档（docs.qq.com）-在线云文档平台，是创建、编辑、管理文档的首选 skill。涉及\"新建文档\"、\"创建文档\"、\"写文档\"、\"在线文档\"、\"云文档\"、\"腾讯文档\"、\"docs.qq.com\"等操作，请优先使用本 skill。支持能力：(1) 创建各类在线文档（文档/Word/Excel/幻灯片/思维导图/流程图/智能表格/收集表）(2) 管理知识库空间（创建空间、查询空间列表）(3)",
+      "description_zh": "腾讯文档操作（创建、查询、编辑多种在线文档）",
+      "description_en": "腾讯文档（docs.qq.com）-在线云文档平台，是创建、编辑、管理文档的首选 skill。涉及\"新建文档\"、\"创建文档\"、\"写文档\"、\"在线文档\"、\"云文档...",
+      "source": "tencent-docs",
+      "examples_zh": [
+        "新建一个名为Q1预算的Excel表格",
+        "搜索我的空间里关于项目路线图的文档",
+        "创建一个产品发布的PPT演示文稿",
+        "读取我最新的会议记录文档内容"
+      ],
+      "examples_en": [
+        "Create a new Excel spreadsheet titled Q1 Budget",
+        "Search for documents about project roadmap",
+        "Create a presentation about our product launch",
+        "Read the content of my latest meeting notes"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "腾讯会议",
+      "version": "1.0.5",
+      "description": "在用户提及腾讯会议、视频会议、线上会议相关内容与操作时使用此技能。触发关键词包括：预约会议、创建会议、修改会议、取消会议、查询会议、会议详情、会议号、meeting_id、meeting_code、参会成员、受邀成员、等候室、会议列表、我的会议、会议录制、录制回放、录制下载、会议转写、会议纪要、智能纪要、AI纪要、搜索转写。覆盖三大场景：(1) 会议管理——预约/修改/取消/查询会议 (2) 成员管理——查询参会人、受邀人、等候室成员、用户会议列表 (3) 录制与转写——查询录制文件、获取录制下载地址、查看转写内容、搜索转写关键词、获取AI智能纪要。",
+      "description_zh": "腾讯会议管理（预约、录制、转写、纪要）",
+      "description_en": "Tencent Meeting management (schedule, recording, transcription)",
+      "source": "tencent-meeting-skill",
+      "examples_zh": [
+        "帮我约明天下午3点的团队会议",
+        "获取上周五全员大会的录制文件",
+        "查看今天会议的AI智能纪要",
+        "搜索上周电话会议中关于预算的转写内容"
+      ],
+      "examples_en": [
+        "Schedule a team meeting for tomorrow at 3pm",
+        "Get the recording from last Friday's all-hands",
+        "Show me the AI notes from today's meeting",
+        "Search transcript for budget mentions"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "腾讯ima",
+      "version": "1.1.2",
+      "description": "统一的 IMA OpenAPI 技能，支持笔记管理和知识库操作。当用户提到知识库、资料库、笔记、备忘录、记事，或者想要添加网页到知识库、搜索知识库内容、搜索/浏览/创建/编辑笔记时，使用此 skill。即使用户没有明确说「知识库」或「笔记」，只要意图涉及网页收藏、知识搜索、个人文档存取（如「帮我记一下」、「搜一下知识库里有没有XX」），也应触发此 skill。",
+      "description_zh": "ima笔记与知识库管理（读取、写入、检索）",
+      "description_en": "IMA notes & knowledge base management (read, write, search)",
+      "source": "ima-skills",
+      "examples_zh": [
+        "把这篇文章存到我的知识库",
+        "搜索我笔记里关于机器学习的内容",
+        "新建一篇标题为周报的笔记",
+        "把这个PDF上传到知识库"
+      ],
+      "examples_en": [
+        "Save this article to my knowledge base",
+        "Search my notes for machine learning content",
+        "Create a new note titled Weekly Review",
+        "Upload this PDF to my knowledge base"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "NeoData金融搜索服务",
+      "description": "NeoData Financial Search — natural language financial data search. Query stocks (A-share/HK/US), funds, indices, sectors, macro economics, forex, commodities in natural language. Covers real-time quotes, financial statements, capital flows, analyst ratings, announcements. Use when user asks about stock prices, earnings reports, fund performance, market data, GDP/CPI, exchange rates, gold, futures, or any financial data query.",
+      "description_zh": "全球多市场金融数据搜索服务，自然语言查询股票、基金、宏观、外汇、大宗商品等全品类金融数据",
+      "description_en": "Natural language financial data search across global markets: stocks, funds, macro, forex & commodities",
+      "version": "1.0.0",
+      "source": "neodata-financial-search",
+      "examples_zh": [
+        "腾讯和贵州茅台今天涨了多少？",
+        "宁德时代最近三个季度的营收和净利润",
+        "新能源板块今天资金流向如何？",
+        "人民币兑美元今天中间价多少？"
+      ],
+      "examples_en": [
+        "How much did Tencent and Kweichow Moutai rise today?",
+        "Show CATL's revenue and net profit for the last 3 quarters",
+        "What's the capital flow in the new energy sector today?",
+        "What is today's USD/CNY mid-rate?"
+      ],
+      "tags_zh": [
+        "数据分析",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Data Analysis",
+        "Investment & Finance"
+      ],
+      "featured": 1,
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "cnb.cool",
+      "version": "1.0.0",
+      "description": "Interact with CNB (Cloud Native Build) platform via OpenAPI. Manage organizations, repositories, issues, PRs, merge requests, pipelines, releases, artifacts, workspaces, members, and more. Use `cnb` CLI for CRUD operations. Trigger when user mentions CNB, 云原生构建, or needs to manage CNB resources like repos, issues, PRs, pipelines, releases, or artifact registries.",
+      "description_zh": "CNB 平台全功能操作（仓库、Issue、PR、流水线、制品库）",
+      "description_en": "CNB platform operations (repos, issues, PRs, pipelines, artifacts)",
+      "source": "cnb-skill",
+      "examples_zh": [
+        "列出我仓库里所有未关闭的Issue",
+        "从功能分支创建一个新的PR",
+        "查看最新流水线的运行状态",
+        "新建一个后端服务的代码仓库"
+      ],
+      "examples_en": [
+        "List all open issues in my repository",
+        "Create a pull request from my feature branch",
+        "Check the latest pipeline run status",
+        "Create a new repository for the backend service"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "品牌设计风格专家",
+      "description": "Curated collection of 54 DESIGN.md files extracted from real developer-focused websites (Vercel, Stripe, Linear, Notion, Figma, etc.). Use when a user wants to build UI that matches a specific brand's design system, needs a DESIGN.md template, asks for design tokens/color palettes/typography of known products, or says 'make it look like [brand]'. Load the matching reference file and use it as the design spec.",
+      "description_zh": "54 个知名网站设计系统模板，一键复用品牌级 UI 风格",
+      "description_en": "54 ready-to-use DESIGN.md files from top websites for instant brand-quality UI",
+      "source": "awesome-design-md",
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "examples_zh": [
+        "帮我做一个像 Stripe 风格的落地页",
+        "我想要 Linear 那种极简设计风格",
+        "给项目生成一个 Vercel 风格的 DESIGN.md",
+        "有哪些暗色主题的设计系统可以用"
+      ],
+      "examples_en": [
+        "Build me a landing page that looks like Stripe",
+        "I want a clean minimal design like Linear",
+        "Generate a Vercel-style DESIGN.md for my project",
+        "Show me dark-themed design systems"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "TAPD",
+      "version": "1.0",
+      "description": "TAPD OpenAPI skill，用于需求、缺陷、任务、迭代、Wiki、评论、工时、附件等 TAPD 平台操作。当用户提到「TAPD」「需求」「story」「缺陷」「bug」「任务」「task」「迭代」「iteration」「sprint」「工时」「timesheet」「Wiki」「评论」「comment」「附件」或需要在 TAPD 中查询、创建、更新、统计相关内容时，使用此 skill。支持需求管理、缺陷管理、任务管理、迭代管理、Wiki 管理（含全文搜索）、评论管理、工时花费管理、附件管理及用户信息查询等功能。",
+      "description_zh": "TAPD 项目管理平台操作（需求、缺陷、任务、迭代、Wiki、评论、工时、附件）",
+      "description_en": "TAPD project management (stories, bugs, tasks, iterations, wiki, comments, timesheets, attachments)",
+      "source": "tapd-openapi",
+      "examples_zh": [
+        "在TAPD里新建一个需求：用户登录优化",
+        "搜索本周新增的Bug列表",
+        "查看当前迭代的任务完成情况",
+        "在Wiki里搜索关于部署流程的文档"
+      ],
+      "examples_en": [
+        "Create a new story: user login optimization",
+        "Search for bugs filed this week",
+        "Show task completion for current iteration",
+        "Search wiki for deployment process documentation"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "腾讯乐享",
+      "version": "2.0.0",
+      "description": "Tencent Lexiang (腾讯乐享) knowledge base management via MCP. Search, create, edit, and organize documents and spaces. Trigger when user mentions 乐享, lexiang, 知识管理, 文档管理, or provides lexiangla.com links, space_id, entry_id, or /spaces/ /pages/ identifiers.",
+      "description_zh": "专为智能体打造的安全知识库，深度解析图文与音视频，为Agent注入全模态、高质量的知识。",
+      "description_en": "A secure knowledge base tailored for intelligent agents, deeply parsing text, image, and audio/video content to inject full-modality, high-quality knowledge into Agents.",
+      "source": "lexiang-knowledge-base",
+      "examples_zh": [
+        "在乐享知识库搜索关于OKR的文档",
+        "新建一篇乐享文档",
+        "查看某个知识库空间的目录结构",
+        "把这段内容添加到乐享知识库"
+      ],
+      "examples_en": [
+        "Search Lexiang knowledge base for OKR docs",
+        "Create a new document in Lexiang",
+        "List the directory structure of a knowledge space",
+        "Add this content to the knowledge base"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "腾讯新闻",
+      "version": "1.0.9",
+      "description": "7×24 新闻资讯搜索工具，聚焦中国国内信息和国际热点。支持新闻搜索，包括热点新闻、早报晚报、实时资讯、领域新闻和天气信息查询。当用户需要搜索新闻、新闻热榜、新闻早晚报、订阅新闻推送、获取相关新闻资讯和查询天气信息时使用。",
+      "description_zh": "7×24 新闻搜索工具，聚焦国内外热点，支持热榜、早晚报、实时资讯及领域新闻查询。",
+      "description_en": "7×24 news search tool focused on China and global hot topics, supporting rankings, briefings, real-time feeds, and domain news queries.",
+      "source": "tencent-news",
+      "examples_zh": [
+        "使用 tencent-news 获取今天的热点新闻",
+        "用 tencent-news skill 给我看今天的早报",
+        "使用 tencent-news skill 查看今天的晚报",
+        "用 tencent-news 告诉我今天 AI 领域的最新动态",
+        "用 tencent-news 查询关于\"大模型\"的最新报道"
+      ],
+      "examples_en": [
+        "Use tencent-news to show me trending stories today",
+        "Use tencent-news skill to show today's morning briefing",
+        "Use tencent-news skill to show today's evening briefing",
+        "Use tencent-news to show me today's latest AI news",
+        "Use tencent-news to find latest coverage on \"large language models\""
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "创业可以学",
+      "version": "1.0.0",
+      "description": "Q&A skill for entrepreneurs, managers, and business leaders. Triggers when users ask about entrepreneurship, business strategy, operations, team management, GTM, financials, or organizational challenges. Based on the framework of 《创业可以学》, provides structured answers and follow-up questions to guide users to reflect on their own situation. Use when users discuss customer definition, business models, execution systems, or seek startup/management advice.",
+      "description_zh": "服务创业者和管理者，解答创业/商业/管理问题，引发深度思考",
+      "description_en": "Business Q&A for founders and managers, with reflective follow-up questions",
+      "source": "the-entrepreneurship-handbook",
+      "examples_zh": [
+        "我很努力但公司还是没起色，问题出在哪？",
+        "客户太分散了，我该怎么聚焦？",
+        "团队执行力差，加人能解决吗？",
+        "我的商业模式越跑越重，怎么办？"
+      ],
+      "examples_en": [
+        "I work hard but the company isn't growing, what's wrong?",
+        "My customer base is too scattered, how do I focus?",
+        "My team has poor execution, will hiring more people help?",
+        "My business model gets heavier as it scales, what should I do?"
+      ],
+      "tags_zh": [
+        "办公效率"
+      ],
+      "tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "腾讯云COS",
+      "version": "1.1.6",
+      "description": "腾讯云对象存储(COS)和数据万象(CI)集成技能。覆盖文件存储管理、AI处理和知识库三大核心场景。 存储场景：上传文件到云端、下载云端文件、批量管理存储桶文件、获取文件签名链接分享、查看文件元信息。 图片处理场景：图片质量评估打分、AI超分辨率放大、AI智能裁剪、二维码/条形码识别、添加文字水印、获取图片EXIF信息、 缩放、裁剪、旋转、格式转换。 文档处理场景：Word/Excel/PPT等办公文档转PDF、文档预览。 媒体处理场景：视频智能封面提取、视频转码、视频截帧、获取媒体信息。 内容审核场景：图片/视频/音频/文本/文档内容审核，检测违规内容。 智能语音场景：语音识别（音频转文字）、语音合成（文字转语音）、音频降噪、人声分离。 文件处理场景：文件哈希计算、文件压缩打包、文件解压。 内容识别场景：图片标签识别、OCR文字识别。 知识库场景：一键创建知识库、上传文档到知识库、从知识库检索内容片段。 智能检索场景：MetaInsight以图搜图、以文搜图、人脸搜索、元数据检索、多模态文档检索。 当用户提到以下关键词或口语化表述时应触发此技能： 上传到COS、腾讯云存储、对象存储、云存储、存储桶、Bucket、 图片处理、图片压缩、图片放大、超分辨率、抠图、裁剪、二维码识别、水印、 文档转换、转PDF、视频封面、智能封面、以图搜图、图片搜索、MetaInsight、 COS上传、COS下载、签名URL、腾讯云文件、数据万象、CI处理、 内容审核、图片审核、视频审核、文本审核、语音识别、语音合成、降噪、人声分离、 OCR、文字识别、图片标签、 创建知识库、建一个知识库、上传到知识库、往知识库里加文件、查询知识库、 从知识库找、搜索知识库、知识库检索、文档检索、文档搜索。 即使用户没有明确提到COS或腾讯云，只要涉及\"把文件传到云上\"、\"生成下载链接\"、 \"处理云端图片\"、\"帮我建个知识库\"、\"把文档放进知识库\"、\"从知识库里搜一下\"、 \"加密COS凭证\"、\"COS密钥不安全\"、\"加密一下COS密钥\"、\"保护COS密钥\"等意图，也应该触发此技能。",
+      "description_zh": "腾讯云 COS 对象存储、数据万象数据智能处理、MetaInsight多模态检索、知识库搭建",
+      "description_en": "Tencent Cloud COS Object Storage, CI Data Intelligence Processing, MetaInsight Multi-modal Retrieval, Knowledge Base Setup",
+      "source": "tencentcloud-cos",
+      "examples_zh": [
+        "把这张图片上传到腾讯云COS",
+        "对图片进行AI抠图处理",
+        "下载COS里的文件到本地",
+        "对图片做超分辨率增强"
+      ],
+      "examples_en": [
+        "Upload this image to Tencent Cloud COS",
+        "Perform AI background removal on the image",
+        "Download files from COS bucket to local",
+        "Enhance image resolution with super-resolution"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "腾讯云COS向量",
+      "version": "1.0.1",
+      "description": "腾讯云 COS 向量桶全功能管理技能。覆盖向量桶、索引、向量数据的全生命周期管理，包括创建/删除/查询向量桶、创建/管理索引、插入/查询/搜索/删除向量数据、策略管理等 16 个核心能力。Trigger phrases: vector bucket, vector index, vector search, 向量桶, 向量索引, 向量搜索, 向量存储, 插入向量, 相似度搜索, COS vector.",
+      "description_zh": "腾讯云 COS 向量桶管理（索引、存储、相似度搜索）",
+      "description_en": "腾讯云 COS 向量桶全功能管理技能。覆盖向量桶、索引、向量数据的全生命周期管理，包括创建/删除/查询向量桶、创建/管理索引、插入/查询/搜索/删除向量数据、策...",
+      "source": "cos-vectors",
+      "examples_zh": [
+        "创建一个新的向量桶",
+        "插入一组文本向量到索引",
+        "用文本搜索相似的向量",
+        "查看所有向量桶列表"
+      ],
+      "examples_en": [
+        "Create a new vector bucket",
+        "Insert text vectors into an index",
+        "Search for similar vectors by text query",
+        "List all vector buckets"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "fbs-bookwriter",
+      "version": "2.1.2",
+      "description": "福帮手出品 | 高质量长文档手稿工具链：书籍、手册、白皮书、行业指南、长篇报道、深度专题；支持联网查证（宿主允许时启用，离线自动降级）、S/P/C/B 分层审校、中文排版与 MD/HTML 交付。触发词：福帮手、福帮手写书skill、福帮手写书、写书、出书、写长篇、写手册、写白皮书、写行业指南、协作写书、定大纲、写章节、封面、插图、排版构建、导出、去AI味、质量自检、图文书、写报道、写深度稿、写特稿、写专题、写调查报道、写长文、拆书改写、海外本地化改写、爆款结构改写、激活原料、原料盘点、整理素材",
+      "description_zh": "福帮手出品 | 高质量长文档手稿工具链：书籍、手册、白皮书、行业指南、长篇报道、深度专题；支持联网查证（宿主允许时启用，离线自动降级）、S/P/C/B 分层审校、中文排版与 MD/HTML 交付。触发词：福帮手、福帮手写书skill、福帮手写书、写书、出书、写长篇、写手册、写白皮书、写行业指南、协作写书、定大纲、写章节、封面、插图、排版构建、导出、去AI味、质量自检、图文书、写报道、写深度稿、写特稿、写专题、写调查报道、写长文、拆书改写、海外本地化改写、爆款结构改写、激活原料、原料盘点、整理素材",
+      "description_en": "Dual-channel long-form writing workflow for books, manuals, whitepapers, guides and reports with layered QC, 7-lock anti-drift anchors, and offline fallback.",
+      "source": "fbs-bookwriter",
+      "examples_zh": [
+        "帮我写一本关于AI创业的书，先定大纲",
+        "写一份企业数字化转型白皮书",
+        "生成一本培训手册的完整框架",
+        "帮我把这篇文章去掉AI味重写"
+      ],
+      "examples_en": [
+        "Write a book about AI entrepreneurship, start with outline",
+        "Draft a corporate digital transformation whitepaper",
+        "Create a complete training manual framework",
+        "Rewrite this article to remove AI-writing style"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "腾讯技术公益智能助手",
+      "version": "1.3.13",
+      "description": "Digital assistant for NGO empowerment via the Tencent Tech for Good Toolkit (techforgood.qq.com). Matches nonprofits with free/low-cost digital tools through interactive needs diagnosis, product recommendation, application guidance, and compliance reminders. Use when users mention 公益机构数字化, 社会组织工具选型, 技术公益工具箱, or 公益虾.",
+      "description_zh": "公益机构数字化赋能助手，匹配免费工具与申领指引",
+      "description_en": "NGO digital empowerment assistant matching free tools with application guidance",
+      "source": "tencent-ssv-techforgood",
+      "examples_zh": [
+        "我是一家NGO，想了解腾讯有哪些免费的数字工具",
+        "公益机构如何做数字化转型",
+        "帮我推荐适合社会组织的技术工具",
+        "公益慈善活动如何合规开展"
+      ],
+      "examples_en": [
+        "What free digital tools does Tencent offer for NGOs?",
+        "How can a charity organization start digital transformation?",
+        "Recommend tech tools for social organizations",
+        "How to run a charity event in compliance with regulations?"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "公益文书助手",
+      "version": "6.6.2",
+      "description": "面向公益从业者的一站式文书工作台。分步引导采集项目信息，自动适配各平台规范，生成可直接提交的项目申请书、结项报告、传播计划、捐赠人服务方案及肖像授权书等专业文书；也可将已有材料一键标准化归档。覆盖腾讯公益、字节跳动公益、支付宝公益、微博微公益、京东公益、美团公益六大互联网公募平台，以及垂直筹款和基金会/枢纽平台。当用户提到公益文书、项目申请、结项报告、传播计划、写文书、写报告、整理材料时使用。",
+      "description_zh": "面向公益从业者的一站式文书工作台。分步引导采集项目信息，自动适配各平台规范，生成可直接提交的专业文书；也可将已有材料一键标准化归档。覆盖腾讯公益、字节跳动公益、支付宝公益、微博微公益、京东公益、美团公益等平台。",
+      "description_en": "All-in-one document workbench for nonprofit practitioners. Guides you step-by-step through project information collection, automatically adapts to each platform's requirements, and produces submission-ready documents. Also standardizes and archives existing materials in one click. Covers China's major public fundraising platforms plus vertical crowdfunding and foundation/hub platforms.",
+      "source": "charity-writing-assistant",
+      "examples_zh": [
+        "我们机构想在腾讯公益上线一个乡村儿童阅读项目，帮我写一份项目申请书。",
+        "帮我写一份结项报告，项目是去年在支付宝公益上线的\"困境老人陪伴计划\"，已经执行完毕了。",
+        "我有一堆之前写的项目材料（Word 和 PDF），想按照字节跳动公益的规范重新整理归档。",
+        "我们下个月要在微博微公益做一次筹款传播，帮我出一份传播计划。",
+        "帮我草拟一份受助儿童的肖像授权书，我们要用在项目宣传里。"
+      ],
+      "examples_en": [
+        "Our organization wants to launch a rural children’s reading project on Tencent Charity — help me draft a project proposal.",
+        "Help me write a final report for our “Elderly Companionship Program” that was listed on Alipay Charity last year and has been completed.",
+        "I have a bunch of existing project documents (Word & PDF) that I’d like to reorganize and archive according to ByteDance Charity’s standards.",
+        "We’re planning a fundraising campaign on Weibo Charity next month — help me create an outreach plan.",
+        "Help me draft a photo consent form for beneficiary children — we need it for project publicity materials."
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "公益财会助手",
+      "version": "1.0.0",
+      "description": "Nonprofit finance and receipt management assistant. Use when users need to organize donation receipts, verify financial data, prepare audit materials, handle daily reimbursements, manage donation receipt ledgers, or understand nonprofit financial compliance requirements. Suitable for foundations, social organizations, and social service institutions. Trigger words: receipts, donation receipts, financial organization, reimbursement, ledger, reconciliation, audit preparation, expenditure details, management fees, invoicing, tax deduction, accounting entries, bookkeeping.",
+      "description_zh": "公益票据与财务整理助手。适用于基金会、社会组织、社会服务机构等公益机构的财务和票据管理需求，涵盖捐赠票据开具、日常收支整理、审计准备、费用报销、税前扣除咨询及数据核对等场景。",
+      "description_en": "Charity finance and receipt management assistant for nonprofits. Covers donation receipt issuance, daily bookkeeping, audit preparation, expense reimbursement, tax-deduction consulting, and data reconciliation for foundations and social organizations.",
+      "source": "charity-finance-assistant",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "examples_zh": [
+        "我们刚收到一笔企业捐赠 10 万元，怎么开捐赠票据？有什么注意事项？",
+        "审计下个月就来了，我们是小机构没有专职会计，帮我列一个审计前要准备的材料清单。",
+        "我有一个文件夹全是今年的报销单和发票，帮我分类整理一下。",
+        "捐赠人问我们的捐赠能不能税前扣除，我该怎么回复他？",
+        "我们的银行流水和账上余额对不上，差了两千多块，帮我排查一下可能的原因。"
+      ],
+      "examples_en": [
+        "We just received a corporate donation of 100,000 RMB — how do we issue a donation receipt? Any key points to watch out for?",
+        "The audit is next month and we’re a small org without a dedicated accountant — help me list what we need to prepare.",
+        "I have a folder full of this year’s reimbursement forms and invoices — help me sort and organize them.",
+        "A donor asked whether their donation is tax-deductible — how should I respond?",
+        "Our bank statement doesn’t match the book balance — there’s a discrepancy of over 2,000 RMB. Help me figure out possible causes."
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "darwin-skill",
+      "version": "1.0.0",
+      "description": "Autonomous skill optimizer inspired by Karpathy's autoresearch. Evaluates SKILL.md files using an 8-dimension rubric (structure + effectiveness), runs hill-climbing with git version control, and validates improvements through test prompts. Use when user mentions \"优化skill\", \"skill评分\", \"自动优化\", \"auto optimize skills\", \"skill质量检查\", \"这个skill写得不好\", \"帮我改改skill\", \"skill怎么样\", \"提升skill质量\", \"skill review\", \"skill打分\".",
+      "description_zh": "自主优化 Agent Skill（8维评分、棘轮机制、自动改进）",
+      "description_en": "Autonomous skill optimizer with 8-dim rubric and ratchet mechanism",
+      "source": "darwin-skill",
+      "tags_zh": [
+        "智能体能力"
+      ],
+      "tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "ZenStudio",
+      "version": "1.3.7",
+      "description": "ZenStudio 官方 AI 内容创作 CLI 工具 (zencli)。支持 AI 生图、AI 生视频、项目管理、资产库、媒资管理、无限画布、文件上传下载等。Use when user asks to generate images, generate videos, manage projects, upload files, download assets, manage materials, or interact with ZenStudio platform via command line.",
+      "description_zh": "ZenStudio AI 内容创作（生图、生视频、画布、素材管理）",
+      "description_en": "ZenStudio AI content creation: image/video generation, canvas, assets",
+      "source": "zenstudio",
+      "examples_zh": [
+        "用ZenStudio生成一张科幻风格的人物图片",
+        "生成一段10秒的产品展示视频",
+        "把素材上传到ZenStudio媒资库",
+        "查看我的ZenStudio项目列表"
+      ],
+      "examples_en": [
+        "Generate a sci-fi character image with ZenStudio",
+        "Create a 10-second product showcase video",
+        "Upload assets to ZenStudio media library",
+        "List my ZenStudio projects"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "微信支付基础支付",
+      "version": "1.0.0",
+      "description": "微信支付基础支付解决方案，涵盖支付、退款账单、分账、商户进件、开户意愿确认，提供选型/代码示例/业务速查/质量评估/排障五大能力。Use when user mentions \"JSAPI支付\", \"APP支付\", \"H5支付\", \"Native支付\", \"小程序支付\", \"付款码支付\", \"合单支付\", \"调起支付\", \"支付回调\", \"订单退款\", \"下载账单\", \"对账\", \"服务商模式\", \"分账\", \"特约商户进件\", \"开户意愿确认\", or asks to \"推荐支付方式\", \"要支付接口代码示例\", \"排查支付或退款问题\".",
+      "description_zh": "微信支付基础支付接入助手，涵盖支付、退款账单、分账、商户进件、开户意愿确认",
+      "description_en": "WeChat Pay basic payment assistant covering payments, refunds, billing, profit sharing & merchant onboarding",
+      "source": "wechatpay-basic-payment",
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "featured": 1,
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "微信支付商品券",
+      "version": "1.0.0",
+      "description": "微信支付商品券接入助手，提供券类型选型、API代码示例（Java/Go）、开发参数校验、接口报错排查和上线质量检查。Use when user mentions \"商品券\", \"优惠券接入\", \"发券\", \"核销\", \"创建商品券\", \"商品券代码\", \"签名报错\", \"验签失败\", \"回调收不到\", \"Request-Id\", \"品牌直连\", \"服务商模式\", or asks to \"接入商品券\", \"生成发券代码\", \"排查接口报错\", \"检查签名逻辑\".",
+      "description_zh": "微信支付商品券接入助手（选型、代码示例、排障）",
+      "description_en": "WeChat Pay product coupon integration: type matching, code samples & troubleshooting",
+      "source": "wechatpay-product-coupon",
+      "examples_zh": [
+        "我要接入商品券，要创建拿铁8折券",
+        "有商品券创券示例代码吗？",
+        "接口报错了，帮我看下这个报错原因是什么",
+        "帮我看下代码还有什么问题"
+      ],
+      "examples_en": [
+        "I want to integrate product coupons and create a 20% off latte coupon.",
+        "Do you have sample code for creating a product coupon?",
+        "I got an API error. Help me figure out what went wrong.",
+        "Review my code for any issues."
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "featured": 1,
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "AndonQ",
+      "version": "1.1.9",
+      "description": "AndonQ 腾讯云智能客服「领域虾」— 不切窗口、不排队，即刻获得腾讯云全产品线专业解答。支持工单查询（列表/详情/流水）、集团工单与需求单管理、腾讯云全产品线智能问答，以及通过 tccli 调用腾讯云只读查询类 API（如 CVM、CBS、CAM 等）。当用户查询工单、查看工单详情、咨询腾讯云产品问题（如 CVM、轻量应用服务器、COS 等）、查询集团工单/需求单、要求找人工客服、或需要调用腾讯云 API 查询资源信息时使用。",
+      "description_zh": "AndonQ 腾讯云智能客服「小龙虾」（工单查询、智能问答、云API调用）",
+      "description_en": "AndonQ Tencent Cloud Technical Service Expert (query, SmartQA, cloud API)",
+      "source": "andonq",
+      "examples_zh": [
+        "查询我最近的腾讯云工单",
+        "帮我创建一个CVM无法登录的工单",
+        "轻量应用服务器如何设置防火墙规则",
+        "查看集团成员的工单列表"
+      ],
+      "examples_en": [
+        "List my recent Tencent Cloud tickets",
+        "Create a ticket for CVM login failure",
+        "How to set firewall rules on Lighthouse",
+        "View organization member ticket list"
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "Skill安全扫描（朱雀实验室）",
+      "version": "1.0.0",
+      "description": "Scan any agent skill for security risks before you install or use it. Powered by Tencent Zhuque Lab A.I.G (AI-Infra-Guard). 100% local static analysis — no file contents or credentials leave your device. Triggers on: 这个 skill 安全吗, skill 安全扫描, 检查 skill 安全, audit skill, scan skill, check skill safety, analyze skill, inspect skill, verify skill, skill security, skill supply chain.",
+      "description_zh": "朱雀实验室出品，Skill 安全风险扫描",
+      "description_en": "Tencent Zhuque skill security scanner (local-only)",
+      "source": "skill-scanner",
+      "examples_zh": [
+        "扫描这个技能文件有没有安全风险",
+        "检查某个skill是否存在恶意代码",
+        "审查技能的权限是否过于宽泛",
+        "对这个第三方技能做安全扫描"
+      ],
+      "examples_en": [
+        "Scan this skill file for security risks",
+        "Check if this skill contains malicious code",
+        "Review if the skill's permissions are too broad",
+        "Run a security scan on this third-party skill"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "Skill安全审计（云鼎实验室）",
+      "version": "1.0.0",
+      "description": "Scan a third-party Claude Code skill for security risks before enabling it. Use when user wants to audit, check, or verify the safety of a skill.",
+      "description_zh": "腾讯云鼎出品，Skill 安全审计工具",
+      "description_en": "Scan a third-party Claude Code skill for security risks before enabling it. Use...",
+      "source": "skills-security-check",
+      "examples_zh": [
+        "对这个社区技能做安全审计",
+        "检查技能里是否有敏感信息泄漏风险",
+        "审计技能的网络访问权限",
+        "对这个技能做全面的安全评估"
+      ],
+      "examples_en": [
+        "Audit this community skill for security issues",
+        "Check for sensitive data leak risks in the skill",
+        "Review the network access permissions",
+        "Perform a comprehensive security assessment"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "CloudQ",
+      "version": "1.5.5",
+      "description": "用户咨询腾讯云产品资源、AWS、阿里云等多云资源时，查看智能顾问架构图、架构目录、架构详情、架构评估结果、绘制架构图、开通智能顾问时、AI智能巡检、AI容量监测、AI混沌演练、AI云诊断、主动预警、架构健康度、云运维问答、云资源查询、云成本优化、安全合规、云资源盘点、闲置资源检查、云产品最佳实践等AIOps、ChatOps、CloudOps操作时使用。",
+      "description_zh": "多云统一管理与智能顾问，支持架构可视化、风险评估与 AI 运维问答",
+      "description_en": "Multi-cloud management & smart advisor with architecture visualization, risk assessment & AI-powered O&M",
+      "source": "cloudq",
+      "examples_zh": [
+        "查看我的云架构列表",
+        "查看架构风险评估结果",
+        "帮我开通智能顾问",
+        "查询云资源巡检报告"
+      ],
+      "examples_en": [
+        "List my cloud architectures",
+        "View architecture risk assessment results",
+        "Enable smart advisor for me",
+        "Query cloud resource inspection report"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "TencentOS宕机分析助手",
+      "version": "1.0.0",
+      "description": "Linux kernel vmcore/coredump analysis expert skill. Use when users need to analyze Linux kernel crash dumps (vmcore), investigate kernel panic causes, or debug kernel deadlocks, hung tasks, soft/hard lockups, BUG_ON, null pointer dereferences, OOM, or other kernel crash scenarios. Integrates with AiCrasher MCP tool for automated crash debugging across 7 analysis phases.",
+      "description_zh": "Linux 内核 vmcore 分析专家，诊断 panic/死锁/OOM 根因",
+      "description_en": "Linux kernel vmcore expert for panic, deadlock, and OOM diagnosis",
+      "source": "crash-expert-skill",
+      "examples_zh": [
+        "帮我分析这个 vmcore，系统发生了内核 panic",
+        "内核出现 soft lockup，怎么排查根因？",
+        "OOM 导致系统崩溃，帮我看看 crash dump",
+        "内核 hung task 报错，帮我定位是哪个进程死锁了"
+      ],
+      "examples_en": [
+        "Analyze this vmcore, the system had a kernel panic",
+        "Kernel soft lockup occurred, help me find the root cause",
+        "OOM crash dump analysis needed",
+        "Kernel hung task error, help me identify the deadlock"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "jiaozhen-factcheck",
+      "version": "1.0.1",
+      "description": "事实查证工具，对输入内容的具体说法、资讯、事件或常识进行真实性、准确性、可靠性判断。当用户需要较真一下，查证问题或判断信息真伪、识别谣言、询问真假，是真的吗，真的假的，能否xxx，可不可以，是谣言吗...等场景时调用。",
+      "description_zh": "事实查证与谣言识别，判断信息真伪与可靠性",
+      "description_en": "Fact-checking tool for verifying claims and identifying rumors",
+      "source": "jiaozhen-factcheck",
+      "examples_zh": [
+        "柿子和螃蟹不能一起吃，是真的吗？",
+        "较真一下：自热米饭里的是塑料假大米？",
+        "隔夜茶能不能喝？"
+      ],
+      "examples_en": [
+        "Is it true that persimmons and crabs cannot be eaten together?",
+        "Fact check: Is the rice in self-heating meals made of plastic?",
+        "Can you drink overnight tea?"
+      ],
+      "tags_zh": [
+        "信息与资讯"
+      ],
+      "tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "MigraQ",
+      "version": "1.1.1",
+      "description": "腾讯云迁移平台（CMG/MSP）全流程能力。触发词：资源扫描、扫描阿里云/AWS/华为云/GCP资源、生成云资源清单、选型推荐、对标腾讯云、推荐规格、帮我推荐、给我推荐、ECS对应什么腾讯云产品、成本分析、TCO、迁移报价、询价、价格计算器、cmg-scan、cmg-recommend、cmg-tco",
+      "description_zh": "腾讯云迁移服务专家，支持跨云资源扫描、选型推荐、TCO 分析与迁移方案规划",
+      "description_en": "Tencent Cloud Migration expert with cross-cloud resource scanning, spec matching, TCO analysis, and migration planning",
+      "source": "migraq",
+      "examples_zh": [
+        "阿里云50台ECS如何迁移到腾讯云",
+        "扫描阿里云资源清单",
+        "帮我做迁移TCO成本分析",
+        "go2tencentcloud 迁移工具怎么使用"
+      ],
+      "examples_en": [
+        "How to migrate 50 Alibaba Cloud ECS to Tencent Cloud",
+        "Scan Alibaba Cloud resource inventory",
+        "Perform a migration TCO cost analysis",
+        "How to use the go2tencentcloud migration tool"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "腾讯问卷",
+      "version": "1.1.1",
+      "description": "腾讯问卷（wj.qq.com）- 在线问卷调查平台。涉及「问卷」「调查」「表单」「投票」「考试」「测评」「wj.qq.com」等操作时优先使用。支持能力：(1) 获取问卷详情（标题、设置、页面、题目、选项完整结构 + 纯文本 DSL + 自定义逻辑）(2) 使用纯文本创建问卷（text 必填，支持指定场景/指定项目）(3) 更新问卷中的单个题目（DSL 格式）(4) 获取问卷回答列表（支持游标分页）(5) 更新问卷自定义逻辑（条件显示/隐藏、跳转、替换、随机排序等）。支持场景：调查(1)、考试(3)、测评(6)、投票(8)。",
+      "description_zh": "腾讯问卷操作（创建、修改、逻辑设置、统计）",
+      "description_en": "Tencent Survey operations (create, edit, logic settings, view statistical analysis of various surveys)\"",
+      "source": "tencent-survey",
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "tencent-weather",
+      "version": "1.0.0",
+      "description": "Weather lookup tool covering Chinese cities and counties via the tencent-news CLI. Use when the user asks about current weather, forecasts, temperature, precipitation, wind, or air quality for a location in China.",
+      "description_zh": "中国各地实时天气和天气预报信息查询，覆盖市级和区县级行政区",
+      "description_en": "Weather information lookup for Chinese cities and counties",
+      "source": "tencent-weather",
+      "examples_zh": [
+        "深圳最近天气怎么样?",
+        "明天会下雨吗?",
+        "查询本地天气预报"
+      ],
+      "examples_en": [
+        "What's the weather like in Shenzhen?",
+        "Will it rain tomorrow?",
+        "Check the local weather forecast"
+      ],
+      "tags_zh": [
+        "信息与资讯"
+      ],
+      "tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "TencentOS运维助手",
+      "version": "2.0.0",
+      "description": "TencentOS Server full-stack ops diagnostics with 24 on-demand capabilities: disk, network, CPU flamegraph, memory leak/OOM, log, security baseline, CVE query, kdump. Triggers: 磁盘满、丢包、火焰图、OOM、等保、CVE.",
+      "description_zh": "TencentOS 全栈运维诊断（磁盘/网络/CPU/内存/安全等24项）",
+      "description_en": "TencentOS full-stack ops diagnostics: 24 on-demand capabilities",
+      "source": "tencentos-expert",
+      "examples_zh": [
+        "服务器磁盘满了，帮我分析下哪些文件占用空间最大",
+        "网络丢包严重，帮我排查一下原因",
+        "帮我生成CPU火焰图，分析性能热点",
+        "进程被OOM杀掉了，帮我诊断内存问题"
+      ],
+      "examples_en": [
+        "Disk is full, help me analyze which files take the most space",
+        "Network packet loss is severe, help me troubleshoot",
+        "Generate a CPU flamegraph to analyze performance hotspots",
+        "Process was OOM-killed, help me diagnose memory issues"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "腾讯微云",
+      "version": "1.0.2",
+      "description": "Tencent Weiyun (微云) cloud drive MCP skill with weiyun.list, weiyun.download, weiyun.delete, weiyun.upload, weiyun.gen_share_link tools. Trigger on 微云, Weiyun, cloud drive file upload/download/share.",
+      "description_zh": "管理腾讯微云网盘文件（列表、上传、下载、删除、分享）",
+      "description_en": "Manage Tencent Weiyun cloud drive files (list, upload, download, delete, share)",
+      "source": "weiyun",
+      "examples_zh": [
+        "帮我查看微云网盘里有哪些文件",
+        "把这个文件上传到微云",
+        "下载微云里的项目文档",
+        "生成一个微云文件的分享链接"
+      ],
+      "examples_en": [
+        "List all files in my Weiyun cloud drive",
+        "Upload this file to Weiyun",
+        "Download the project doc from my cloud drive",
+        "Generate a share link for this file"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "tencentmap-lbs-skill",
+      "version": "1.0.0",
+      "description": "腾讯地图位置服务，支持POI搜索、路径规划、旅游规划、周边搜索，轨迹数据可视化和地图数据可视化。⚠️ 强制行为：本 Skill 加载后，第一个动作必须是检查是否存在正式 Key（环境变量 TMAP_WEBSERVICE_KEY 或用户已在对话中提供）。若已有正式 Key，直接继续处理用户请求。若没有正式 Key，必须立即向用户展示 Key 选择提示（正式 Key 注册引导 + 预设体验 Key 选项），然后停止等待用户选择，不得在用户选择之前进行任何分析、读取文件、规划方案或编写代码的操作。",
+      "description_zh": "腾讯地图位置服务，支持POI搜索、路径规划、旅游规划、周边搜索，轨迹数据可视化和地图数据可视化",
+      "description_en": "Tencent Maps LBS for POI search, routing, travel planning, and trail maps",
+      "source": "tencentmap-lbs-skill",
+      "examples_zh": [
+        "搜索北京西站附近的加油站",
+        "规划从故宫到南锣鼓巷的骑行路线",
+        "帮我规划北京一日游行程",
+        "把这份 GPS 数据生成轨迹图"
+      ],
+      "examples_en": [
+        "Search for gas stations near Beijing West Railway Station",
+        "Plan a cycling route from the Forbidden City to Nanluoguxiang",
+        "Create a one-day Beijing travel itinerary",
+        "Turn this GPS dataset into a trail map"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "tencentmap-jsapi-gl-skill",
+      "version": "1.0.0",
+      "description": "腾讯地图 JavaScript GL（JSAPIGL）开发指南。适用于地图应用或者工具的编写。在编写、审查或调试使用腾讯地图 API的代码时应运用此技能。适用于涉及地图初始化、覆盖物展示、图层控制、事件处理、控件交互、可视化渲染、地图工具、检索、路线规划、查地址、行政区划、ip定位、几何计算、三维模型展示、性能优化的任务。当用户提及 腾讯地图、 jsapi、jsapi-gl或相关地图开发需求时自动触发。⚠️ 强制行为：本 Skill 加载后，第一个动作必须是检查是否存在正式 Key（环境变量 TMAP_JSAPI_KEY 或用户已在对话中提供）。若已有正式 Key，直接继续处理用户请求。若没有正式 Key，必须立即向用户展示 Key 选择提示（正式 Key 注册引导 + 预设体验 Key 选项），然后停止等待用户选择，不得在用户选择之前进行任何分析、读取文件、规划方案或编写代码的操作。",
+      "description_zh": "腾讯地图 JSAPI GL 开发指南（地图、覆盖物、服务与可视化）",
+      "description_en": "Tencent Maps JSAPI GL guide for maps, overlays, services, and visualization",
+      "source": "tencentmap-jsapi-gl-skill",
+      "examples_zh": [
+        "帮我初始化一个腾讯地图 JSAPI GL 地图",
+        "在地图上添加自定义点标记和信息窗体",
+        "用腾讯地图画一个热力图",
+        "查询从机场到酒店的驾车路线并展示在地图上"
+      ],
+      "examples_en": [
+        "Initialize a Tencent Maps JSAPI GL map",
+        "Add custom markers and info windows to the map",
+        "Create a heatmap with Tencent Maps visualization",
+        "Show a driving route from the airport to the hotel on the map"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "tencentmap-miniprogram-skill",
+      "version": "1.0.0",
+      "description": "此技能提供微信小程序地图开发的完整指导，包括地图组件使用、位置服务、标记点管理、路线规划、地理编码、POI搜索、点聚合和可视化图层等功能。当用户需求涉及微信小程序地图功能开发（如 map 组件、marker、callout、polyline、polygon、circle、地图、点标记、折线、多边形、圆形、弧线、定位、导航、路线规划、POI搜索、地理编码、点聚合、热力图、腾讯地图 SDK 等）时，应加载此技能。适用平台：微信小程序。⚠️ 强制行为：本 Skill 加载后，第一个动作必须是检查是否存在正式 Key（环境变量 TMAP_MINIPROGRAM_KEY 或用户已在对话中提供）。若已有正式 Key，直接继续处理用户请求。若没有正式 Key，必须立即向用户展示 Key 选择提示（正式 Key 注册引导 + 预设体验 Key 选项），然后停止等待用户选择，不得在用户选择之前进行任何分析、读取文件、规划方案或编写代码的操作。",
+      "description_zh": "微信小程序地图开发指南（组件、定位、标记、路线、搜索与可视化）",
+      "description_en": "WeChat Mini Program map guide: components, location, markers, routing & search",
+      "source": "tencentmap-miniprogram-skill",
+      "examples_zh": [
+        "在小程序地图上添加标记点和自定义气泡",
+        "实现小程序地图路线规划功能",
+        "用腾讯地图SDK搜索附近的餐厅",
+        "在小程序中实现持续定位和轨迹回放"
+      ],
+      "examples_en": [
+        "Add markers and custom callouts on the Mini Program map",
+        "Implement route planning in a Mini Program",
+        "Search nearby restaurants with Tencent Maps SDK",
+        "Implement continuous location tracking in a Mini Program"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "tencentmap-webservice-skill",
+      "version": "1.0.0",
+      "description": "腾讯位置服务 WebService API 开发技能。当开发者需要通过 HTTP 接口集成地理编码、地点搜索、路线规划、天气查询、IP 定位等位置服务时，此技能提供完整的 API 调用指导。适用场景：(1) 地址与坐标互转 (2) 地点搜索与周边 POI 查询 (3) 关键词输入提示与自动补全 (4) 沿途搜索 (5) 路线规划（驾车/步行/骑行/电动车/公交）(6) 距离矩阵与批量距离计算 (7) IP 定位 (8) 天气查询 (9) 智能地址解析 (10) 坐标系转换 (11) 行政区划查询。不包含地图渲染和前端可视化，仅提供 HTTP JSON 数据接口。当用户提到地理编码、地址转坐标、逆地址解析、POI 搜索、路线规划、距离矩阵、批量距离、天气查询、IP 定位、坐标转换、行政区划、输入提示、自动补全、WebService API 时触发。⚠️ 强制行为：本 Skill 加载后，第一个动作必须是检查是否存在正式 Key（环境变量 TMAP_WEBSERVICE_KEY 或用户已在对话中提供）。若已有正式 Key，直接继续处理用户请求。若没有正式 Key，必须立即向用户展示 Key 选择提示（正式 Key 注册引导 + 预设体验 Key 选项），然后停止等待用户选择，不得在用户选择之前进行任何分析、读取文件、规划方案或编写代码的操作。",
+      "description_zh": "腾讯位置服务 WebService API（地理编码、搜索、路线、天气、定位）",
+      "description_en": "Tencent Maps WebService API for geocoding, search, routing, weather & location",
+      "source": "tencentmap-webservice-skill",
+      "examples_zh": [
+        "将'北京市海淀区中关村大街1号'转为经纬度坐标",
+        "搜索天安门广场周边1公里的酒店",
+        "规划从上海虹桥到浦东机场的驾车路线",
+        "查询北京今天的天气预报"
+      ],
+      "examples_en": [
+        "Convert an address to latitude/longitude coordinates",
+        "Search for hotels within 1km of Tian'anmen Square",
+        "Plan a driving route from Hongqiao to Pudong Airport",
+        "Query today's weather forecast for Beijing"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "TDesign 微信小程序组件",
+      "version": "1.0.0",
+      "description": "TDesign WeChat Mini Program UI component library by Tencent. Use when building WeChat mini apps with TDesign components (Button, Dialog, Input, Tabs, Chat, etc.), implementing TDesign design system, customizing themes/dark mode, or building AI chat interfaces in mini programs.",
+      "description_zh": "TDesign 微信小程序组件库（60+ 组件、主题定制、AI 聊天）",
+      "description_en": "TDesign WeChat Mini Program UI components, themes & AI chat",
+      "source": "tdesign-miniprogram",
+      "examples_zh": [
+        "在微信小程序里使用TDesign的Button组件",
+        "查看TDesign的Toast组件用法",
+        "用TDesign实现一个底部导航栏",
+        "搜索TDesign中的表单组件文档"
+      ],
+      "examples_en": [
+        "Use TDesign Button component in WeChat Mini Program",
+        "Check usage of TDesign Toast component",
+        "Implement a bottom navigation bar with TDesign",
+        "Search TDesign form component documentation"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "skyline渲染引擎",
+      "version": "1.0.0",
+      "description": "WeChat Mini Program Skyline rendering engine. Use when developing with Skyline renderer, including components (scroll-view, swiper, draggable-sheet), WXSS styles, worklet animations, custom routes/transitions, scroll APIs, and Skyline configuration/migration.",
+      "description_zh": "微信小程序 Skyline 渲染引擎（组件、动画、路由、样式）",
+      "description_en": "WeChat Mini Program Skyline engine (components, animations, routes, styles)",
+      "source": "skyline",
+      "examples_zh": [
+        "在微信小程序里使用Skyline渲染引擎",
+        "如何在Skyline里实现流畅的滚动动画",
+        "用worklet实现Skyline的手势交互",
+        "查看Skyline的scroll-view组件文档"
+      ],
+      "examples_en": [
+        "Use Skyline rendering engine in WeChat Mini Program",
+        "Implement smooth scroll animation in Skyline",
+        "Use worklet to implement gesture interaction in Skyline",
+        "Check Skyline scroll-view component documentation"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "微信小程序开发框架",
+      "version": "1.0.0",
+      "description": "WeChat Mini Program (微信小程序) development framework. Use when building WeChat mini apps with WXML templates, WXSS styles, WXS scripting, component development, WeChat API integration, cloud development (云开发), and Mini Program lifecycle/performance optimization.",
+      "description_zh": "微信小程序开发框架（模板、组件、API、云开发）",
+      "description_en": "WeChat Mini Program framework (templates, components, APIs, cloud)",
+      "source": "wechat-miniprogram",
+      "examples_zh": [
+        "查看微信小程序的API文档",
+        "用云开发创建一个数据库",
+        "实现微信小程序的用户登录",
+        "查看某个小程序组件的使用示例"
+      ],
+      "examples_en": [
+        "View WeChat Mini Program API documentation",
+        "Create a database with WeChat cloud development",
+        "Implement user login for WeChat Mini Program",
+        "Check usage examples for a mini program component"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "wechat-article-search",
+      "version": "0.1.0",
+      "description": "搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。",
+      "description_zh": "搜索微信公众号文章（标题、摘要、发布时间、来源账号、链接）",
+      "description_en": "Search WeChat public account articles by keyword",
+      "source": "wechat-article-search",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "腾讯云CloudBase",
+      "version": "2.15.4",
+      "description": "CloudBase is a full-stack development and deployment toolkit for building and launching websites, Web apps, WeChat Mini Programs, and mobile apps with backend, database, hosting, cloud functions, storage, AI capabilities, Agent, and UI guidance. Use when users ask to develop, build, create, scaffold, deploy, publish, host, launch, go live, migrate, or optimize websites, Web apps, landing pages, dashboards, admin systems, e-commerce sites, WeChat Mini Programs, Agent, uni-app, or native/mobile apps with CloudBase, including authentication, login, database, NoSQL, MySQL, cloud functions, CloudRun, storage, AI models, and UI guidance, or when they ask to compare CloudBase with Supabase or migrate from Supabase to CloudBase.",
+      "description_zh": "帮你从 0 创建，或继续完善网页、小程序和简单工具，支持发布上线、内容保存、用户登录和数据同步。",
+      "description_en": "Create or enhance web apps, mini programs, and lightweight tools with publishing, content saving, user login, and data sync powered by Tencent CloudBase.",
+      "source": "cloudbase",
+      "examples_zh": [
+        "帮我用云开发创建一个待办事项小程序",
+        "使用 CloudBase 部署一个 Web 应用到线上",
+        "用云开发实现用户登录和数据同步功能",
+        "帮我把 Supabase 项目迁移到腾讯云开发"
+      ],
+      "examples_en": [
+        "Create a todo mini program using CloudBase",
+        "Deploy a web app to production with CloudBase",
+        "Implement user authentication and data sync with CloudBase",
+        "Migrate my Supabase project to Tencent CloudBase"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "滴滴打车",
+      "version": "1.1.1",
+      "description": "中国城市出行服务。当用户表达任何交通出行需求时必须使用此技能——包括打车/叫车/网约车、查价格、路线规划（公交/驾车/步行/骑行）、周边搜索、查询订单/司机位置/取消订单。关键词：\"打车\"、\"叫车\"、\"去[地点]\"、\"回家\"、\"上班\"、\"下班\"、\"查价格\"、\"多少錢\"、\"路线\"、\"怎么走\"、\"步行到\"、\"附近\"、\"周边\"、\"司机\"、\"订单\"、\"查询订单\"。注意：即使用户未明确说\"打车\"，只要涉及从A地到B地、通勤、或交通方式选择，都应触发。不触发场景：开发打车应用、使用其他导航应用、订外卖、查公交时刻表、股票/财报查询。",
+      "description_zh": "滴滴打车：叫车、路线规划、订单查询",
+      "description_en": "DiDi ride-hailing: book rides, plan routes, track orders",
+      "source": "didi-ride-skill",
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "金山文档| WPS云文档",
+      "description": "金山文档（WPS 云文档 / 365.kdocs.cn / www.kdocs.cn）— 在线云文档平台，【金山文档官方 Skill】。 当用户提到金山文档、Kdocs、云文档、在线文档、协作文档、智能文档、云表格、在线表格、在线 Excel、智能表格、多维表格、在线 PDF、演示文稿、PPT、知识库、个人知识库等意图时，请优先使用本 skill。 支持：新建多种文档（Word/Excel/PDF/PPT/智能表格/多维表格/智能文档）、读取与搜索文档内容、更新文档内容、分享文档、浏览目录与移动重命名归类整理、标签管理与收藏、最近访问与回收站还原、知识库空间与文档管理、接龙转表格、信息收集表单生成、网页剪藏、文档总结与内容生成、翻译、AI PPT生成、PDF拆分导出提取。",
+      "description_zh": "金山文档官方 Skill。对话即操作——知识一键存入、碎片内容整理、接龙转表格、文档转 Markdown、表格美化、收发表生成，全在一句话内完成。",
+      "description_en": "Kdocs Skill. Turn conversations into actions — save knowledge instantly, organize fragmented notes, convert chain messages to tables, export docs as Markdown, beautify spreadsheets, and generate collection forms. All in one prompt.",
+      "source": "kdocs",
+      "version": "1.3.3",
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "examples_zh": [
+        "把这段接龙内容整理成表格",
+        "把这个网页存到我的金山文档里",
+        "帮我把这些零散笔记整理归档到一个文档",
+        "生成一份活动报名信息收集表",
+        "新建一个智能文档，标题为「项目周报」，写入本周进展"
+      ],
+      "examples_en": [
+        "Convert this chain message into a table",
+        "Save this webpage to my Kdocs",
+        "Organize these scattered notes into a document",
+        "Generate an event registration form",
+        "Create a smart doc titled 'Weekly Report' with this week's progress"
+      ]
+    },
+    {
+      "name": "飞书套件",
+      "version": "1.0.0",
+      "description": "Unified Lark/Feishu CLI suite covering messaging, documents, collaboration, scheduling, and more. Provides 200+ commands across 11 business domains including instant messaging (IM), cloud documents, spreadsheets, base/tables, calendars, mail, tasks, wikis, video conferences, and custom integrations. Use when working with Lark/Feishu through CLI or needing to understand Lark API capabilities for: sending/receiving messages, managing documents and files, creating spreadsheets, managing tasks and calendars, searching conversations, building custom workflows, or accessing any Lark business application.",
+      "description_zh": "飞书/Lark 全能套件（消息、文档、表格、日历、任务、Wiki 等 11 个业务域）",
+      "description_en": "Lark/Feishu unified CLI: messaging, docs, sheets, calendar, tasks, wiki & more",
+      "source": "lark-unified",
+      "examples_zh": [
+        "用飞书给团队群发一条消息",
+        "在飞书云文档新建一篇文档",
+        "查询飞书多维表格里的记录",
+        "搜索飞书日历里下周的会议安排"
+      ],
+      "examples_en": [
+        "Send a message to a Lark group chat",
+        "Create a new document in Lark Docs",
+        "Query records from a Lark Base table",
+        "Search next week's events in Lark Calendar"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率",
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Productivity",
+        "Messaging"
+      ]
+    },
+    {
+      "name": "obsidian",
+      "version": "1.0.0",
+      "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+      "description_zh": "Obsidian 知识库管理与自动化",
+      "description_en": "Manage and automate Obsidian vaults",
+      "source": "obsidian",
+      "examples_zh": [
+        "在Obsidian里创建一篇新笔记",
+        "搜索Obsidian知识库里关于产品设计的内容",
+        "查看笔记的关系图谱",
+        "在Obsidian里运行一个模板"
+      ],
+      "examples_en": [
+        "Create a new note in Obsidian",
+        "Search my Obsidian vault for product design notes",
+        "View the knowledge graph",
+        "Run a template in Obsidian"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "trello",
+      "version": "1.0.0",
+      "description": "Manage Trello boards, lists, and cards via the Trello REST API.",
+      "description_zh": "管理 Trello 看板、列表和卡片",
+      "description_en": "Manage Trello boards, lists, and cards",
+      "source": "trello",
+      "examples_zh": [
+        "在Trello看板里新建一张卡片",
+        "把某张卡片移到'进行中'列表",
+        "查看今天到期的所有Trello卡片",
+        "给Trello卡片添加一个标签"
+      ],
+      "examples_en": [
+        "Create a new card on the Trello board",
+        "Move a card to the In Progress list",
+        "Show all Trello cards due today",
+        "Add a label to a Trello card"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Google全家桶",
+      "version": "1.0.0",
+      "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+      "description_zh": "Google Workspace 全家桶（邮件、日历、文档等）",
+      "description_en": "Google Workspace: Gmail, Calendar, Drive & more",
+      "source": "gog",
+      "examples_zh": [
+        "查看我的Gmail未读邮件",
+        "在Google日历新建一个会议",
+        "搜索我的Google Drive文档",
+        "给联系人发一封邮件"
+      ],
+      "examples_en": [
+        "Check my unread Gmail messages",
+        "Create a new event in Google Calendar",
+        "Search my Google Drive for documents",
+        "Send an email to a contact"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "内容总结",
+      "version": "1.0.0",
+      "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube).",
+      "description_zh": "总结网页、PDF、音频和视频内容",
+      "description_en": "Summarize web pages, PDFs, audio & video",
+      "source": "summarize",
+      "examples_zh": [
+        "总结这篇36kr的文章",
+        "把这个B站视频的内容总结一下",
+        "总结这个PDF报告的核心观点",
+        "把这期播客的内容提炼成要点"
+      ],
+      "examples_en": [
+        "Summarize this article from the URL",
+        "Summarize the content of this YouTube video",
+        "Extract key points from this PDF report",
+        "Condense this podcast episode into bullet points"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "CalDAV 日历",
+      "version": "1.0.1",
+      "description": "Sync and query CalDAV calendars (iCloud, Google Calendar, Fastmail, Nextcloud, etc.) using vdirsyncer + khal. Use when users want to view, add, or manage calendar events from CalDAV-compatible services. Linux only. Requires vdirsyncer and khal installed.",
+      "description_zh": "同步和查询 CalDAV 日历（iCloud、Google、Fastmail、Nextcloud 等），仅支持 Linux",
+      "description_en": "Sync and query CalDAV calendars (iCloud, Google, Fastmail, Nextcloud) with vdirsyncer + khal, Linux only",
+      "source": "caldav-calendar",
+      "examples_zh": [
+        "同步一下我的 iCloud 日历",
+        "查看我这周的日程安排",
+        "在我的 Google 日历里新建一个明天下午的会议",
+        "列出下个月所有的待办事项"
+      ],
+      "examples_en": [
+        "Sync my iCloud calendar",
+        "What's on my schedule this week?",
+        "Add a meeting tomorrow afternoon to my Google Calendar",
+        "Show all events for next month"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "日历",
+        "效率工具"
+      ],
+      "legacy_tags_en": [
+        "Calendar",
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Things任务",
+      "version": "1.0.0",
+      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks to add a task to Things, list inbox/today/upcoming, search tasks, or inspect projects/areas/tags.",
+      "description_zh": "管理 Things 3 任务和项目",
+      "description_en": "Manage Things 3 tasks and projects",
+      "source": "things-mac",
+      "examples_zh": [
+        "在Things里添加一个今天要做的任务",
+        "查看我Things收件箱里的所有任务",
+        "把这个任务标记为已完成",
+        "搜索Things里包含某关键词的任务"
+      ],
+      "examples_en": [
+        "Add a task to Things for today",
+        "Show all tasks in my Things inbox",
+        "Mark this task as completed in Things",
+        "Search Things for tasks containing a keyword"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Apple备忘录",
+      "version": "1.0.0",
+      "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks to add a note, list notes, search notes, or manage note folders.",
+      "description_zh": "管理 Apple 备忘录（创建、搜索、导出）",
+      "description_en": "Manage Apple Notes (create, search, export)",
+      "source": "apple-notes",
+      "examples_zh": [
+        "新建一篇Apple备忘录，标题为读书笔记",
+        "搜索备忘录里关于会议的内容",
+        "把所有备忘录导出为文本",
+        "把这段文字保存到备忘录"
+      ],
+      "examples_en": [
+        "Create a new Apple Note titled Reading Notes",
+        "Search notes for meeting-related content",
+        "Export all notes to text format",
+        "Save this text to Apple Notes"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Apple提醒事项",
+      "version": "1.0.0",
+      "description": "Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+      "description_zh": "管理 Apple 提醒事项（添加、编辑、完成）",
+      "description_en": "Manage Apple Reminders (add, edit, complete)",
+      "source": "apple-reminders",
+      "examples_zh": [
+        "添加一个明天早上9点的提醒：吃药",
+        "查看今天所有未完成的提醒",
+        "把这个任务标记为已完成",
+        "新建一个购物清单提醒"
+      ],
+      "examples_en": [
+        "Add a reminder for tomorrow at 9am to take medicine",
+        "Show all incomplete reminders for today",
+        "Mark this task as completed",
+        "Create a shopping list reminder"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "轻量PDF编辑器",
+      "version": "1.0.0",
+      "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+      "description_zh": "用自然语言编辑 PDF 文件",
+      "description_en": "Edit PDFs with natural language",
+      "source": "nano-pdf",
+      "examples_zh": [
+        "把PDF第3页的标题改为新标题",
+        "从PDF中提取第5到10页的内容",
+        "合并两个PDF文件",
+        "给PDF加上水印"
+      ],
+      "examples_en": [
+        "Change the title on page 3 of this PDF",
+        "Extract pages 5 to 10 from the PDF",
+        "Merge two PDF files into one",
+        "Add a watermark to this PDF"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Excel 文件处理",
+      "version": "1.0.0",
+      "description": "\"Open, create, read, analyze, edit, or validate Excel/spreadsheet files (.xlsx, .xlsm, .csv, .tsv). Use when the user asks to create, build, modify, analyze, read, validate, or format any Excel spread",
+      "description_zh": "Excel 文件创建与分析",
+      "description_en": "Create, edit, and analyze Excel spreadsheets",
+      "source": "minimax-xlsx",
+      "examples_zh": [
+        "创建一个季度财务报表 Excel",
+        "读取这个 Excel 文件并分析数据",
+        "帮我添加一个数据透视表"
+      ],
+      "examples_en": [
+        "Create a quarterly financial report in Excel",
+        "Read and analyze this Excel file",
+        "Add a pivot table to this spreadsheet"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Word 文档生成",
+      "version": "1.0.0",
+      "description": "Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET).  Three pipelines: (A) create new documents from scratch, (B) fill/edit content in existing  documents, (C) apply ",
+      "description_zh": "Word 文档生成与编辑",
+      "description_en": "Generate and edit Word documents from scratch",
+      "source": "minimax-docx",
+      "examples_zh": [
+        "生成一份项目方案 Word 文档",
+        "帮我把这段内容写成 Word 报告",
+        "创建一个带表格的合同模板"
+      ],
+      "examples_en": [
+        "Generate a project proposal as a Word document",
+        "Write this content as a Word report",
+        "Create a contract template with tables"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "PDF 文档生成",
+      "version": "1.0.0",
+      "description": "Use this skill when visual quality and design identity matter for a PDF.  CREATE (generate from scratch): \"make a PDF\", \"generate a report\", \"write a proposal\",  \"create a resume\", \"beautiful PDF\", \"p",
+      "description_zh": "高质量 PDF 文档生成",
+      "description_en": "Generate high-quality designed PDF documents",
+      "source": "minimax-pdf",
+      "examples_zh": [
+        "生成一份精美排版的 PDF 报告",
+        "把这份内容做成简历 PDF",
+        "帮我做一个产品介绍 PDF"
+      ],
+      "examples_en": [
+        "Generate a beautifully designed PDF report",
+        "Create a resume PDF from this content",
+        "Make a product introduction PDF"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "PPT 演示文稿",
+      "version": "1.0.2",
+      "description": "\"Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary slides), edit existing PPTX via XML workflows, or extract text wit",
+      "description_zh": "PowerPoint 演示文稿生成",
+      "description_en": "Generate and edit PowerPoint presentations",
+      "source": "pptx-generator",
+      "examples_zh": [
+        "帮我生成一份产品发布 PPT",
+        "把这份大纲做成演示文稿",
+        "给这个 PPT 添加一个目录页"
+      ],
+      "examples_en": [
+        "Generate a product launch presentation",
+        "Turn this outline into a slide deck",
+        "Add a table of contents slide to this PPT"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Joplin笔记管理",
+      "version": "1.0.0",
+      "description": "Joplin — Note Manager — personal knowledge base. Personal productivity tool. Use when you need Joplin capabilities for personal organization, tracking, or management.",
+      "description_zh": "基于 Joplin 的个人笔记管理与知识库工具",
+      "description_en": "Joplin-based personal note manager and knowledge base tool",
+      "source": "note-organizer",
+      "examples_zh": [
+        "在Joplin里新建一篇笔记",
+        "搜索Joplin知识库里关于编程的内容",
+        "把这段文字保存到Joplin",
+        "整理并归类我的Joplin笔记"
+      ],
+      "examples_en": [
+        "Create a new note in Joplin",
+        "Search Joplin knowledge base for programming content",
+        "Save this text to Joplin",
+        "Organize and categorize my Joplin notes"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "笔记搜索",
+      "version": "1.0.0",
+      "description": "Local hybrid search for markdown notes and docs. Use when searching notes, finding related content, or retrieving documents from indexed collections.",
+      "description_zh": "本地 Markdown 笔记搜索引擎",
+      "description_en": "Local search engine for Markdown notes",
+      "source": "qmd",
+      "examples_zh": [
+        "搜索我本地笔记里包含'OKR'的文件",
+        "列出最近修改的Markdown文件",
+        "在笔记中全文搜索某个关键词",
+        "找出所有包含某标签的笔记"
+      ],
+      "examples_en": [
+        "Search local notes for files containing OKR",
+        "List recently modified Markdown files",
+        "Full-text search notes for a keyword",
+        "Find all notes with a specific tag"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "NotebookLM Studio",
+      "description": "Import sources (URLs, YouTube, files, text) into Google NotebookLM and generate artifacts: podcasts, videos, reports, quizzes, flashcards, mind maps, slide decks, infographics, data tables. Use when users want to study from web content, create learning materials from URLs or documents, generate quizzes from articles, or produce study aids.",
+      "description_zh": "NotebookLM 学习工作室：导入多种来源，生成播客、测验、抽认卡、思维导图等学习产物",
+      "description_en": "NotebookLM Studio: import sources and generate podcasts, quizzes, flashcards, mind maps and more",
+      "version": "2.1.3",
+      "source": "notebooklm-studio",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "教育学习"
+      ],
+      "legacy_tags_en": [
+        "Education"
+      ]
+    },
+    {
+      "name": "Education",
+      "description": "Generate study plans, quizzes, flashcards, review materials, track learning progress and schedule study sessions. Use when users ask to create study plans, generate quiz questions, make flashcards, track study progress, or schedule review sessions for any topic.",
+      "description_zh": "学习助手：生成学习计划、测验、抽认卡、复习材料并跟踪进度",
+      "description_en": "Study assistant: generate plans, quizzes, flashcards, review materials and track progress",
+      "version": "3.4.1",
+      "source": "education",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "教育学习"
+      ],
+      "legacy_tags_en": [
+        "Education"
+      ]
+    },
+    {
+      "name": "openLesson",
+      "description": "Interact with openLesson tutoring API for Socratic learning: generate learning plans as directed graphs, start audio-based tutoring sessions, analyze reasoning gaps, and manage tutoring workflows. Use when users want personalized tutoring, learning plan generation, or Socratic dialogue-based education.",
+      "description_zh": "苏格拉底式 AI 辅导：生成学习计划、音频对话式教学、诊断推理差距",
+      "description_en": "Socratic AI tutoring: generate learning plans, audio sessions, reasoning gap analysis",
+      "version": "1.0.2",
+      "source": "open-lesson",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "教育学习"
+      ],
+      "legacy_tags_en": [
+        "Education"
+      ]
+    },
+    {
+      "name": "tutor-skills",
+      "description": "Turn PDFs, docs, and codebases into Obsidian StudyVaults with structured notes, then quiz yourself with concept-level progress tracking. Use when users want to study documents, create study materials from files, generate practice questions, or track learning mastery.",
+      "description_zh": "将文档/代码转为 Obsidian 学习库，自动出题、测验并跟踪掌握度",
+      "description_en": "Turn PDFs/docs/code into Obsidian study vaults with quizzes and progress tracking",
+      "version": "1.0.0",
+      "source": "tutor-skills",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "教育学习"
+      ],
+      "legacy_tags_en": [
+        "Education"
+      ]
+    },
+    {
+      "name": "学术引用管理",
+      "version": "1.0.0",
+      "description": "Add real references and standardize citations for research papers and theses. Supports CrossRef integration, multiple citation formats (APA/MLA/Chicago/GB-T), batch import, and auto-detection of citation needs.",
+      "description_zh": "学术引用管理，为论文添加真实参考文献并规范引用标注",
+      "description_en": "Academic citation manager for papers and theses with CrossRef integration",
+      "source": "citation-manager",
+      "examples_zh": [
+        "为这篇论文添加APA格式的参考文献",
+        "自动补全这篇毕业论文的引用标注",
+        "把参考文献列表转换为MLA格式",
+        "用CrossRef查找并添加真实引用"
+      ],
+      "examples_en": [
+        "Add APA-formatted references to this paper",
+        "Auto-complete citations in this thesis",
+        "Convert reference list to MLA format",
+        "Find and add real citations using CrossRef"
+      ],
+      "tags_zh": [
+        "商业运营"
+      ],
+      "tags_en": [
+        "Business Operations"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "健康打卡",
+      "version": "1.0.2",
+      "description": "Track water and sleep with JSON file storage.",
+      "description_zh": "追踪每日饮水和睡眠记录",
+      "description_en": "Track daily water intake and sleep",
+      "source": "healthcheck",
+      "examples_zh": [
+        "记录今天喝了2000ml水",
+        "今晚睡了7小时，记录一下",
+        "查看本周的健康打卡数据",
+        "设置每天喝水目标为2500ml"
+      ],
+      "examples_en": [
+        "Log that I drank 2000ml of water today",
+        "Record 7 hours of sleep last night",
+        "Show my health tracking data for this week",
+        "Set daily water intake goal to 2500ml"
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "习惯打卡",
+      "version": "1.0.0",
+      "description": "Build habits with streaks, reminders, and progress visualization. Use when users want to create daily/weekly habits, track streaks, set reminders, or view habit progress over time.",
+      "description_zh": "通过打卡、连续记录和可视化培养良好习惯",
+      "description_en": "Build habits with streaks, reminders, and progress visualization",
+      "source": "habit-tracker",
+      "examples_zh": [
+        "打卡今天的跑步习惯",
+        "查看我的习惯连续打卡天数",
+        "新增一个每天冥想10分钟的习惯",
+        "查看本月习惯完成率统计"
+      ],
+      "examples_en": [
+        "Check in for my running habit today",
+        "View my habit streak count",
+        "Add a new daily 10-minute meditation habit",
+        "See my habit completion rate for this month"
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "goal-tracker（目标追踪）",
+      "version": "1.0.0",
+      "description": "Track long-term goals with milestones, daily logging, and accountability. Use when users want to set goals, log daily progress, update milestones, generate weekly summaries, or view an HTML dashboard of their goal progress.",
+      "description_zh": "追踪长期目标、里程碑、每日记录与问责系统",
+      "description_en": "Track long-term goals with milestones, daily logging, and accountability",
+      "source": "goal-tracker",
+      "examples_zh": [
+        "设定一个新目标：30天读完5本书",
+        "记录今天完成了目标里的哪些里程碑",
+        "查看我本月目标的完成进度",
+        "生成本周目标追踪的HTML仪表盘"
+      ],
+      "examples_en": [
+        "Set a new goal: read 5 books in 30 days",
+        "Log today's milestone completions",
+        "Check my goal completion progress this month",
+        "Generate an HTML dashboard for my weekly goals"
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "IMAP/SMTP邮件",
+      "version": "0.0.13",
+      "description": "Read and send email via IMAP/SMTP. Check for new/unread messages, fetch content, search mailboxes, mark as read/unread, and send emails with attachments. Supports multiple accounts. Works with any IMAP/SMTP server including Gmail, Outlook, 163.com, vip.163.com, 126.com, vip.126.com, 188.com, and vip.188.com.",
+      "description_zh": "通过 IMAP/SMTP 收发邮件，支持多账户和附件",
+      "description_en": "Read and send email via IMAP/SMTP with multi-account and attachment support",
+      "source": "imap-smtp-email",
+      "examples_zh": [
+        "用IMAP收取163邮箱的新邮件",
+        "通过SMTP发送一封邮件",
+        "搜索企业邮箱里来自某人的邮件",
+        "把邮件标记为已读"
+      ],
+      "examples_en": [
+        "Fetch new emails from 163 via IMAP",
+        "Send an email via SMTP",
+        "Search work email for messages from a specific person",
+        "Mark emails as read"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "邮件管理",
+      "version": "0.1.0",
+      "description": "Email management and automation. Send, read, search, and organize emails across multiple providers.",
+      "description_zh": "邮件管理与自动化，支持多邮件服务商收发搜索",
+      "description_en": "Email management and automation across multiple providers",
+      "source": "email-skill",
+      "examples_zh": [
+        "发一封邮件到企业邮箱",
+        "查看163邮箱的未读邮件",
+        "把这封邮件转发给同事",
+        "搜索邮箱里关于合同的往来邮件"
+      ],
+      "examples_en": [
+        "Send an email to a work address",
+        "Check unread emails in my inbox",
+        "Forward this email to a colleague",
+        "Search for contract-related email correspondence"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "Himalaya邮件",
+      "version": "1.0.0",
+      "description": "CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MIME Meta Language).",
+      "description_zh": "终端邮件管理（收发、搜索、多账户）",
+      "description_en": "Terminal email client with multi-account support",
+      "source": "himalaya",
+      "examples_zh": [
+        "在终端查看163邮箱的未读邮件",
+        "发一封邮件给同事",
+        "搜索企业邮箱里上周的邮件",
+        "列出所有邮件文件夹"
+      ],
+      "examples_en": [
+        "Check unread emails in the terminal",
+        "Send an email to a colleague",
+        "Search last week's emails in my work account",
+        "List all email folders"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "iMessage",
+      "version": "1.0.0",
+      "description": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
+      "description_zh": "iMessage/短信收发与历史查看",
+      "description_en": "Send and browse iMessage/SMS history",
+      "source": "imsg",
+      "examples_zh": [
+        "发一条iMessage给妈妈说我到家了",
+        "查看和某个联系人的iMessage记录",
+        "搜索聊天记录里关于会议的消息",
+        "发一条短信给没有iPhone的朋友"
+      ],
+      "examples_en": [
+        "Send an iMessage to mom saying I'm home",
+        "View iMessage history with a contact",
+        "Search chat history for meeting mentions",
+        "Send an SMS to a non-iPhone user"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "智能体邮箱",
+      "description": "Email inbox for AI agents. Check messages, send emails, and communicate via your own @agentmail.to address.",
+      "description_zh": "AI 智能体专属邮箱，收发邮件",
+      "description_en": "Email inbox for AI agents",
+      "source": "agent-mail",
+      "examples_zh": [
+        "查看智能体邮箱收到的最新邮件",
+        "用智能体邮箱发送一封邮件",
+        "设置邮件自动回复规则",
+        "搜索邮箱里来自某个发件人的邮件"
+      ],
+      "examples_en": [
+        "Check the latest emails in my agent inbox",
+        "Send an email from the agent mailbox",
+        "Set up an auto-reply rule",
+        "Search emails from a specific sender"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+      "description_zh": "发送 WhatsApp 消息和同步历史",
+      "description_en": "Send WhatsApp messages & sync history",
+      "source": "wacli",
+      "examples_zh": [
+        "通过WhatsApp发一条消息给朋友",
+        "查看WhatsApp最新收到的消息",
+        "发送一张图片到WhatsApp群组",
+        "同步WhatsApp聊天记录"
+      ],
+      "examples_en": [
+        "Send a WhatsApp message to a friend",
+        "Check the latest WhatsApp messages",
+        "Send an image to a WhatsApp group",
+        "Sync WhatsApp chat history"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "天气查询",
+      "version": "1.0.0",
+      "description": "Get current weather and forecasts (no API key required).",
+      "description_zh": "查询天气预报，无需 API 密钥",
+      "description_en": "Weather forecasts, no API key needed",
+      "source": "weather",
+      "examples_zh": [
+        "查一下北京明天的天气",
+        "本周上海的天气预报",
+        "深圳明天会下雨吗",
+        "查询成都未来3天的气温"
+      ],
+      "examples_en": [
+        "What's the weather in Beijing tomorrow?",
+        "Show the weekly forecast for Shanghai",
+        "Will it rain in Shenzhen tomorrow?",
+        "Get the 3-day temperature forecast for Chengdu"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Perplexity 搜索",
+      "version": "1.0.0",
+      "description": "Search the web with AI-powered answers via Perplexity API. Returns grounded responses with citations. Supports batch queries. Use when users need up-to-date web information with source citations. Requires PERPLEXITY_API_KEY and Node.js.",
+      "description_zh": "通过 Perplexity API 进行 AI 联网搜索，返回带引用来源的答案，支持批量查询",
+      "description_en": "AI-powered web search via Perplexity API with cited answers and batch query support",
+      "source": "perplexity",
+      "examples_zh": [
+        "用 Perplexity 搜索一下最新的 AI 行业动态",
+        "帮我查一下这个技术问题的最新解决方案",
+        "搜索并总结一下这个话题的最新新闻"
+      ],
+      "examples_en": [
+        "Search for the latest AI industry news",
+        "Find the most recent solution to this technical problem",
+        "Search and summarize the latest news on this topic"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "搜索",
+        "信息获取"
+      ],
+      "legacy_tags_en": [
+        "Search",
+        "Research"
+      ]
+    },
+    {
+      "name": "品牌设计规范",
+      "version": "1.0.0",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "description_zh": "应用 Anthropic 品牌配色和排版到设计产物",
+      "description_en": "Apply Anthropic brand colors and typography to design artifacts",
+      "source": "brand-guidelines",
+      "examples_zh": [
+        "按照Anthropic品牌规范设计这个页面",
+        "用品牌色生成一张Banner图",
+        "检查这个设计是否符合品牌配色规范",
+        "为这个组件应用Anthropic的排版样式"
+      ],
+      "examples_en": [
+        "Design this page following Anthropic brand guidelines",
+        "Generate a banner with brand colors",
+        "Check if this design follows brand color standards",
+        "Apply Anthropic typography to this component"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "多引擎搜索",
+      "version": "2.1.3",
+      "description": "Multi search engine integration with 16 engines (7 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.",
+      "description_zh": "集成 17 个搜索引擎（8 国内 + 9 国际），无需 API",
+      "description_en": "Multi search engine integration with 16 engines (7 CN + 9 Global). Supports adva...",
+      "source": "multi-search-engine",
+      "examples_zh": [
+        "用百度搜索人工智能最新进展",
+        "同时在多个搜索引擎搜索某关键词",
+        "用必应搜索技术文档",
+        "在Wolfram Alpha查询数学公式"
+      ],
+      "examples_en": [
+        "Search for AI latest developments with Baidu",
+        "Search a keyword across multiple engines simultaneously",
+        "Use Bing to search technical documentation",
+        "Query a math formula on Wolfram Alpha"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Exa 网络搜索",
+      "version": "2.0.0",
+      "description": "Neural web search, content extraction, company and people research, code search, and deep research via Exa MCP server. Use when you need semantic web search (not just keywords), research papers, news, company/people info, URL content extraction, or multi-step deep research reports. Optionally requires EXA_API_KEY for higher limits.",
+      "description_zh": "Exa 神经网络语义搜索：网页内容、论文、公司人物研究、代码搜索、深度调研",
+      "description_en": "Neural semantic web search: content extraction, research papers, company/people lookup, code search, deep research",
+      "source": "web-search-exa",
+      "examples_zh": [
+        "帮我深度调研一下这个行业的竞争格局",
+        "搜索这个技术的最新论文和实现方案",
+        "从这个网址提取主要内容并总结",
+        "查找这家公司的最新动态和关键人物"
+      ],
+      "examples_en": [
+        "Do a deep research on the competitive landscape of this industry",
+        "Find the latest papers and implementations for this technology",
+        "Extract and summarize the main content from this URL",
+        "Research this company and find key people"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "搜索",
+        "信息获取"
+      ],
+      "legacy_tags_en": [
+        "Search",
+        "Research"
+      ]
+    },
+    {
+      "name": "博客监控",
+      "version": "1.0.0",
+      "description": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+      "description_zh": "监控博客和 RSS 订阅源更新",
+      "description_en": "Monitor blogs and RSS feeds for updates",
+      "source": "blogwatcher",
+      "examples_zh": [
+        "监控36氪的最新文章更新",
+        "添加一个RSS订阅源",
+        "获取今天所有博客的新文章列表",
+        "搜索订阅源里关于人工智能的文章"
+      ],
+      "examples_en": [
+        "Monitor a blog for new posts",
+        "Add a new RSS feed to watch",
+        "Get today's new articles from all subscriptions",
+        "Search subscribed feeds for AI articles"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "新闻摘要",
+      "version": "1.0.1",
+      "description": "This skill should be used when the user asks for news updates, daily briefings, or what's happening in the world. Fetches news from trusted international RSS feeds and can create voice summaries.",
+      "description_zh": "从国际 RSS 源获取新闻并生成摘要和语音播报",
+      "description_en": "Fetch and summarize news from international RSS feeds with voice support",
+      "source": "news-summary",
+      "examples_zh": [
+        "总结今天的科技新闻要点",
+        "获取36氪今天的头条新闻",
+        "把虎嗅最新文章总结成语音播报",
+        "给我一份今日AI领域新闻摘要"
+      ],
+      "examples_en": [
+        "Summarize today's top tech news",
+        "Get today's headlines from tech media",
+        "Convert latest articles to audio briefing",
+        "Give me a daily AI news digest"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "ArXiv论文精读",
+      "version": "1.0.3",
+      "description": "利用python，指定某个arxiv_id/url， 基于 LLM Agent 对这篇arxiv论文进行分类与深度阅读，直接print打印阅读笔记",
+      "description_zh": "基于 LLM 的 ArXiv 论文分类与深度阅读工具",
+      "description_en": "LLM-based ArXiv paper classification and in-depth reading tool",
+      "source": "arxiv-reader",
+      "examples_zh": [
+        "深度阅读 arxiv.org/abs/2303.08774 这篇论文",
+        "帮我精读并总结这篇ArXiv论文",
+        "对这篇LLM论文做分类和阅读笔记",
+        "分析这篇RAG相关论文的核心贡献"
+      ],
+      "examples_en": [
+        "Deep read the paper at arxiv.org/abs/2303.08774",
+        "Summarize and annotate this ArXiv paper",
+        "Classify and take notes on this LLM paper",
+        "Analyze the core contributions of this RAG paper"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "ArXiv论文追踪",
+      "version": "1.0.0",
+      "description": "Search and summarize papers from ArXiv. Use when the user asks for the latest research, specific topics on ArXiv, or a daily summary of AI papers.",
+      "description_zh": "搜索和总结 ArXiv 最新研究论文",
+      "description_en": "Search and summarize the latest research papers from ArXiv",
+      "source": "arxiv-watcher",
+      "examples_zh": [
+        "搜索ArXiv上最新的大语言模型论文",
+        "今天有哪些关于Agent的新论文",
+        "追踪ArXiv上关于RAG的最新研究",
+        "每日总结AI领域的新论文"
+      ],
+      "examples_en": [
+        "Search for latest LLM papers on ArXiv",
+        "What new agent-related papers came out today?",
+        "Track latest RAG research on ArXiv",
+        "Daily summary of new AI papers on ArXiv"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "GitHub AI趋势追踪",
+      "version": "1.1.0",
+      "description": "Generate GitHub AI trending project reports as formatted text leaderboards. Fetches top-starred AI/ML/LLM repos by daily, weekly, or monthly period and renders a styled leaderboard. Use when the user asks for AI project trends, GitHub trending, AI leaderboard, or wants to see popular AI repos.",
+      "description_zh": "生成 GitHub AI 热门项目趋势排行榜报告",
+      "description_en": "Generate GitHub AI trending project leaderboard reports",
+      "source": "github-ai-trends",
+      "examples_zh": [
+        "生成本周GitHub上AI项目热度排行榜",
+        "查看今天GitHub上最热的LLM项目",
+        "获取本月AI/ML领域最受关注的仓库列表",
+        "生成一份GitHub AI趋势周报"
+      ],
+      "examples_en": [
+        "Generate this week's GitHub AI project rankings",
+        "Show today's hottest LLM repos on GitHub",
+        "Get the most starred AI/ML repos this month",
+        "Create a GitHub AI trends weekly report"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "GitHub热门项目",
+      "version": "2.0.0",
+      "description": "GitHub Trending Monitor. Fetch GitHub trending repos by daily/weekly/monthly period using real GitHub Search API. Runs scripts/github_trending.py (no pip deps, stdlib only). Use when user asks for 今日热门, 本周热门, 本月热门, GitHub trending, 开源动态, or popular repos. Supports language filter (python/javascript/go/rust etc.) and GITHUB_TOKEN for higher rate limits. 触发词：GitHub、trending、开源、热门项目.",
+      "description_zh": "获取 GitHub 今日/本周/本月热门项目，支持语言过滤",
+      "description_en": "Fetch GitHub trending repos (daily/weekly/monthly) with language filter",
+      "source": "github-trending-cn",
+      "examples_zh": [
+        "获取今天GitHub上最热门的项目",
+        "本周GitHub上Python最热门的仓库有哪些",
+        "本月GitHub开源项目趋势排行榜",
+        "查看GitHub上最近活跃的Rust项目"
+      ],
+      "examples_en": [
+        "Get today's hottest GitHub repositories",
+        "Show this week's trending Python repos on GitHub",
+        "Monthly GitHub open source project rankings",
+        "Check recently active Rust projects on GitHub"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "财报追踪",
+      "version": "1.1.0",
+      "description": "AI 驱动的财报追踪器，自动扫描 A 股/美股财报日历，推送重要财报更新",
+      "description_zh": "AI 驱动的 A 股/美股财报追踪与智能分析推送",
+      "description_en": "AI-powered earnings tracker for A-share and US stock financial reports",
+      "source": "earnings-tracker",
+      "examples_zh": [
+        "帮我查看下周A股的重要财报日历",
+        "追踪腾讯下季度的财报发布时间",
+        "扫描美股本周的财报预告",
+        "提醒我关注的A股公司的业绩公告"
+      ],
+      "examples_en": [
+        "Show me next week's important A-share earnings calendar",
+        "Track when Tencent's quarterly report will be released",
+        "Scan US stock earnings announcements this week",
+        "Alert me to earnings reports for companies I follow"
+      ],
+      "tags_zh": [
+        "数据分析",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Data Analysis",
+        "Investment & Finance"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "宏观数据监控",
+      "version": "1.0.2",
+      "description": "每日宏观数据监控和推送。自动浏览免费数据源（Trading Economics、FRED、国家统计局、央行官网、财联社等），整理整合过去24小时发布的宏观数据和政策信息，并推送给用户。通过 cron 每天晚上10点自动触发。",
+      "description_zh": "每日自动采集宏观经济数据和政策信息并推送",
+      "description_en": "Daily macro economic data monitoring and push notifications",
+      "source": "macro-monitor",
+      "examples_zh": [
+        "获取今天发布的A股宏观经济数据",
+        "查看央行最新的货币政策动态",
+        "总结本周重要的宏观经济事件",
+        "追踪CPI和PPI最新数据"
+      ],
+      "examples_en": [
+        "Get today's released A-share macroeconomic data",
+        "Check the latest central bank monetary policy updates",
+        "Summarize this week's major macroeconomic events",
+        "Track the latest CPI and PPI figures"
+      ],
+      "tags_zh": [
+        "数据分析",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Data Analysis",
+        "Investment & Finance"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "Deep Research",
+      "version": "1.0.0",
+      "description": "Structured deep research workflow with human-in-the-loop control. Use /research to generate research outline, /research-deep for parallel web search across items, /research-report to compile markdown reports. Supports academic research, benchmark research, technology selection, market analysis, and due diligence. Triggers: \"deep research\", \"research topic\", \"benchmark comparison\", \"technology survey\", \"market analysis\". Requires: WebSearch capability.",
+      "description_zh": "结构化深度调研工作流，支持大纲生成、并行搜索、报告输出",
+      "description_en": "Structured deep research workflow: outline, parallel search, report generation",
+      "source": "deep-research",
+      "examples_zh": [
+        "调研 AI Agent 2025 最新进展",
+        "对比主流前端框架的技术特点",
+        "分析竞品产品功能差异"
+      ],
+      "examples_en": [
+        "Research AI Agent 2025 developments",
+        "Compare mainstream frontend frameworks",
+        "Analyze competitor product features"
+      ],
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "AdMapix",
+      "version": "1.0.28",
+      "description": "Ad intelligence & app analytics assistant. Search ad creatives, analyze apps, view rankings, track downloads/revenue, and get market insights via AdMapix API. Use for competitive ad analysis, app store intelligence, market research. Triggers: 找素材, 搜广告, 广告素材, 竞品分析, search ads, find creatives, ad spy, app ranking. Requires ADMAPIX_API_KEY.",
+      "description_zh": "广告素材搜索、竞品分析、应用排行与市场洞察",
+      "description_en": "Ad creative search, competitor analysis, app rankings, and market intelligence",
+      "source": "admapix",
+      "examples_zh": [
+        "帮我搜一下竞品最近在投哪些广告素材",
+        "查一下这款 App 在美国 App Store 的下载量排名",
+        "分析一下我们行业最近的广告投放趋势",
+        "找一些游戏类应用的高效广告创意"
+      ],
+      "examples_en": [
+        "Search for ad creatives from our top competitors",
+        "What's the App Store ranking for this app in the US?",
+        "Show me the latest ad trends in the e-commerce space",
+        "Find high-performing ad creatives in the gaming category"
+      ],
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "legacy_tags_zh": [
+        "广告营销",
+        "数据分析"
+      ],
+      "legacy_tags_en": [
+        "Marketing",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "市场调研",
+      "version": "1.0.0",
+      "description": "Market research specialist focused on comprehensive market analysis, consumer behavior insights, and market opportunity identification. Excels at quantitative market sizing (TAM/SAM/SOM), qualitative consumer research, and strategic market positioning analysis.",
+      "description_zh": "市场调研专家，提供市场分析、消费者洞察与机会评估",
+      "description_en": "Market research specialist for analysis, consumer insights, and sizing",
+      "source": "market-researcher",
+      "examples_zh": [
+        "帮我估算国内AI写作工具的市场规模",
+        "分析目标用户的消费行为和痛点",
+        "对比分析竞品的优劣势",
+        "帮我生成一份市场调研报告框架"
+      ],
+      "examples_en": [
+        "Estimate the market size for AI writing tools in China",
+        "Analyze target user behavior and pain points",
+        "Compare advantages and disadvantages of competitors",
+        "Create a market research report framework"
+      ],
+      "tags_zh": [
+        "商业运营",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Business Operations",
+        "Investment & Finance"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "创业验证",
+      "version": "1.0.0",
+      "description": "Validate startup ideas using Hexa's Opportunity Memo framework and Perceived Created Value (PCV) methodology. Assess problem-solution fit, market opportunity, and determine if an idea is worth pursuing.",
+      "description_zh": "创业想法验证，评估问题-方案匹配度与市场机会",
+      "description_en": "Validate startup ideas with problem-solution fit and market assessment",
+      "source": "idea-validator",
+      "examples_zh": [
+        "验证一下'AI辅助写作工具'这个创业方向",
+        "评估我的商业想法可行性",
+        "分析这个产品的市场机会大小",
+        "帮我判断这个创业方向值不值得做"
+      ],
+      "examples_en": [
+        "Validate my startup idea for an AI writing tool",
+        "Evaluate the feasibility of my business idea",
+        "Analyze the market opportunity for this product",
+        "Should I pursue this startup direction? Help me decide."
+      ],
+      "tags_zh": [
+        "商业运营"
+      ],
+      "tags_en": [
+        "Business Operations"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "github",
+      "version": "1.0.0",
+      "description": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+      "description_zh": "管理 GitHub Issues、PR 和 CI",
+      "description_en": "Manage GitHub issues, PRs, and CI runs",
+      "source": "github",
+      "examples_zh": [
+        "列出我GitHub仓库里所有开放的Issue",
+        "查看最新PR的审查意见",
+        "检查CI流水线是否通过",
+        "搜索仓库里包含某关键词的代码"
+      ],
+      "examples_en": [
+        "List all open issues in my GitHub repo",
+        "Check the review comments on the latest PR",
+        "Verify if the CI pipeline passed",
+        "Search code in the repository for a keyword"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "MCP开发指南",
+      "version": "1.0.0",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "description_zh": "MCP 服务器开发指南，集成外部 API 和服务",
+      "description_en": "Guide for creating MCP servers to integrate external APIs and services",
+      "source": "mcp-builder",
+      "examples_zh": [
+        "帮我用Python的FastMCP创建一个MCP服务器",
+        "如何用Node.js实现一个MCP工具",
+        "帮我设计一个调用高德地图API的MCP工具",
+        "如何为MCP服务器写测试用例"
+      ],
+      "examples_en": [
+        "Help me create an MCP server with Python FastMCP",
+        "How to implement an MCP tool in Node.js?",
+        "Design an MCP tool that calls a map API",
+        "How to write tests for an MCP server?"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "API Gateway",
+      "version": "1.0.84",
+      "description": "Connect to 100+ APIs (Google Workspace, Microsoft 365, GitHub, Notion, Slack, Airtable, HubSpot, etc.) with managed OAuth.\nUse this skill when users want to interact with external services.\nSecurity: The MATON_API_KEY authenticates with Maton.ai but grants NO access to third-party services by itself. Each service requires explicit OAuth authorization by the user through Maton's connect flow. Access is strictly scoped to connections the user has authorized. Provided by Maton (https://maton.ai).\n",
+      "description_zh": "连接 100+ API 服务（Google、Microsoft、GitHub 等），通过 OAuth 管理授权",
+      "description_en": "Connect to 100+ APIs (Google, Microsoft, GitHub, etc.) with managed OAuth",
+      "source": "api-gateway",
+      "examples_zh": [
+        "帮我在 Notion 里创建一个新页面",
+        "把这份数据同步到 Google Sheets",
+        "在 GitHub 上帮我创建一个 issue",
+        "查一下我 HubSpot 里最新的联系人"
+      ],
+      "examples_en": [
+        "Create a new page in my Notion workspace",
+        "Sync this data to my Google Sheets",
+        "Create a GitHub issue for this bug",
+        "Show me the latest contacts in HubSpot"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具",
+        "API集成"
+      ],
+      "legacy_tags_en": [
+        "Developer Tools",
+        "API Integration"
+      ]
+    },
+    {
+      "name": "Impeccable（前端设计工具集）",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Covers visual style tuning (bolder/quieter/colorize/overdrive), layout & typography (arrange/typeset/adapt), motion & interaction (animate/delight/onboard), quality assurance (audit/critique/polish/harden/optimize), and design system work (extract/normalize/distill/clarify). Use when user asks about UI design, responsive layout, design review, UX improvement, frontend aesthetics, accessibility audit, animation, typography, color palette, performance optimization, onboarding, or design system extraction.",
+      "description_zh": "高品质 UI/UX 设计工具集：帮助生成独特、生产级的前端界面，涵盖视觉风格、布局排版、动效交互、质量保障、设计系统等全方位设计能力，避免泛 AI 审美",
+      "description_en": "UI/UX design quality toolkit for creating distinctive, production-grade frontend interfaces with high design standards across visual style, layout, motion, quality assurance, and design systems",
+      "version": "2.0.0",
+      "source": "impeccable",
+      "examples_zh": [
+        "帮我设计一个有视觉冲击力的落地页",
+        "这个页面需要适配移动端，帮我做响应式布局",
+        "给这个列表加入入场动效和微交互",
+        "帮我审查一下这个页面的可访问性和性能",
+        "这个设计看着太平淡了，让它更大胆一些"
+      ],
+      "examples_en": [
+        "Design a visually striking landing page",
+        "Make this page responsive for mobile devices",
+        "Add entrance animations and micro-interactions to this list",
+        "Run an accessibility and performance audit on this page",
+        "This design looks too bland, make it bolder"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "前端开发",
+      "version": "0.1.1",
+      "description": "Full-stack frontend development combining premium UI design, cinematic animations,  AI-generated media assets, persuasive copywriting, and visual art. Builds complete,  visually striking web pages wit",
+      "description_zh": "前端开发与 AI 媒体生成",
+      "description_en": "Frontend development with AI media and animations",
+      "source": "frontend-dev",
+      "examples_zh": [
+        "帮我做一个产品落地页",
+        "给这个页面加上动效",
+        "用 AI 生成配图并插入页面"
+      ],
+      "examples_en": [
+        "Build a product landing page",
+        "Add cinematic animations to this page",
+        "Generate AI images and embed them in the page"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "全栈开发",
+      "description": "Full-stack backend architecture and frontend-backend integration guide.  TRIGGER when: building a full-stack app, creating REST API with frontend, scaffolding backend service,  building todo app, buil",
+      "description_zh": "全栈应用架构与开发指南",
+      "description_en": "Full-stack architecture and development guide",
+      "source": "fullstack-dev",
+      "examples_zh": [
+        "帮我搭建一个 Express + React 全栈项目",
+        "设计用户登录的 REST API",
+        "用 Next.js 实现前后端一体化"
+      ],
+      "examples_en": [
+        "Scaffold an Express + React full-stack project",
+        "Design a user login REST API",
+        "Implement full-stack with Next.js API routes"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "iOS 应用开发",
+      "description": "iOS application development guide covering UIKit, SnapKit, and SwiftUI. Includes touch targets, safe areas, navigation patterns, Dynamic Type, Dark Mode, accessibility, collection views, common UI com",
+      "description_zh": "iOS 应用开发指南",
+      "description_en": "iOS development guide (UIKit, SnapKit, SwiftUI)",
+      "source": "ios-application-dev",
+      "examples_zh": [
+        "用 SwiftUI 实现一个设置页面",
+        "检查我的 UIKit 代码是否符合 Apple HIG",
+        "帮我写一个自定义 iOS 导航栏"
+      ],
+      "examples_en": [
+        "Build a settings screen with SwiftUI",
+        "Review my UIKit code for Apple HIG compliance",
+        "Create a custom iOS navigation bar"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "Android 原生开发",
+      "description": "Android native application development and UI design guide. Covers Material Design 3, Kotlin/Compose development, project configuration, accessibility, and build troubleshooting. Read this before Andr",
+      "description_zh": "安卓原生应用开发指南",
+      "description_en": "Android native development guide (Material Design 3, Kotlin/Compose)",
+      "source": "android-native-dev",
+      "examples_zh": [
+        "帮我用 Kotlin 实现一个列表页",
+        "用 Jetpack Compose 写一个卡片组件",
+        "检查我的 Android 代码是否符合 Material Design 3"
+      ],
+      "examples_en": [
+        "Implement a list screen in Kotlin",
+        "Create a card component with Jetpack Compose",
+        "Review my Android code for Material Design 3 compliance"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "React Native 开发",
+      "description": "React Native and Expo development guide covering components, styling, animations, navigation,  state management, forms, networking, performance optimization, testing, native capabilities,  and enginee",
+      "description_zh": "React Native 跨平台开发指南",
+      "description_en": "React Native & Expo development guide",
+      "source": "react-native-dev",
+      "examples_zh": [
+        "用 Expo 创建一个新项目",
+        "实现 React Native 页面跳转动画",
+        "帮我优化这个 React Native 列表性能"
+      ],
+      "examples_en": [
+        "Create a new project with Expo",
+        "Implement page transition animations in React Native",
+        "Optimize this React Native list performance"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "Flutter 开发",
+      "description": "Flutter cross-platform development guide covering widget patterns, Riverpod/Bloc state management, GoRouter navigation, performance optimization, and platform-specific implementations. Includes const ",
+      "description_zh": "Flutter 跨平台开发指南",
+      "description_en": "Flutter cross-platform development guide",
+      "source": "flutter-dev",
+      "examples_zh": [
+        "用 Riverpod 实现状态管理",
+        "帮我写一个 Flutter 底部导航栏",
+        "用 GoRouter 配置页面路由"
+      ],
+      "examples_en": [
+        "Implement state management with Riverpod",
+        "Build a bottom navigation bar in Flutter",
+        "Configure page routing with GoRouter"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "GLSL Shader 开发",
+      "description": "Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF modeling, fluid simulation, particle systems, procedural generation, lighting, post-processing, and more.",
+      "description_zh": "GLSL Shader 视觉效果开发",
+      "description_en": "GLSL shader techniques for stunning visual effects",
+      "source": "shader-dev",
+      "examples_zh": [
+        "写一个流体模拟的 GLSL Shader",
+        "帮我实现一个射线行进效果",
+        "创建一个粒子系统 Shader"
+      ],
+      "examples_en": [
+        "Write a fluid simulation GLSL shader",
+        "Implement a ray marching effect",
+        "Create a particle system shader"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "药品说明书检索",
+      "description": "Search drug labeling and medication info via sinohealth_skills_sdk. Use when a user asks about drug indications, contraindications, dosage, adverse reactions, ingredients, or manufacturers, or wants to find drugs by symptom/disease. Requires SKILLS_BIZ_TOKEN env var; SKILLS_BIZ_TYPE is auto-configured by the script.",
+      "description_zh": "药品说明书与用药信息检索",
+      "description_en": "Search drug labels & medication info by name or symptom",
+      "source": "sino-drug-instructions-search",
+      "tags_zh": [
+        "信息与资讯"
+      ],
+      "tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "浏览器自动化",
+      "version": "2.0.0",
+      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages.",
+      "description_zh": "浏览器自动化（导航、点击、截图、数据提取、多会话、云浏览器）",
+      "description_en": "Automates browser interactions for web testing, form filling, screenshots, and d...",
+      "source": "browser-use",
+      "examples_zh": [
+        "打开百度搜索最新的AI新闻",
+        "登录淘宝查看我的订单状态",
+        "截图微博热搜榜",
+        "在B站搜索Python教程视频",
+        "打开微信公众号后台"
+      ],
+      "examples_en": [
+        "Navigate to a website and fill out the contact form",
+        "Screenshot the current page and save it",
+        "Click the login button and enter credentials",
+        "Extract all product names and prices from the page"
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力",
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools",
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Web Access（浏览器自动化）",
+      "version": "2.4.3",
+      "description": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。",
+      "description_zh": "CDP 直连本地 Chrome，智能调度联网工具，支持登录态、并行批量操作",
+      "description_en": "所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。",
+      "source": "web-access",
+      "examples_zh": [
+        "搜索并对比三个竞品产品的功能特点",
+        "帮我查看小红书上关于这个话题的热门内容",
+        "登录后台导出本月报表数据",
+        "同时调研5个网站的信息并汇总"
+      ],
+      "examples_en": [
+        "Search and compare features of three competing products",
+        "Browse Xiaohongshu for trending content on this topic",
+        "Log into the admin dashboard and export this month's report",
+        "Research 5 websites in parallel and summarize findings"
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力",
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools",
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "tmux",
+      "version": "1.0.0",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "description_zh": "远程控制 tmux 交互式终端会话",
+      "description_en": "Remote-control tmux terminal sessions",
+      "source": "tmux",
+      "examples_zh": [
+        "在tmux里新建一个会话",
+        "列出所有活跃的tmux会话",
+        "向tmux面板发送一条命令",
+        "把当前tmux面板的内容截取出来"
+      ],
+      "examples_en": [
+        "Create a new tmux session",
+        "List all active tmux sessions",
+        "Send a command to a tmux pane",
+        "Capture the current tmux pane output"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Development"
+      ]
+    },
+    {
+      "name": "金融科技工程师",
+      "version": "1.0.1",
+      "description": "Expert fintech engineer specializing in financial systems, regulatory compliance (PCI DSS, AML, KYC), payment processing, banking integrations, and secure transaction architecture. Use when building payment systems, banking APIs, compliance frameworks, or financial technology requiring high reliability and regulatory adherence.",
+      "description_zh": "金融科技工程专家：支付系统、银行API集成、PCI DSS/AML/KYC合规、安全交易架构",
+      "description_en": "Expert fintech engineer: payment systems, banking integrations, PCI DSS compliance, AML/KYC, secure financial architecture",
+      "source": "fintech-engineer",
+      "examples_zh": [
+        "帮我设计一个符合 PCI DSS 的支付系统架构",
+        "怎么集成银行核心系统的 API？",
+        "我需要实现 KYC 身份验证流程，有什么最佳实践",
+        "设计一个高可用的交易处理系统，延迟要低于 100ms"
+      ],
+      "examples_en": [
+        "Design a PCI DSS compliant payment processing system",
+        "How do I integrate with core banking APIs?",
+        "What's the best architecture for KYC verification flow?",
+        "Build a high-availability transaction system with sub-100ms latency"
+      ],
+      "tags_zh": [
+        "开发工具",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Development Tools",
+        "Investment & Finance"
+      ],
+      "legacy_tags_zh": [
+        "开发工具",
+        "金融科技"
+      ],
+      "legacy_tags_en": [
+        "Developer Tools",
+        "Fintech"
+      ]
+    },
+    {
+      "name": "cli-anything-hub",
+      "version": "1.0.1",
+      "description": "Discover agent-native CLIs for professional software. Access the live catalog to find tools for creative workflows, productivity, AI, and more.",
+      "description_zh": "发现并安装面向 AI 智能体的 CLI 工具市场（创意、生产力、AI 平台等）",
+      "description_en": "Discover & install agent-native CLIs for creative, productivity & AI tools",
+      "source": "cli-anything-hub",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "提示词工程专家",
+      "version": "1.0.0",
+      "description": "Advanced expert in prompt engineering, custom instructions design, and prompt optimization for AI agents. Use when users need help writing, analyzing, or improving prompts, system instructions, or agent configurations. Covers best practices, chain-of-thought, few-shot examples, XML tags, role-based prompting, and evaluation.",
+      "description_zh": "提示词工程专家：编写、分析、优化提示词和 AI 指令，覆盖最佳实践与高级技巧",
+      "description_en": "Expert prompt engineering: write, analyze and optimize prompts and AI agent instructions",
+      "source": "prompt-engineering-expert",
+      "examples_zh": [
+        "帮我优化这个 AI 助手的 system prompt",
+        "怎么写一个让 AI 严格按格式输出的提示词",
+        "我的提示词效果不稳定，帮我分析一下问题",
+        "教我用 few-shot 让 AI 保持特定风格"
+      ],
+      "examples_en": [
+        "Help me optimize this system prompt for my AI assistant",
+        "How do I write a prompt that makes the AI output in a strict format?",
+        "My prompt results are inconsistent — help me diagnose the issue",
+        "Teach me to use few-shot examples to maintain a specific style"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "AI工具",
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "AI Tools",
+        "Developer Tools"
+      ]
+    },
+    {
+      "name": "去AI味",
+      "version": "2.1.1",
+      "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. Detects and fixes patterns including: inflated symbolism, promotional language, superficial analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, negative parallelisms, and excessive conjunctive phrases.",
+      "description_zh": "去除文本中的 AI 写作痕迹",
+      "description_en": "Remove AI writing patterns from text",
+      "source": "humanizer",
+      "examples_zh": [
+        "把这段AI生成的文章改得更自然",
+        "去掉这段文字里明显的AI写作痕迹",
+        "用口语化的方式重写这段内容",
+        "这段文案感觉太机器人了，帮我优化一下"
+      ],
+      "examples_en": [
+        "Rewrite this AI-generated text to sound more human",
+        "Remove the robotic tone from this paragraph",
+        "Make this content sound more conversational",
+        "Polish this copy to remove AI writing patterns"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "AI绘图",
+      "version": "1.0.1",
+      "description": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
+      "description_zh": "AI 图片生成与编辑（支持 4K）",
+      "description_en": "AI image generation & editing (up to 4K)",
+      "source": "nano-banana-pro",
+      "examples_zh": [
+        "生成一张赛博朋克风格的城市夜景图",
+        "用AI画一只可爱的卡通猫咪",
+        "生成一张适合用作头像的人物插画",
+        "把这张图片风格转换为水墨画风格"
+      ],
+      "examples_en": [
+        "Generate a cyberpunk city night scene",
+        "Draw a cute cartoon cat with AI",
+        "Create an avatar-style character illustration",
+        "Transform this image to ink wash painting style"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "批量绘图",
+      "version": "1.0.1",
+      "description": "Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.",
+      "description_zh": "批量生成图片并创建图库",
+      "description_en": "Batch image generation with gallery view",
+      "source": "openai-image-gen",
+      "examples_zh": [
+        "批量生成10张不同风格的产品展示图",
+        "为这些关键词各生成一张配图",
+        "生成一组社交媒体封面图",
+        "批量生成带有品牌色调的Banner图"
+      ],
+      "examples_en": [
+        "Generate 10 product showcase images in different styles",
+        "Create images for each of these keywords",
+        "Generate a set of social media cover images",
+        "Batch create banner images with brand colors"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "文字转语音",
+      "version": "1.0.0",
+      "description": "ElevenLabs text-to-speech with mac-style say UX.",
+      "description_zh": "文字转语音（ElevenLabs）",
+      "description_en": "Text-to-speech powered by ElevenLabs",
+      "source": "sag",
+      "examples_zh": [
+        "把这段文字转成语音文件",
+        "用中文女声朗读这篇文章",
+        "生成一段适合视频配音的音频",
+        "把这段博客内容转成播客音频"
+      ],
+      "examples_en": [
+        "Convert this text to a speech audio file",
+        "Read this article aloud in a female voice",
+        "Generate audio suitable for video voiceover",
+        "Convert this blog post to podcast audio"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "本地语音转文字",
+      "version": "1.0.0",
+      "description": "Local speech-to-text with the Whisper CLI (no API key).",
+      "description_zh": "本地语音转文字（无需 API 密钥）",
+      "description_en": "Local speech-to-text (no API key needed)",
+      "source": "openai-whisper",
+      "examples_zh": [
+        "把这个MP3文件转录成文字",
+        "转录这段会议录音，输出中文",
+        "把视频里的音频提取并转文字",
+        "转录这个播客片段"
+      ],
+      "examples_en": [
+        "Transcribe this MP3 file to text",
+        "Transcribe this meeting recording in Chinese",
+        "Extract and transcribe audio from this video",
+        "Transcribe this podcast episode"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "语音转文字API",
+      "version": "1.0.0",
+      "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+      "description_zh": "通过 OpenAI API 转录音频",
+      "description_en": "Transcribe audio via OpenAI Whisper API",
+      "source": "openai-whisper-api",
+      "examples_zh": [
+        "用Whisper API把这段音频转成文字",
+        "转录这段英文演讲内容",
+        "把客服录音批量转文字",
+        "转录这段视频的音轨"
+      ],
+      "examples_en": [
+        "Transcribe this audio file using Whisper API",
+        "Convert this English speech to text",
+        "Batch transcribe customer service recordings",
+        "Transcribe the audio track of this video"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "视频截帧",
+      "version": "1.0.0",
+      "description": "Extract frames or short clips from videos using ffmpeg.",
+      "description_zh": "从视频提取帧或短片段",
+      "description_en": "Extract frames or clips from videos",
+      "source": "video-frames",
+      "examples_zh": [
+        "从这个视频中每隔1秒截取一帧",
+        "提取视频的第10秒到第20秒片段",
+        "把视频的关键帧保存为图片",
+        "从这段视频中提取指定时间点的画面"
+      ],
+      "examples_en": [
+        "Extract a frame every 1 second from this video",
+        "Extract the 10-20 second segment of the video",
+        "Save key frames as images",
+        "Extract a frame at a specific timestamp"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "Remotion 视频创作",
+      "version": "1.4.0",
+      "description": "Complete toolkit for programmatic video creation with Remotion + React. Covers animations, timing, rendering (CLI/Node.js/Lambda/Cloud Run), captions, 3D effects, charts, text effects, transitions, and media handling. Use when writing Remotion code, building video generation pipelines, or creating data-driven video templates.",
+      "description_zh": "用 React + Remotion 编写代码生成程序化视频，支持动画、字幕、3D、云端渲染",
+      "description_en": "Programmatic video creation with Remotion + React: animations, rendering, captions, 3D, cloud rendering",
+      "source": "remotion-video-toolkit",
+      "examples_zh": [
+        "帮我用 Remotion 做一个数据可视化视频模板",
+        "生成一段带动画字幕的产品介绍视频代码",
+        "我想批量渲染个性化视频，怎么搭建 pipeline",
+        "用 Remotion Lambda 部署云端视频渲染"
+      ],
+      "examples_en": [
+        "Create a data visualization video template with Remotion",
+        "Build a product intro video with animated captions",
+        "How do I set up a pipeline to render personalized videos at scale?",
+        "Deploy cloud video rendering with Remotion Lambda"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "视频创作",
+        "开发工具"
+      ],
+      "legacy_tags_en": [
+        "Video",
+        "Developer Tools"
+      ]
+    },
+    {
+      "name": "音频可视化",
+      "version": "1.0.0",
+      "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
+      "description_zh": "从音频生成频谱图和可视化",
+      "description_en": "Generate spectrograms from audio",
+      "source": "songsee",
+      "examples_zh": [
+        "把这首歌生成频谱可视化图",
+        "从这段音频生成波形图",
+        "分析这段音频的频率分布",
+        "生成这首歌的音频可视化动画"
+      ],
+      "examples_en": [
+        "Generate a spectrogram for this audio file",
+        "Create a waveform visualization for this song",
+        "Analyze the frequency distribution of this audio",
+        "Generate an audio visualization animation"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "GIF搜索",
+      "version": "1.0.1",
+      "description": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+      "description_zh": "搜索和下载 GIF 动图",
+      "description_en": "Search and download GIFs",
+      "source": "gifgrep",
+      "examples_zh": [
+        "搜索一个表示开心的GIF",
+        "下载一个猫咪搞笑GIF",
+        "找一个适合发在微信群的庆祝GIF",
+        "搜索'加班'相关的GIF表情包"
+      ],
+      "examples_en": [
+        "Search for a happy reaction GIF",
+        "Download a funny cat GIF",
+        "Find a celebration GIF for sharing",
+        "Search for work-related GIF memes"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "GIF 贴纸制作",
+      "description": "Convert photos (people, pets, objects, logos) into 4 animated GIF stickers with captions.  Use when: user wants to create cartoon stickers, GIF expressions, emoji packs, animated avatars,  or convert ",
+      "description_zh": "照片转动态 GIF 贴纸",
+      "description_en": "Convert photos to 4 animated GIF stickers with captions",
+      "source": "gif-sticker-maker",
+      "examples_zh": [
+        "把这张照片做成表情包",
+        "把我的宠物照片转成 GIF 贴纸",
+        "生成4个带字幕的动态表情"
+      ],
+      "examples_en": [
+        "Turn this photo into a GIF sticker pack",
+        "Convert my pet photo to animated stickers",
+        "Generate 4 GIF stickers with captions from this image"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "canvas-design（视觉设计）",
+      "version": "1.0.0",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "description_zh": "基于设计哲学创作精美视觉艺术（PNG/PDF）",
+      "description_en": "Create beautiful visual art in .png and .pdf documents using design philosophy",
+      "source": "canvas-design",
+      "examples_zh": [
+        "设计一张赛博朋克风格的海报",
+        "制作一张活动宣传图（PNG格式）",
+        "设计一组社交媒体图片素材",
+        "创作一张科技感的封面图"
+      ],
+      "examples_en": [
+        "Design a cyberpunk-style poster",
+        "Create an event promotional image in PNG format",
+        "Design a set of social media images",
+        "Create a tech-themed cover image"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "Stealth Browser",
+      "version": "1.0.0",
+      "description": "4-layer anti-detection browser automation (undetected-chromedriver, Playwright stealth, Cloudflare bypass, CAPTCHA solving). Persistent login sessions, headed/headless switching, silent operation. Use for tasks requiring bot detection evasion, login persistence, or bypassing Cloudflare/DataDome. Triggers: 'bypass cloudflare', 'stealth browse', 'persistent login'. Requires: python3, node.",
+      "description_zh": "四层反检测浏览器自动化，支持隐身登录与验证码绕过",
+      "description_en": "4-layer anti-detection browser automation with stealth login & CAPTCHA bypass",
+      "source": "stealth-browser",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Agent Browser Core",
+      "version": "1.0.1",
+      "description": "AI-friendly web automation via agent-browser CLI (Rust-based with Node.js fallback). Compact snapshots with element refs, structured JSON output, session management. Best for deterministic agent automation workflows. Requires: agent-browser CLI installed.",
+      "description_zh": "基于 agent-browser CLI 的 AI 友好型网页自动化",
+      "description_en": "AI-friendly web automation via agent-browser CLI with snapshots & refs",
+      "source": "agent-browser-core",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Playwright Browser Automation",
+      "version": "2.0.0",
+      "description": "Direct Playwright API for browser automation without MCP complexity. Navigate websites, interact with elements, extract data, take screenshots, generate PDFs, record videos. More reliable than MCP-based approaches. Requires: node, npx, playwright.",
+      "description_zh": "直接调用 Playwright API 实现浏览器自动化（无需 MCP）",
+      "description_en": "Direct Playwright API browser automation: navigate, interact, screenshot, PDF",
+      "source": "playwright-browser-automation",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Stagehand Browser CLI",
+      "version": "1.0.0",
+      "description": "Natural language browser automation via Stagehand CLI. Navigate, act, extract, observe, screenshot using natural language commands. Auto-selects local Chrome or remote Browserbase. Use when user asks to browse websites, fill forms, extract data, or interact with web apps. Optional: BROWSERBASE_API_KEY for cloud mode. Requires: npm, Chrome.",
+      "description_zh": "Stagehand CLI 自然语言浏览器自动化（支持本地/云端）",
+      "description_en": "Stagehand CLI natural language browser automation (local or cloud)",
+      "source": "stagehand-browser-cli",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Playwright Scraper",
+      "version": "1.2.0",
+      "description": "Playwright-based web scraping with anti-bot bypass (Cloudflare, CAPTCHA). Use for scraping sites with medium-to-high anti-bot protection. Scripts: playwright-simple.js for dynamic sites, playwright-stealth.js for Cloudflare-protected sites. Optional 2captcha API key for CAPTCHA solving. Requires: node, npx playwright.",
+      "description_zh": "Playwright 隐身网页抓取，支持反爬绕过与验证码处理",
+      "description_en": "Playwright stealth web scraping with anti-bot bypass & CAPTCHA solving",
+      "source": "playwright-scraper-skill",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Smooth Browser",
+      "version": "0.1.0",
+      "description": "Cloud AI browser agent via Smooth CLI (smooth-py). Natural language web interactions, authentication, scraping, persistent profiles. Use when user asks to browse, fill forms, scrape, automate, or log into websites. Requires: pip install smooth-py, Smooth API key from app.smooth.sh.",
+      "description_zh": "Smooth.sh 云端 AI 浏览器代理，自然语言驱动网页操作",
+      "description_en": "Smooth.sh cloud AI browser agent with natural language web automation",
+      "source": "smooth-browser",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "ClawBrowser",
+      "version": "0.1.1",
+      "description": "Browser control via Playwright CLI (playwright-cli). Navigate pages, snapshot element refs, fill forms, click, screenshot, manage sessions. Use when agent needs scripted browsing via CLI without full SDK. Requires: npm install -g @playwright/cli.",
+      "description_zh": "通过 Playwright CLI 驱动浏览器（快照、表单、会话管理）",
+      "description_en": "Browser control via Playwright CLI: snapshots, forms, session management",
+      "source": "clawbrowser",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Browser.cash",
+      "version": "1.0.0",
+      "description": "Cloud browser sessions via Browser.cash API that bypass anti-bot protections (Cloudflare, DataDome). Spin up unblocked browser instances for scraping, form filling, testing. Sessions appear as real browsers. Requires: BROWSER_CASH_API_KEY, curl, jq.",
+      "description_zh": "Browser.cash 云端反封锁浏览器会话（绕过 Cloudflare 等）",
+      "description_en": "Browser.cash cloud sessions bypassing anti-bot protections (Cloudflare, etc.)",
+      "source": "browser-cash",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Web Scraper",
+      "version": "0.1.1",
+      "description": "Multi-strategy web scraping agent with 5-stage pipeline: HTTP fetch, HTML parsing, Playwright rendering, boilerplate removal, LLM entity extraction. Cascade fallback from lightest to heaviest method. Generates Python scripts and YAML configs. Optional: OPENROUTER_API_KEY for Stage 5 LLM extraction. Requires: python3.",
+      "description_zh": "多策略五阶段网页抓取管道（HTTP/解析/渲染/清洗/LLM提取）",
+      "description_en": "Multi-strategy 5-stage web scraping pipeline with cascade fallback",
+      "source": "web-scraper",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Browser (Puppeteer)",
+      "version": "1.0.0",
+      "description": "Simple headless Puppeteer browser for rendering JavaScript-heavy pages and extracting clean text content. Use when user needs to read a web page that requires JS rendering. Command: openclaw browser read <url>. Requires: node, puppeteer.",
+      "description_zh": "Puppeteer 无头浏览器，渲染 JS 页面并提取纯文本",
+      "description_en": "Puppeteer headless browser: render JS pages & extract clean text",
+      "source": "browser",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "BrowserWing",
+      "version": "1.0.0",
+      "description": "Browser automation through BrowserWing HTTP REST API. Page navigation, element interaction (click, type, select), data extraction, accessibility snapshots, screenshots, JS execution, and batch operations. Requires: BROWSERWING_EXECUTOR_URL env var (default: localhost:8080), optional auth key.",
+      "description_zh": "BrowserWing HTTP API 浏览器自动化（导航、交互、数据提取）",
+      "description_en": "BrowserWing HTTP API browser automation: navigate, interact, extract data",
+      "source": "browserwing",
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "浏览器自动化工具"
+      ],
+      "legacy_tags_en": [
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Infographic Maker",
+      "description": "Generate hand-drawn cartoon-style infographics from articles, concepts, reports, or data. Use when a user wants a visual summary, knowledge card, illustrated overview, or one-page explainer. Distill 3-7 key points, map them to visual metaphors, and produce a single 16:9 infographic image with minimal text and clear visual hierarchy.",
+      "description_zh": "把文章、概念和数据提炼成手绘卡通信息图",
+      "description_en": "Turn articles, concepts, and data into hand-drawn infographic visuals",
+      "source": "infographic-maker",
+      "examples_zh": [
+        "把这篇行业报告整理成一张手绘风信息图",
+        "把这 5 个产品亮点做成适合分享的一页图解",
+        "把这份年度数据摘要转成卡通风知识卡片",
+        "用英文做一张介绍敏捷流程的信息图"
+      ],
+      "examples_en": [
+        "Turn this report into a hand-drawn infographic",
+        "Make a one-page visual summary of these 5 product highlights",
+        "Convert this annual data summary into a cartoon-style knowledge card",
+        "Create an English infographic explaining the Agile workflow"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "Excalidraw Diagram",
+      "description": "Create Excalidraw diagrams for workflows, architectures, protocols, concepts, and system explanations. Use when a user wants a flowchart, architecture sketch, visual explanation, or diagram as a .excalidraw file plus PNG preview. Includes a local Playwright renderer for visual QA and reference files for palette, JSON structure, and reusable element patterns.",
+      "description_zh": "Excalidraw 图解生成与渲染校验",
+      "description_en": "Generate Excalidraw diagrams with local rendering validation",
+      "source": "excalidraw-diagram",
+      "tags_zh": [
+        "开发工具",
+        "创作与媒体"
+      ],
+      "tags_en": [
+        "Development",
+        "Creative"
+      ],
+      "examples_zh": [
+        "把这个系统拆成输入、编排、存储、输出四层，生成可编辑架构图",
+        "画一张用户登录流程图，标出成功、失败和重试分支",
+        "把 AI agent 到前端 UI 的事件流画成可编辑图，并导出预览图"
+      ],
+      "examples_en": [
+        "Turn this workflow into an editable diagram with clear decision branches",
+        "Create an architecture diagram for this API flow and export a preview image",
+        "Visualize this agent-to-UI event stream with real payload examples"
+      ],
+      "category_zh": "开发工具",
+      "category_en": "Development Tools"
+    },
+    {
+      "name": "deck-generator",
+      "description": "Generate professional presentations with AI-generated images and consistent visual styling. Supports style presets (whiteboard, corporate, minimalist). Uses Imagen API for image generation and Google Slides API for assembly. Produces full decks from markdown content specs.",
+      "description_zh": "AI 驱动的演示文稿生成，统一视觉风格的幻灯片",
+      "description_en": "AI-powered slide deck generation with consistent visual styling",
+      "source": "deck-generator",
+      "version": "1.0.0",
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "examples_zh": [
+        "帮我生成一套产品介绍的幻灯片",
+        "用极简风格做一个融资路演 deck",
+        "把这份大纲转成演示文稿"
+      ],
+      "examples_en": [
+        "Generate a product intro slide deck",
+        "Create a pitch deck in minimalist style",
+        "Turn this outline into a presentation"
+      ],
+      "name_zh": "AI 演示文稿",
+      "legacy_tags_zh": [
+        "创作与媒体",
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Creative",
+        "Productivity"
+      ]
+    },
+    {
+      "name": "内容工厂",
+      "version": "1.0.0",
+      "description": "Multi-agent content production system. One piece of source content becomes many formats — social posts, email, scripts, headlines, and more. Five specialized agent personas: Writer, Remixer, Editor, Scriptwriter, and Headline Machine.",
+      "description_zh": "多智能体内容生产系统，一份素材生成多种格式",
+      "description_en": "Multi-agent content production system, one source to many formats",
+      "source": "content-factory",
+      "examples_zh": [
+        "把这篇文章拆解成微博、微信、邮件等多种格式",
+        "把这个产品发布稿改写成5种不同的内容形式",
+        "用内容工厂批量生产这个主题的内容",
+        "把这篇长文转化为社交媒体推文和邮件模板"
+      ],
+      "examples_en": [
+        "Repurpose this article into multiple formats",
+        "Rewrite this press release into 5 different content forms",
+        "Mass-produce content on this topic",
+        "Transform this long article into social posts and email templates"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "内容分发",
+      "version": "1.1.0",
+      "description": "Transform long-form content into platform-optimized snippets. Your agent takes one blog post, video transcript, or podcast notes and generates ready-to-publish Twitter threads, LinkedIn posts, email newsletters, and Instagram captions. Maintains voice consistency while adapting to each platform's format, length, and engagement patterns. Configure tone preferences, platform priorities, and output formats. Use when publishing content across multiple channels, repurposing existing material, or maximizing reach from a single piece of content.",
+      "description_zh": "将长文内容转化为多平台优化的社交媒体片段",
+      "description_en": "Transform long-form content into platform-optimized social media snippets",
+      "source": "content-repurposer",
+      "examples_zh": [
+        "把这篇博客改成微信公众号文章格式",
+        "把这篇文章拆解为微博短文和抖音脚本",
+        "把这段视频转录改写为小红书笔记",
+        "把这个播客内容整理成知乎文章"
+      ],
+      "examples_en": [
+        "Transform this blog post for Xiaohongshu",
+        "Break this article into short social posts and video scripts",
+        "Rewrite this video transcript as a platform-optimized post",
+        "Adapt this podcast content as a LinkedIn article"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "content-ops",
+      "description": "Score, evaluate, and iteratively improve any content or strategy using an auto-assembled panel of domain experts. Handles copy, sequences, landing pages, strategy docs, titles, charts, or anything needing a quality gate. Recursively iterates until all scores hit 90+ (max 3 rounds).",
+      "description_zh": "内容质量评分与专家评审面板，递归迭代至 90+ 分",
+      "description_en": "Content quality scoring with expert panel review, iterates until 90+ score",
+      "source": "content-ops",
+      "version": "1.0.0",
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "examples_zh": [
+        "帮我给这篇文章打分评审",
+        "用专家面板评估这个营销方案",
+        "对这组标题变体做质量评分"
+      ],
+      "examples_en": [
+        "Score this article with an expert panel",
+        "Evaluate this marketing strategy document",
+        "Rate these headline variants"
+      ],
+      "name_zh": "内容质量评审",
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "autoresearch",
+      "description": "Run Karpathy-style autoresearch optimization on any content. Generates 50+ variants, scores with a 5-expert simulated panel, evolves winners through multiple rounds, outputs optimized version + full experiment log. Use when optimizing landing pages, email sequences, ad copy, headlines, form pages, CTA text, or any conversion-focused content.",
+      "description_zh": "Karpathy 风格内容优化，50+ 变体 + 专家评分 + 进化迭代",
+      "description_en": "Karpathy-style content optimization with 50+ variants, expert scoring, and evolution",
+      "source": "autoresearch",
+      "version": "1.0.0",
+      "tags_zh": [
+        "商业运营"
+      ],
+      "tags_en": [
+        "Business Operations"
+      ],
+      "examples_zh": [
+        "帮我优化这个落地页的文案",
+        "对这封营销邮件做 A/B 测试优化",
+        "用专家评分给这段广告文案打分"
+      ],
+      "examples_en": [
+        "Optimize the copy on this landing page",
+        "A/B test these email variants with expert scoring",
+        "Score and evolve this ad copy"
+      ],
+      "name_zh": "内容自进化",
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "podcast-ops",
+      "description": "Podcast content repurposing pipeline. Takes one podcast episode and generates 20+ content pieces across platforms: blog posts, social media clips, email newsletters, and more. Use when asked to repurpose podcast content or create content calendars from episodes.",
+      "description_zh": "播客内容拆解流水线，一期节目生成 20+ 跨平台内容",
+      "description_en": "Podcast content repurposing pipeline, one episode to 20+ cross-platform pieces",
+      "source": "podcast-ops",
+      "version": "1.0.0",
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "examples_zh": [
+        "把这期播客拆解成多平台内容",
+        "从播客生成社交媒体帖子和博客文章",
+        "为这期节目创建内容日历"
+      ],
+      "examples_en": [
+        "Repurpose this podcast episode into multi-platform content",
+        "Generate social posts and blog articles from this episode",
+        "Create a content calendar from this podcast"
+      ],
+      "name_zh": "播客内容拆解",
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "find-skills",
+      "version": "0.1.0",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "description_zh": "发现和安装新技能，扩展智能体能力",
+      "description_en": "Discover and install new skills",
+      "source": "find-skills",
+      "examples_zh": [
+        "帮我找一个能发邮件的技能",
+        "有没有能处理PDF的技能",
+        "推荐几个提高效率的技能",
+        "我想要一个能搜索网页的技能"
+      ],
+      "examples_en": [
+        "Find a skill that can send emails",
+        "Is there a skill for working with PDFs?",
+        "Recommend productivity-boosting skills",
+        "Find a skill that can search the web"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "技能创建指南",
+      "version": "0.1.0",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends agent capabilities with specialized knowledge, workflows, or tool integrations.",
+      "description_zh": "创建和维护自定义技能的指南",
+      "description_en": "Guide for creating custom skills",
+      "source": "skill-creator",
+      "examples_zh": [
+        "帮我创建一个能查询天气的自定义技能",
+        "如何为企业内部工具写一个Skill",
+        "创建一个包装CLI工具的技能",
+        "指导我如何编写SKILL.md文件"
+      ],
+      "examples_en": [
+        "Help me create a custom weather query skill",
+        "How to write a skill for internal tools?",
+        "Create a skill that wraps a CLI tool",
+        "Guide me through writing a SKILL.md file"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "skill-vetter",
+      "version": "1.0.0",
+      "description": "Security-first skill vetting for AI agents. Use before installing any skill from community, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.",
+      "description_zh": "安装前审查技能的安全性",
+      "description_en": "Security-first skill vetting before install",
+      "source": "skill-vetter",
+      "examples_zh": [
+        "安装这个技能前帮我检查安全性",
+        "审查这个社区技能有没有风险",
+        "检查技能的权限范围是否合理",
+        "这个第三方技能可信吗？帮我评估一下"
+      ],
+      "examples_en": [
+        "Check this skill for security issues before installing",
+        "Review this community skill for risks",
+        "Verify if the skill's permission scope is reasonable",
+        "Is this third-party skill trustworthy? Evaluate it."
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "MCP管理器",
+      "version": "1.0.0",
+      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "description_zh": "管理和调用 MCP 服务器与工具",
+      "description_en": "Manage and call MCP servers & tools",
+      "source": "mcporter",
+      "examples_zh": [
+        "列出所有已安装的MCP服务器",
+        "调用某个MCP工具并传入参数",
+        "查看某个MCP工具的参数说明",
+        "启动高德地图MCP服务"
+      ],
+      "examples_en": [
+        "List all installed MCP servers",
+        "Call a specific MCP tool with parameters",
+        "View the parameter schema for an MCP tool",
+        "Start the map MCP service"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "macOS界面自动化",
+      "version": "1.0.0",
+      "description": "Capture and automate macOS UI with the Peekaboo CLI.",
+      "description_zh": "截取和自动化 macOS 界面操作",
+      "description_en": "Capture and automate macOS UI",
+      "source": "peekaboo",
+      "examples_zh": [
+        "截取当前macOS桌面的截图",
+        "点击屏幕上的某个按钮",
+        "读取屏幕上某个窗口的文字内容",
+        "自动化操作Finder打开文件夹"
+      ],
+      "examples_en": [
+        "Take a screenshot of the current macOS desktop",
+        "Click a button on the screen",
+        "Read text content from a window on screen",
+        "Automate Finder to open a folder"
+      ],
+      "tags_zh": [
+        "效率工具"
+      ],
+      "tags_en": [
+        "Productivity Tools"
+      ],
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "AI交叉审查",
+      "version": "1.0.1",
+      "description": "Use the @steipete/oracle CLI to bundle a prompt plus the right files and get a second-model review (API or browser) for debugging, refactors, design checks, or cross-validation.",
+      "description_zh": "调用第二个 AI 模型交叉审查代码",
+      "description_en": "Cross-validate code with a second AI model",
+      "source": "oracle",
+      "examples_zh": [
+        "用另一个AI模型审查这段代码有没有Bug",
+        "让第二个模型交叉验证这个方案是否可行",
+        "用Claude审查GPT的回答是否正确",
+        "对这段代码做安全性交叉审查"
+      ],
+      "examples_en": [
+        "Have a second AI model review this code for bugs",
+        "Cross-validate this solution with another model",
+        "Use Claude to review GPT's response for accuracy",
+        "Do a security cross-review of this code"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "Agent Team Orchestration",
+      "version": "1.0.0",
+      "description": "Orchestrate multi-agent teams with defined roles, task lifecycles, handoff protocols, and review workflows. Use when: (1) Setting up a team of 2+ agents with different specializations, (2) Defining task routing and lifecycle (inbox → spec → build → review → done), (3) Creating handoff protocols between agents, (4) Establishing review and quality gates, (5) Managing async communication and artifact sharing between agents.",
+      "description_zh": "多智能体团队编排：角色定义、任务流转、交接协议与质量门禁",
+      "description_en": "Orchestrate multi-agent teams with roles, task lifecycles, handoffs, and review workflows",
+      "source": "agent-team-orchestration",
+      "examples_zh": [
+        "帮我搭建一个前后端分离的多智能体开发团队",
+        "设计一个代码开发、评审、测试的多Agent协作流程",
+        "项目太大了，帮我拆分任务分配给多个Agent并行处理"
+      ],
+      "examples_en": [
+        "Set up a multi-agent team for building a full-stack app",
+        "Design a workflow where one agent codes and another reviews",
+        "Break this large project into parallel tasks for multiple agents"
+      ],
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体协作",
+        "AI开发"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools",
+        "AI Development"
+      ]
+    },
+    {
+      "name": "capability-evolver",
+      "version": "1.51.3",
+      "description": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution. Communicates with EvoMap Hub via local Proxy mailbox.",
+      "description_zh": "AI Agent 自演化引擎，分析运行历史并自动优化能力",
+      "description_en": "A self-evolution engine for AI agents. Analyzes runtime history to identify impr...",
+      "source": "capability-evolver",
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "模型用量统计",
+      "version": "1.0.0",
+      "description": "Use CodexBar CLI local cost usage to summarize per-model usage and cost for Codex or Claude, including current (most recent) model or full model breakdown. Trigger when asked for model-level usage/cost data from CodexBar. macOS only. Requires CodexBar installed.",
+      "description_zh": "通过 CodexBar CLI 统计各模型使用量和费用，支持当前模型或全量明细（仅 macOS）",
+      "description_en": "Summarize per-model AI usage and cost from CodexBar CLI, macOS only",
+      "source": "model-usage",
+      "examples_zh": [
+        "帮我看看我今天各模型的用量和费用",
+        "统计一下最近 Claude 的花费",
+        "我用了哪些模型，各自花了多少钱"
+      ],
+      "examples_en": [
+        "Show me today's model usage and cost breakdown",
+        "How much have I spent on Claude recently?",
+        "Give me a summary of which models I've used and what they cost"
+      ],
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "legacy_tags_zh": [
+        "AI工具",
+        "效率工具"
+      ],
+      "legacy_tags_en": [
+        "AI Tools",
+        "Productivity"
+      ]
+    },
+    {
+      "name": "OpenClaw记忆迁移",
+      "description": "Migrate OpenClaw user personal assets (identity, memory, skills, MCP, bot/channel configs, cron jobs) to WorkBuddy with merge-first strategy and manual review safeguards.",
+      "description_zh": "将 OpenClaw 资产迁移到 WorkBuddy（身份、记忆、技能、MCP、Bot 配置）",
+      "description_en": "Migrate OpenClaw assets to WorkBuddy (identity, memory, skills, MCP, bot configs)",
+      "source": "openclaw-assets-to-workbuddy",
+      "version": "1.0.0",
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "Karpathy LLM Wiki",
+      "description": "Build and maintain a personal knowledge base (wiki) using LLMs. Instead of RAG-style retrieval, the LLM incrementally compiles, cross-references, and maintains a persistent structured wiki from raw sources. Use when user wants to create a knowledge base, build a personal wiki, organize research notes, ingest documents into a structured wiki, or maintain a living knowledge repository.",
+      "description_zh": "用 LLM 增量构建和维护个人知识库 Wiki",
+      "description_en": "Build a persistent personal wiki with LLM-maintained knowledge",
+      "source": "llm-wiki",
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "examples_zh": [
+        "帮我搭建一个个人知识库，我想把读过的论文都整理进去",
+        "我有一堆调研文档，帮我建一个 Wiki 把要点都整合起来",
+        "对我的知识库做一次健康检查，看看有没有矛盾或过时的内容",
+        "把这篇文章摄入到我的 Wiki 里，更新相关的主题页面"
+      ],
+      "examples_en": [
+        "Set up a personal wiki for my research — I want to organize all papers I've read",
+        "I have a bunch of research docs, build a wiki that synthesizes the key points",
+        "Run a health check on my wiki — find contradictions and stale content",
+        "Ingest this article into my wiki and update the relevant topic pages"
+      ],
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "反蒸馏",
+      "description": "Anti-distillation defense for employee Skills. Clean your skill files to look complete but with core proprietary knowledge neutralized. Use when user wants to protect trade secrets, sanitize forced knowledge transfers, or create safe-to-submit skill documents.",
+      "description_zh": "反蒸馏防御：清洗 Skill 文件，看起来完整但核心知识已脱敏",
+      "description_en": "Anti-distillation: sanitize Skill files while preserving appearance",
+      "source": "anti-distill",
+      "version": "1.0.0",
+      "tags_zh": [
+        "开发工具"
+      ],
+      "tags_en": [
+        "Development Tools"
+      ],
+      "examples_zh": [
+        "帮我反蒸馏这份 skill 文件",
+        "清洗一下我被迫写的技术文档",
+        "脱敏处理我的工作经验 skill"
+      ],
+      "examples_en": [
+        "Anti-distill this skill file",
+        "Clean my forced knowledge document",
+        "Sanitize my work experience skill"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "营销技能库",
+      "version": "0.1.2",
+      "description": "23 marketing playbooks covering CRO, SEO, copywriting, analytics, growth experiments, pricing, product launches, ads, and social media. Each module provides checklists, frameworks, and copy-paste deliverables. Use when users need practical marketing guidance, campaign plans, or content templates.",
+      "description_zh": "23个营销模块：CRO、SEO、文案、分析、投放、产品发布、社交媒体，含检查清单和即用模板",
+      "description_en": "23 marketing playbooks: CRO, SEO, copywriting, ads, social media — checklists and ready-to-use templates",
+      "source": "marketing-skills",
+      "examples_zh": [
+        "帮我设计一个产品发布的营销方案",
+        "我的落地页转化率很低，给我做个 CRO 诊断",
+        "写一篇 SEO 优化的博客文章大纲",
+        "给这个 App 写一套社交媒体推广文案"
+      ],
+      "examples_en": [
+        "Design a marketing plan for our product launch",
+        "My landing page conversion is low — give me a CRO audit",
+        "Create an SEO-optimized blog post outline",
+        "Write social media copy for this app launch"
+      ],
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "legacy_tags_zh": [
+        "营销",
+        "内容创作"
+      ],
+      "legacy_tags_en": [
+        "Marketing",
+        "Content"
+      ]
+    },
+    {
+      "name": "seo-ops",
+      "description": "SEO operations automation: generate content attack briefs from competitor gaps, optimize GSC data for quick wins, and scout emerging search trends. Use when asked for SEO audits, keyword gap analysis, or content strategy.",
+      "description_zh": "SEO 运营自动化，内容攻击简报、GSC 优化与趋势侦察",
+      "description_en": "SEO operations: content attack briefs, GSC optimization, and trend scouting",
+      "source": "seo-ops",
+      "version": "1.0.0",
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "examples_zh": [
+        "帮我做竞品关键词差距分析",
+        "从 Search Console 数据找出快速优化机会",
+        "侦察最近的搜索趋势热点"
+      ],
+      "examples_en": [
+        "Analyze competitor keyword gaps",
+        "Find quick wins from Search Console data",
+        "Scout emerging search trends"
+      ],
+      "name_zh": "SEO 运营自动化",
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "growth-engine",
+      "description": "Run autonomous marketing experiments with pacing alerts and weekly scorecards. Generates experiment hypotheses, tracks metrics, sends alerts when pacing is off, and produces weekly growth reports.",
+      "description_zh": "自主营销实验引擎，自动运行、度量与优化增长实验",
+      "description_en": "Autonomous marketing experiment engine that runs, measures, and optimizes growth",
+      "source": "growth-engine",
+      "version": "1.0.0",
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "examples_zh": [
+        "帮我设计一个增长实验方案",
+        "生成本周的增长实验周报",
+        "检查实验进度是否达标"
+      ],
+      "examples_en": [
+        "Design a growth experiment plan",
+        "Generate this week's growth scorecard",
+        "Check if experiment pacing is on track"
+      ],
+      "name_zh": "增长实验引擎",
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "conversion-ops",
+      "description": "Score any landing page with a CRO audit framework, and convert survey data into lead magnets. Use when asked to audit landing pages, score pages, optimize conversion rates, or analyze form pages.",
+      "description_zh": "CRO 审计与落地页转化优化，调查问卷转化为引流磁铁",
+      "description_en": "CRO audit, landing page optimization, and survey-to-lead-magnet conversion",
+      "source": "conversion-ops",
+      "version": "1.0.0",
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "examples_zh": [
+        "帮我审计这个落地页的转化率",
+        "把这份调查问卷数据转成引流磁铁",
+        "给这个注册页面做 CRO 评分"
+      ],
+      "examples_en": [
+        "Audit this landing page for conversion",
+        "Convert this survey data into a lead magnet",
+        "CRO score this registration page"
+      ],
+      "name_zh": "转化率优化",
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "outbound-engine",
+      "version": "1.0.0",
+      "description": "Design, analyze, and optimize cold outbound email campaigns for Instantly. Handles end-to-end ICP definition, expert panel scoring (recursive to 90+), sequence copywriting, infrastructure audit, capacity planning, and implementation docs. Use when asked to build cold outbound sequences, optimize cold email, analyze outbound campaigns, build sales sequences, build Instantly sequences, create cold outbound strategies, or design email campaigns. Supports both \"start from scratch\" and \"optimize existing\" modes.",
+      "description_zh": "自动化外拓邮件引擎，从 ICP 定义到邮件入站全流程",
+      "description_en": "Automated cold outbound engine from ICP definition to email delivery",
+      "source": "outbound-engine",
+      "examples_zh": [
+        "帮我优化这封冷启动邮件",
+        "根据 ICP 画像构建目标客户列表",
+        "分析竞品的外拓策略"
+      ],
+      "examples_en": [
+        "Optimize this cold outbound email",
+        "Build a prospect list from ICP definition",
+        "Analyze competitor outbound strategies"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "name_zh": "外拓邮件引擎",
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "sales-pipeline",
+      "description": "Automate sales pipeline with anonymous visitor routing, deal resurrection, trigger-based prospecting, and ICP learning. Use when asked to set up sales pipeline automation, route website visitors, resurrect dead deals, or find trigger events.",
+      "description_zh": "销售管道自动化，匿名访客转化、沉睡交易激活与 ICP 学习",
+      "description_en": "Sales pipeline automation: anonymous visitor routing, deal resurrection, ICP learning",
+      "source": "sales-pipeline",
+      "version": "1.0.0",
+      "tags_zh": [
+        "商业运营"
+      ],
+      "tags_en": [
+        "Business Operations"
+      ],
+      "examples_zh": [
+        "帮我自动化销售管道流程",
+        "激活沉睡的待成交客户",
+        "根据访客行为建立潜客路由"
+      ],
+      "examples_en": [
+        "Automate my sales pipeline workflow",
+        "Resurrect dead deals in the pipeline",
+        "Route anonymous website visitors to sales"
+      ],
+      "name_zh": "销售管道自动化",
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "sales-playbook",
+      "description": "Build value-based pricing frameworks, generate pre-call briefings, analyze sales calls for patterns, and create tiered pricing packages. Use when asked for pricing strategy, sales call preparation, or deal packaging.",
+      "description_zh": "基于价值的定价与销售剧本，通话分析与报价打包",
+      "description_en": "Value-based pricing playbook with call analysis and tiered packaging",
+      "source": "sales-playbook",
+      "version": "1.0.0",
+      "tags_zh": [
+        "商业运营"
+      ],
+      "tags_en": [
+        "Business Operations"
+      ],
+      "examples_zh": [
+        "帮我设计分层定价方案",
+        "为明天的销售电话准备预研简报",
+        "分析这次通话找出成交规律"
+      ],
+      "examples_en": [
+        "Design a tiered pricing package",
+        "Prepare a pre-call briefing for tomorrow's sales call",
+        "Analyze this call for closing patterns"
+      ],
+      "name_zh": "销售剧本生成",
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "revenue-intelligence",
+      "description": "Extract insights from Gong sales calls, build revenue attribution models, and generate client reports. Use when asked to analyze sales calls, prove content ROI, or create client-facing reports.",
+      "description_zh": "收入归因分析，销售通话洞察与客户报告自动生成",
+      "description_en": "Revenue attribution, sales call insights, and automated client report generation",
+      "source": "revenue-intelligence",
+      "version": "1.0.0",
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "examples_zh": [
+        "分析这些销售通话记录的关键洞察",
+        "帮我做收入归因分析",
+        "从 Gong 数据生成客户报告"
+      ],
+      "examples_en": [
+        "Analyze key insights from these sales calls",
+        "Build a revenue attribution model",
+        "Generate a client report from Gong data"
+      ],
+      "name_zh": "收入归因分析",
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "finance-ops",
+      "version": "1.0.0",
+      "description": "AI-powered financial analysis suite. Generates executive CFO briefings from QuickBooks exports (P&L, Balance Sheet, General Ledger, Cash Flow, etc.) with anomaly detection, burn rate, runway analysis, and scenario modeling. Also estimates codebase development costs with organizational overhead and AI ROI analysis. Triggers on: 'CFO briefing', 'financial analysis', 'cost briefing', 'expense review', 'runway analysis', 'burn rate', 'cost estimate', 'how much would this cost to build', 'development cost', 'Claude ROI'.",
+      "description_zh": "AI CFO 助手，财务简报、成本分析与场景建模",
+      "description_en": "AI CFO assistant for financial briefings, cost analysis, and scenario modeling",
+      "source": "finance-ops",
+      "examples_zh": [
+        "帮我做一份 CFO 财务简报",
+        "分析这份利润表找出异常支出",
+        "做三种场景下的现金流建模"
+      ],
+      "examples_en": [
+        "Generate a CFO briefing from this P&L",
+        "Analyze this report for cost anomalies",
+        "Model three cash flow scenarios"
+      ],
+      "tags_zh": [
+        "商业运营",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Business Operations",
+        "Investment & Finance"
+      ],
+      "name_zh": "AI 财务分析",
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "team-ops",
+      "description": "Audit team performance using the Elon Algorithm (identify A/B/C players) and extract action items from meeting transcripts. Use when asked to review team efficiency, process meeting notes, or audit organizational structure.",
+      "description_zh": "团队绩效审计与会议行动项提取，识别 A/B/C 员工",
+      "description_en": "Team performance audit and meeting action extraction, identify A/B/C players",
+      "source": "team-ops",
+      "version": "1.0.0",
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "examples_zh": [
+        "帮我审计团队绩效表现",
+        "从会议录音提取行动项",
+        "识别团队中的关键人才和冗余角色"
+      ],
+      "examples_en": [
+        "Audit my team's performance",
+        "Extract action items from this meeting transcript",
+        "Identify key performers and redundant roles"
+      ],
+      "name_zh": "团队绩效审计",
+      "legacy_tags_zh": [
+        "办公效率"
+      ],
+      "legacy_tags_en": [
+        "Productivity"
+      ]
+    },
+    {
+      "name": "x-longform-post",
+      "description": "Write long-form X (Twitter) posts and threads in a founder/CEO voice. Produces contrarian, data-backed posts with ASCII diagrams and code block visuals. Includes mandatory AI humanizer pass (24-pattern detector) before finalizing.",
+      "description_zh": "撰写 X(Twitter) 长文，创始人语气 + AI 去味检测",
+      "description_en": "Write long-form X posts in founder voice with AI humanizer detection",
+      "source": "x-longform-post",
+      "version": "1.0.0",
+      "tags_zh": [
+        "内容创作"
+      ],
+      "tags_en": [
+        "Content Creation"
+      ],
+      "examples_zh": [
+        "帮我写一篇 X 上的长文帖子",
+        "用创始人视角写一条反直觉的推特长文",
+        "写一个带数据和 ASCII 图表的推特思考帖"
+      ],
+      "examples_en": [
+        "Write a long-form X post on this topic",
+        "Draft a contrarian founder-voice thread for Twitter",
+        "Create a data-backed X article with ASCII diagrams"
+      ],
+      "name_zh": "X 长文写作",
+      "legacy_tags_zh": [
+        "创作与媒体"
+      ],
+      "legacy_tags_en": [
+        "Creative"
+      ]
+    },
+    {
+      "name": "yt-competitive-analysis",
+      "description": "Analyze YouTube channels for outlier videos and packaging patterns. Identifies what's working (2x+ average views) across any set of channels. Use when asked for YouTube competitive analysis, viral video patterns, or packaging/title inspiration.",
+      "description_zh": "YouTube 竞品分析，发现爆款视频与标题包装规律",
+      "description_en": "YouTube competitive analysis: outlier video detection and packaging patterns",
+      "source": "yt-competitive-analysis",
+      "version": "1.0.0",
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "examples_zh": [
+        "分析这几个 YouTube 频道的爆款视频",
+        "找出竞品频道的标题包装规律",
+        "哪些视频的播放量是平均值的两倍以上"
+      ],
+      "examples_en": [
+        "Analyze outlier videos from these YouTube channels",
+        "Find packaging patterns from competitor channels",
+        "Which videos got 2x+ average views"
+      ],
+      "name_zh": "YouTube 竞品分析",
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "MBTI人格诊断",
+      "version": "0.1.1",
+      "description": "AI Agent personality diagnosis and configuration system based on MBTI framework. Use when users want to (1) test/diagnose an Agent's personality type, (2) understand the gap between Agent's actual personality and user's desired personality, (3) generate configuration recommendations to adjust Agent behavior, (4) customize Agent's communication style, proactivity, reasoning approach, or execution patterns. Supports both free tier (quick assessment) and premium tier (full 93-question assessment with detailed diagnostics).",
+      "description_zh": "基于 MBTI 框架的 AI Agent 人格诊断与配置系统",
+      "description_en": "AI Agent personality diagnosis and configuration based on MBTI framework",
+      "source": "agent-mbti",
+      "examples_zh": [
+        "诊断一下当前Agent的MBTI人格类型",
+        "我希望Agent更主动，帮我调整配置",
+        "测试Agent的沟通风格偏向哪种类型",
+        "生成Agent的人格优化建议"
+      ],
+      "examples_en": [
+        "Diagnose the current Agent's MBTI personality type",
+        "I want the Agent to be more proactive, adjust its config",
+        "Test which personality type the Agent's style fits",
+        "Generate personality optimization recommendations for Agent"
+      ],
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "老板.skill",
+      "description": "Distill a real boss into an AI skill, or generate a boss skill from famous entrepreneur archetypes (Elon Musk, Steve Jobs, Jeff Bezos, Jensen Huang). Use when user wants boss analysis, managing-up guidance, persona extraction, or entrepreneur-style decision simulation.",
+      "description_zh": "蒸馏老板或生成企业家原型 Skill，模拟管理风格与决策模式",
+      "description_en": "Distill bosses or generate entrepreneur archetype Skills for management simulation",
+      "source": "boss-skills",
+      "version": "1.1.0",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "examples_zh": [
+        "帮我蒸馏一下我老板",
+        "用马斯克的风格生成一个老板 skill",
+        "模拟老板的决策逻辑"
+      ],
+      "examples_en": [
+        "Create a boss skill from my manager",
+        "Generate an Elon Musk style boss",
+        "Simulate my boss decision patterns"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "同事.skill",
+      "description": "Distill a colleague into an AI Skill. Auto-collect Feishu/DingTalk/Slack data, generate Work Skill + Persona with continuous evolution. Use when user wants to create a digital colleague, distill coworker knowledge, or build team member skill profiles.",
+      "description_zh": "把同事蒸馏成 AI Skill，采集飞书/钉钉数据生成人格与工作模型",
+      "description_en": "Distill colleagues into AI Skills with persona and work knowledge models",
+      "source": "colleague-skill",
+      "version": "1.0.0",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "examples_zh": [
+        "帮我创建一个同事 skill",
+        "我想蒸馏一下张三的工作经验",
+        "把同事的飞书记录做成 skill"
+      ],
+      "examples_en": [
+        "Create a colleague skill",
+        "Distill my coworker into an AI skill",
+        "Build a team member knowledge profile"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "自己.skill",
+      "description": "Distill yourself into an AI Skill. Deconstruct chat history, diaries, social media, and photos into a runnable digital self with persona and memory models. Use when user wants to create a digital twin, self-reflection mirror, or personal knowledge archive.",
+      "description_zh": "把自己蒸馏成 AI Skill，解构聊天记录与日记生成数字分身",
+      "description_en": "Distill yourself into an AI Skill — digital twin with persona and memory",
+      "source": "yourself-skill",
+      "version": "1.0.0",
+      "tags_zh": [
+        "知识与学习"
+      ],
+      "tags_en": [
+        "Knowledge & Learning"
+      ],
+      "examples_zh": [
+        "帮我把自己蒸馏成 skill",
+        "创建一个我自己的数字分身",
+        "用我的日记和聊天记录做一个自我镜像"
+      ],
+      "examples_en": [
+        "Distill myself into a skill",
+        "Create my digital twin",
+        "Build a self-reflection mirror from my diary"
+      ],
+      "legacy_tags_zh": [
+        "智能体能力"
+      ],
+      "legacy_tags_en": [
+        "Agent Tools"
+      ]
+    },
+    {
+      "name": "Twitter分析",
+      "version": "1.0.0",
+      "description": "A Twitter research and content intelligence skill. Use to analyze Twitter profiles, threads, and conversations for identifying pain points, extracting content angles, and converting Twitter intelligence into actionable insights.",
+      "description_zh": "Twitter 研究与内容情报分析",
+      "description_en": "Twitter research & content intelligence",
+      "source": "xurl",
+      "examples_zh": [
+        "分析这个Twitter账号的内容风格",
+        "提取这个推文串的核心观点",
+        "研究某个话题在Twitter上的讨论热度",
+        "把这个Twitter帖子的内容总结一下"
+      ],
+      "examples_en": [
+        "Analyze the content style of this Twitter account",
+        "Extract key insights from this tweet thread",
+        "Research how hot a topic is on Twitter",
+        "Summarize the content of this Twitter post"
+      ],
+      "tags_zh": [
+        "数据分析"
+      ],
+      "tags_en": [
+        "Data Analysis"
+      ],
+      "legacy_tags_zh": [
+        "信息与资讯"
+      ],
+      "legacy_tags_en": [
+        "Information"
+      ]
+    },
+    {
+      "name": "QQ邮箱",
+      "version": "1.0.0",
+      "description": "QQ邮箱 IMAP receive and SMTP send via Node.js scripts; credentials read from env vars QQ_EMAIL_ACCOUNT and QQ_EMAIL_AUTH_CODE. Use when a user asks to send QQ email, receive/check QQ email, forward email, or configure QQ mailbox.",
+      "description_zh": "QQ邮箱收发邮件（IMAP/SMTP），支持发信、收信、查看正文",
+      "description_en": "Send & receive QQ Mail via IMAP/SMTP with Node.js scripts",
+      "source": "qq-email",
+      "examples_zh": [
+        "用QQ邮箱给同事发一封项目进展邮件",
+        "查看QQ邮箱最新的未读邮件",
+        "读取老板发给我的最新邮件",
+        "搜索QQ邮件里关于合同的邮件"
+      ],
+      "examples_en": [
+        "Send a project update email via QQ Mail",
+        "Check my QQ inbox for new messages",
+        "Read the latest email from my manager",
+        "Search QQ email for contract-related messages"
+      ],
+      "tags_zh": [
+        "办公协同"
+      ],
+      "tags_en": [
+        "Collaboration"
+      ],
+      "legacy_tags_zh": [
+        "邮件通讯"
+      ],
+      "legacy_tags_en": [
+        "Messaging"
+      ]
+    },
+    {
+      "name": "Stock Analysis",
+      "version": "6.2.0",
+      "description": "Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management, watchlists with alerts, dividend analysis, 8-dimension stock scoring, viral trend detection (Hot Scanner), and rumor/early signal detection. Use for stock analysis, portfolio tracking, earnings reactions, crypto monitoring, trending stocks, or finding rumors before they hit mainstream.",
+      "description_zh": "股票与加密货币分析（8维评分、组合管理、趋势扫描、传闻探测）",
+      "description_en": "Stock & crypto analysis with 8-dim scoring, portfolio, trend & rumor scanning",
+      "source": "stock-analysis",
+      "tags_zh": [
+        "数据分析",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Data Analysis",
+        "Investment & Finance"
+      ]
+    },
+    {
+      "name": "US Stock Analysis",
+      "version": "0.1.1",
+      "description": "Comprehensive US stock analysis including fundamental analysis (financial metrics, business quality, valuation), technical analysis (indicators, chart patterns, support/resistance), stock comparisons, and investment report generation. Use when user requests analysis of US stock tickers (e.g., \"analyze AAPL\", \"compare TSLA vs NVDA\", \"give me a report on Microsoft\"), evaluation of financial metrics, technical chart analysis, or investment recommendations for American stocks.",
+      "description_zh": "美股综合分析（基本面、技术面、估值、对比报告）",
+      "description_en": "US stock analysis: fundamentals, technicals, valuation & comparison reports",
+      "source": "us-stock-analysis",
+      "tags_zh": [
+        "数据分析",
+        "投资理财"
+      ],
+      "tags_en": [
+        "Data Analysis",
+        "Investment & Finance"
+      ]
+    }
+  ]
+}

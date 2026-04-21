@@ -1,0 +1,30 @@
+{
+  "description": "Security-Scan 被动触发：检测 git 操作后提示用户执行增量安全扫描",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CODEBUDDY_PLUGIN_ROOT}/scripts/git_op_recorder.py\"",
+            "description": "实时记录成功的 git commit/push 操作到会话级状态文件",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CODEBUDDY_PLUGIN_ROOT}/scripts/git_commit_detector.py\"",
+            "description": "检测 git commit/push 操作，提示用户执行增量安全扫描",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
