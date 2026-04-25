@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "sessions": {
+    "1fdc089e56314f71b354f4bd825f3e7b": [
+      {
+        "expertId": "CorporateTrainingDesigner",
+        "name": "育才才",
+        "profession": "企业培训设计师",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/11-ProfessionalServices/CorporateTrainingDesigner/CorporateTrainingDesigner.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/11-ProfessionalServices/CorporateTrainingDesigner/CorporateTrainingDesigner_zh.md",
+        "usedAt": 1777082480741,
+        "industryId": "all"
+      }
+    ]
+  },
+  "lastUpdated": 1777085451669
+}
